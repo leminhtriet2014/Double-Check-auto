@@ -1,0 +1,148 @@
+{
+  "fields": [
+    {
+      "key": "glid",
+      "name": "GLID",
+      "type": "string",
+      "isNumeric": false,
+      "matchMode": "exact_or_prefix",
+      "description": "Mã định danh toàn cầu (Global Item ID, VD: 2-456230-007-01)"
+    },
+    {
+      "key": "itemCode",
+      "name": "Item Code",
+      "type": "string",
+      "isNumeric": false,
+      "matchMode": "fuzzy",
+      "description": "Mã sản phẩm / Customer Part Number (VD: 1047833-GLB)"
+    },
+    {
+      "key": "buyingOffice",
+      "name": "Buying Office / Customer Name",
+      "type": "string",
+      "isNumeric": false,
+      "matchMode": "fuzzy_brand",
+      "description": "So sánh Buying Office (ItemMaster) vs Customer Name (VN SPEC). Hỗ trợ alias: RYOHIN KEIKAKU = Muji, Old Navy = Gap Inc, THE NORTH FACE = TNF/VF Corp."
+    },
+    {
+      "key": "productLength",
+      "name": "Product Length",
+      "type": "number",
+      "isNumeric": true,
+      "unit": "mm",
+      "toleranceMm": 1.0,
+      "description": "Chiều dài thành phẩm (mm/inch). Cảnh báo LỆCH SỐ nếu sai lệch"
+    },
+    {
+      "key": "productWidth",
+      "name": "Product Width",
+      "type": "number",
+      "isNumeric": true,
+      "unit": "mm",
+      "toleranceMm": 1.0,
+      "description": "Chiều rộng thành phẩm (mm/inch). Cảnh báo LỆCH SỐ nếu sai lệch"
+    },
+    {
+      "key": "colorF",
+      "name": "Color F / Front Colors",
+      "type": "string",
+      "isNumeric": false,
+      "matchMode": "color_set",
+      "description": "Color F (ItemMaster) so với INK Colors: Front Colors (VN SPEC)"
+    },
+    {
+      "key": "colorB",
+      "name": "Color B / Back Colors",
+      "type": "string",
+      "isNumeric": false,
+      "matchMode": "color_set",
+      "description": "Color B (ItemMaster) so với INK Colors: Back Colors (VN SPEC)"
+    },
+    {
+      "key": "varnishF",
+      "name": "Varnish F / Front Coating",
+      "type": "string",
+      "isNumeric": false,
+      "matchMode": "varnish",
+      "description": "Varnish F (ItemMaster) vs INK Colors: Front Coating Type (VN SPEC). Quy tắc: Đối với Dig. Machine thì không cần Varnish như trên spec (ngoại trừ Buying Office là Uniqlo)."
+    },
+    {
+      "key": "varnishB",
+      "name": "Varnish B / Back Coating",
+      "type": "string",
+      "isNumeric": false,
+      "matchMode": "varnish",
+      "description": "Varnish B (ItemMaster) vs INK Colors: Back Coating Type (VN SPEC). Quy tắc: Đối với Dig. Machine thì không cần Varnish như trên spec (ngoại trừ Buying Office là Uniqlo)."
+    },
+    {
+      "key": "materialCode",
+      "name": "Material Code",
+      "type": "string",
+      "isNumeric": false,
+      "matchMode": "material_deconstruct",
+      "description": "Mã vật tư: [Mã Giấy]-[GSM]-[Khổ Gốc Dài]-[Khổ Gốc Rộng]-[ID]. Quy tắc: Quét lấy vật tư mới nhất (Update MDM RM / New RM) tính từ đầu trang trở xuống (đặc biệt với The North Face)."
+    },
+    {
+      "key": "sheetSize",
+      "name": "Sheet Size & Cut No",
+      "type": "string",
+      "isNumeric": false,
+      "matchMode": "cut_sheet_math",
+      "description": "Kiểm tra khổ in offset Sheet Size có khớp với khổ giấy gốc cắt theo Offset Cut No"
+    },
+    {
+      "key": "offsetCutNo",
+      "name": "Offset Cut No",
+      "type": "number",
+      "isNumeric": true,
+      "matchMode": "exact_number",
+      "description": "Số con cắt từ khổ giấy gốc (2, 4 con hoặc 0 nếu cuộn)"
+    },
+    {
+      "key": "hole",
+      "name": "Hole (Chọt Lỗ)",
+      "type": "boolean",
+      "isNumeric": false,
+      "matchMode": "hole_check",
+      "description": "Chọt lỗ: ItemMaster (checkbox Hole) vs Spec (Hole: Yes/No & Hole Size)"
+    },
+    {
+      "key": "removeWastage",
+      "name": "Remove Wastage (Lột Phoi)",
+      "type": "boolean",
+      "isNumeric": false,
+      "matchMode": "wastage_check",
+      "description": "Lột phoi / rác: ItemMaster (checkbox Remove Wastage) vs Spec (Remove Wastage: Yes/No)"
+    },
+    {
+      "key": "fscBrandProtection",
+      "name": "FSC & Brand Protection",
+      "type": "string",
+      "isNumeric": false,
+      "matchMode": "fsc_brand_check",
+      "description": "Quy tắc FSC: Chỉ khi tại vị trí FSC Content trên Spec là 'FSC MIX CREDIT' thì trên ItemMaster mới bắt buộc phải có FSC. Brand Protection: Theo T1/T2/T3 (Coach/Tapestry không cần tick)."
+    },
+    {
+      "key": "specialInstructions",
+      "name": "Special Instructions",
+      "type": "string",
+      "isNumeric": false,
+      "matchMode": "contains_or_fuzzy",
+      "description": "Hướng dẫn sản xuất, chuẩn so màu theo approved sample và quy cách"
+    },
+    {
+      "key": "processLeadtime",
+      "name": "Process & Standard Leadtime",
+      "type": "composite",
+      "isNumeric": true,
+      "matchMode": "leadtime_calc",
+      "description": "Kiểm tra công đoạn Process (công đoạn phụ vs Special Applications) và cộng Leadtime chuẩn từ file Excel cách tính leadtime.xlsx"
+    }
+  ],
+  "settings": {
+    "caseSensitive": false,
+    "ignoreWhitespace": true,
+    "highlightNumericMismatches": true,
+    "requireEvidenceScreenshot": true
+  }
+}

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Avery Dennison - QA Double-Check Automated Tool</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <div class="app-layout">
+    <!-- Header -->
+    <header class="app-header">
+      <div class="brand">
+        <i class="fa-solid fa-clipboard-check brand-icon"></i>
+        <div>
+          <h1>QA Double Check Tool</h1>
+          <span class="subtext">Avery Dennison &bull; Real-time ItemMaster & VN Spec Verification</span>
+        </div>
+      </div>
+      <div class="header-status">
+        <span class="badge badge-success"><i class="fa-solid fa-bolt"></i> Realtime ItemMaster</span>
+        <span class="badge badge-success"><i class="fa-brands fa-google-drive"></i> Drive Search</span>
+        <span class="badge badge-success" id="chromeStatus"><i class="fa-brands fa-chrome"></i> Chrome Connected (9222)</span>
+      </div>
+    </header>
+
+    <!-- Main Navigation Tabs -->
+    <nav class="app-nav">
+      <button class="nav-tab active" data-tab="tab-check"><i class="fa-solid fa-magnifying-glass-chart"></i> Đối Soát Dữ Liệu</button>
+      <button class="nav-tab" data-tab="tab-reports"><i class="fa-solid fa-chart-pie"></i> Báo Cáo & Đối Soát Đã Lưu</button>
+      <button class="nav-tab" data-tab="tab-config"><i class="fa-solid fa-sliders"></i> Quy Trình & Cấu Hình</button>
+    </nav>
+
+    <!-- Tab 1: Check Section -->
+    <main class="app-content">
+      <section id="tab-check" class="tab-pane active">
+        <!-- Dual Action Section: Single Item & Batch Folder -->
+        <div class="action-grid">
+          <!-- Card 1: Check Single Item in Realtime -->
+          <div class="action-card highlight-card">
+            <div class="card-badge"><i class="fa-solid fa-bolt"></i> Tra Cứu Real-time</div>
+            <h3><i class="fa-solid fa-barcode"></i> Kiểm Tra 1 Item Bất Kỳ</h3>
+            <p class="text-muted" style="margin-bottom:12px;font-size:13px;">Dán mã GLID hoặc Item Code để tự động tra cứu trên <b>ItemMaster.php</b> và đối soát với <b>VN Spec Drive</b>.</p>
+            <div class="form-group-row">
+              <div class="form-field">
+                <input type="text" id="singleItemInput" class="form-control" placeholder="Ví dụ: 1-350296-000-00, 2-540940-000-02...">
+              </div>
+              <button id="btnCheckSingleItem" class="btn btn-primary"><i class="fa-solid fa-magnifying-glass"></i> Kiểm Tra Ngay</button>
+            </div>
+          </div>
+
+          <!-- Card 2: Batch Check Folder -->
+          <div class="action-card">
+            <div class="card-badge" style="background:#e8eaed;color:#3c4043;"><i class="fa-solid fa-folder-tree"></i> Hàng Loạt</div>
+            <h3><i class="fa-solid fa-folder-open"></i> Kiểm Tra Theo Thư Mục</h3>
+            <p class="text-muted" style="margin-bottom:12px;font-size:13px;">Chọn một thư mục để tự động quét toàn bộ items và đối soát tuần tự.</p>
+            <div class="form-group-row">
+              <div class="form-field">
+                <select id="folderSelect" class="form-control">
+                  <option value="">-- Đang quét thư mục... --</option>
+                </select>
+              </div>
+              <button id="btnRunCheck" class="btn btn-secondary"><i class="fa-solid fa-play"></i> Quét Thư Mục</button>
+            </div>
+            <div id="folderDetails" class="folder-meta" style="display:none;">
+              <span><i class="fa-solid fa-list-check"></i> Số lượng: <b id="metaCount">0</b> items</span>
+              <span class="items-preview" id="metaItems"></span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Live Progress & Log -->
+        <div id="progressSection" class="log-card" style="display:none;">
+          <div class="card-header">
+            <h3><i class="fa-solid fa-terminal"></i> Tiến Trình Chạy Tự Động (Console Log)</h3>
+            <span id="taskStatusBadge" class="badge badge-warning">Đang thực hiện...</span>
+          </div>
+          <div class="progress-bar-container">
+            <div id="progressBar" class="progress-bar-fill" style="width: 0%;"></div>
+          </div>
+          <pre id="logTerminal" class="log-terminal">Đang khởi tạo...</pre>
+        </div>
+
+        <!-- Real-time Results Cards -->
+        <div id="resultsSection" style="display:none;">
+          <div class="section-title-row">
+            <h2><i class="fa-solid fa-table-list"></i> Kết Quả Đối Soát Chi Tiết</h2>
+            <div class="result-stats" id="statsRow"></div>
+          </div>
+          <div id="resultsList" class="results-grid"></div>
+        </div>
+      </section>
+
+      <!-- Tab 2: Reports Archive -->
+      <section id="tab-reports" class="tab-pane">
+        <div class="section-title-row">
+          <h2><i class="fa-solid fa-clock-rotate-left"></i> Lịch Sử Các Báo Cáo Đã Chạy</h2>
+          <button id="btnRefreshReports" class="btn btn-secondary"><i class="fa-solid fa-rotate-right"></i> Làm mới</button>
+        </div>
+        <div id="reportsList" class="reports-grid">
+          <div class="empty-state">Đang tải lịch sử báo cáo...</div>
+        </div>
+      </section>
+
+      <!-- Tab 3: Config & Training Rules -->
+      <section id="tab-config" class="tab-pane">
+        <div class="config-container">
+          <div class="config-header">
+            <div>
+              <h2><i class="fa-solid fa-book-bookmark"></i> Quy Trình & 11 Trường Dữ Liệu</h2>
+              <p class="text-muted">Bạn có thể trực tiếp bổ sung quy tắc, đổi độ lệch dung sai số (mm), hoặc cập nhật thêm các bước kiểm tra mới tại đây.</p>
+            </div>
+            <button id="btnSaveConfig" class="btn btn-primary"><i class="fa-solid fa-floppy-disk"></i> Lưu Cấu Hình Mới</button>
+          </div>
+          <div class="config-editors">
+            <div class="editor-col">
+              <h3><i class="fa-solid fa-list-ol"></i> 11 Trường Đối Soát (rules.json)</h3>
+              <textarea id="rulesEditor" class="code-editor" spellcheck="false"></textarea>
+            </div>
+            <div class="editor-col">
+              <h3><i class="fa-solid fa-diagram-project"></i> Pipeline Các Bước (steps.json)</h3>
+              <textarea id="stepsEditor" class="code-editor" spellcheck="false"></textarea>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Modal for Previewing Evidence & Report Card -->
+    <div id="previewModal" class="modal-overlay" style="display:none;">
+      <div class="modal-box">
+        <div class="modal-header">
+          <h3 id="modalTitle">Xem Bằng Chứng Đối Soát</h3>
+          <button class="modal-close" onclick="closeModal()">&times;</button>
+        </div>
+        <div class="modal-body" id="modalBody">
+          <img id="modalImage" src="" alt="Evidence Image">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

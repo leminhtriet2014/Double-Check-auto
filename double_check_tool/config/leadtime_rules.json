@@ -1,0 +1,914 @@
+﻿[
+    {
+        "category":  "Routing chuẩn",
+        "code":  "ML",
+        "process":  "Make layout",
+        "description":  "Routing cơ bản, nếu có giảm bớt công đoạn nào vẫn tính 7 ngày",
+        "leadtime":  7,
+        "remark":  ""
+    },
+    {
+        "category":  "Routing chuẩn",
+        "code":  "PM",
+        "process":  "Plate making",
+        "description":  "",
+        "leadtime":  0,
+        "remark":  ""
+    },
+    {
+        "category":  "Routing chuẩn",
+        "code":  "PC",
+        "process":  "Paper Cutting",
+        "description":  "",
+        "leadtime":  0,
+        "remark":  "Nếu paper cutting trước in thì không tính extra time. Nếu sau in + in WS6800 thì + 1 ngày cho công đoạn xả tờ"
+    },
+    {
+        "category":  "Routing chuẩn",
+        "code":  "PR",
+        "process":  "Printing",
+        "description":  "",
+        "leadtime":  0,
+        "remark":  ""
+    },
+    {
+        "category":  "Routing chuẩn",
+        "code":  "VA",
+        "process":  "Varnishing",
+        "description":  "",
+        "leadtime":  0,
+        "remark":  "Varnish F and varnish B include:  matte, gloss, satin,"
+    },
+    {
+        "category":  "Routing chuẩn",
+        "code":  "DC",
+        "process":  "Die cutting",
+        "description":  "",
+        "leadtime":  0,
+        "remark":  "item CUT, không setup routing Die cutting (Varnishing--\u003ePack \u0026 Sort)"
+    },
+    {
+        "category":  "Routing chuẩn",
+        "code":  "PS",
+        "process":  "Pack \u0026 Sort",
+        "description":  "",
+        "leadtime":  0,
+        "remark":  ""
+    },
+    {
+        "category":  "Routing chuẩn",
+        "code":  "TR",
+        "process":  "Paper cutting \u0026 trimming",
+        "description":  "Cắt \u0026 tề giấy",
+        "leadtime":  1,
+        "remark":  ""
+    },
+    {
+        "category":  "Routing chuẩn",
+        "code":  "PV",
+        "process":  "Printing \u0026 Varnishing",
+        "description":  "In \u0026 Varnish",
+        "leadtime":  1,
+        "remark":  ""
+    },
+    {
+        "category":  "In",
+        "code":  "P1",
+        "process":  "Print front side \u0026 varnish",
+        "description":  "In mặt trước \u0026 varnish",
+        "leadtime":  0,
+        "remark":  "Item set up luôn phải có 2 routing Px đi với nhau (nếu nhãn chỉ in 1 mặt thì set up PV hoặc PR+VA). Leadtime standard tổng quy trình = 8. Chỉ áp dụng cho Offset"
+    },
+    {
+        "category":  "In",
+        "code":  "P2",
+        "process":  "Print back side \u0026 varnish",
+        "description":  "In mặt Sau \u0026 varnish",
+        "leadtime":  0,
+        "remark":  "Item set up luôn phải có 2 routing Px đi với nhau (nếu nhãn chỉ in 1 mặt thì set up PV hoặc PR+VA). Leadtime standard tổng quy trình = 8."
+    },
+    {
+        "category":  "In",
+        "code":  "P4",
+        "process":  "Print front side",
+        "description":  "In mặt trước",
+        "leadtime":  0,
+        "remark":  "Item set up luôn phải có 2 routing Px đi với nhau (nếu nhãn chỉ in 1 mặt thì set up PV hoặc PR+VA). Leadtime standard tổng quy trình = 8"
+    },
+    {
+        "category":  "In",
+        "code":  "P5",
+        "process":  "Print back side",
+        "description":  "In mặt Sau",
+        "leadtime":  0,
+        "remark":  "Item set up luôn phải có 2 routing Px đi với nhau (nếu nhãn chỉ in 1 mặt thì set up PV hoặc PR+VA). Leadtime standard tổng quy trình = 8."
+    },
+    {
+        "category":  "Varnish",
+        "code":  "SP",
+        "process":  "Spot Varnish",
+        "description":  "Varnish từng phần",
+        "leadtime":  1,
+        "remark":  "VNTP, luôn thực hiện sau in (không cần cộng thêm impr in)\nĐối với VNTP trên máy Offset - CDUV, làm online nên không cộng leadtime"
+    },
+    {
+        "category":  "Varnish",
+        "code":  "FV",
+        "process":  "Full Varnish 2 sides",
+        "description":  "Varnish toàn phần 2 mặt sau in",
+        "leadtime":  1,
+        "remark":  "Thêm 1 lượt varnish 2 mặt sau in (cho UV trên giấy nhám). Apr-2023: Revise theo request PLG. (không cần cộng thêm impr in). Chỉ set up sau in"
+    },
+    {
+        "category":  "Varnish",
+        "code":  "F5",
+        "process":  "Full Varnish Front side",
+        "description":  "Varnish toàn phần mặt trước sau in",
+        "leadtime":  1,
+        "remark":  "Chỉ áp dụng cho Offset. (không cần cộng thêm impr in) Chỉ set up sau in"
+    },
+    {
+        "category":  "Varnish",
+        "code":  "F6",
+        "process":  "Full Varnish Back side",
+        "description":  "Varnish toàn phần mặt sau sau in",
+        "leadtime":  1,
+        "remark":  "Chỉ áp dụng cho Offset. (không cần cộng thêm impr in) Chỉ set up sau in"
+    },
+    {
+        "category":  "Varnish",
+        "code":  "F7",
+        "process":  "Full Varnish Material 2 sides",
+        "description":  "Varnish vật tư 2 mặt trước in",
+        "leadtime":  0,
+        "remark":  "Varnish vật tư trước khi in 2 mặt (Cần +1 impr in). Chỉ set up trước công đoạn in"
+    },
+    {
+        "category":  "Varnish",
+        "code":  "F8",
+        "process":  "Full Varnish Material Front",
+        "description":  "Varnish vật tư mặt trước",
+        "leadtime":  0,
+        "remark":  "Varnish vật tư trước khi in mặt trước (Cần +1 impr in). Chỉ set up trước công đoạn in"
+    },
+    {
+        "category":  "Varnish",
+        "code":  "F9",
+        "process":  "Full Varnish Material Back",
+        "description":  "Varnish vật tư mặt sau",
+        "leadtime":  0,
+        "remark":  "Varnish vật tư trước khi in mặt sau (Cần +1 impr in). Chỉ set up trước công đoạn in"
+    },
+    {
+        "category":  "Varnish",
+        "code":  "V7",
+        "process":  "Full Varnish 2times 2sides",
+        "description":  "Varnish toàn phần 2 mặt 2 lượt",
+        "leadtime":  1,
+        "remark":  "Áp dụng cho Carhartt varnish 2 lượt 2 mặt, làm liên tục trong 1 ngày"
+    },
+    {
+        "category":  "Varnish",
+        "code":  "VS",
+        "process":  "OS - Varnishing",
+        "description":  "Outsource-Tráng Varnish",
+        "leadtime":  0,
+        "remark":  "Không tính leadtime"
+    },
+    {
+        "category":  "Varnish",
+        "code":  "VF",
+        "process":  "Full Varnish front side SM machine",
+        "description":  "Varnish toàn phần mặt trước trên máy SM",
+        "leadtime":  1,
+        "remark":  "Chỉ dùng cho BS RFID in trên CDUV + chuyển xuống SM (5C, 6C only) để varnish lại, muốn áp dụng các trường hợp khác, cần check lại. Chỉ set up sau in (không cộng thêm imp)"
+    },
+    {
+        "category":  "Varnish",
+        "code":  "V8",
+        "process":  "Full Varnish 2sides SM machine",
+        "description":  "Varnish toàn phần 2 mặt trên máy SM",
+        "leadtime":  1,
+        "remark":  ""
+    },
+    {
+        "category":  "Varnish",
+        "code":  "V9",
+        "process":  "Full Varnish back side SM machine",
+        "description":  "Varnish toàn phần mặt sau trên máy SM",
+        "leadtime":  1,
+        "remark":  ""
+    },
+    {
+        "category":  "Varnish soft touch",
+        "code":  "S7",
+        "process":  "OS - S2 - ST - 1 mat - 2 luot",
+        "description":  "Outsource-Soft touch 1 mặt (2 lượt)",
+        "leadtime":  2,
+        "remark":  "Soft touch 2 lượt trên 1 mặt ở OS NKV - (+ thêm 1 ngày so với IH). Áp dụng cho nhãn có soft touch OS + ép nhũ OS"
+    },
+    {
+        "category":  "Varnish soft touch",
+        "code":  "S5",
+        "process":  "OS - S4 - ST - 2 mat - 4 luot",
+        "description":  "Outsource-Soft touch 2 mặt (4 lượt)",
+        "leadtime":  3,
+        "remark":  "Soft touch 4 lượt trên 2 mặt ở OS NKV - (+ thêm 1 ngày so với IH). Áp dụng cho nhãn có soft touch OS + ép nhũ OS"
+    },
+    {
+        "category":  "Varnish soft touch",
+        "code":  "S2",
+        "process":  "S2 - ST - 1 mat - 2 luot",
+        "description":  "Soft touch 1 mặt (2 lượt)",
+        "leadtime":  1,
+        "remark":  "Soft touch 1 mặt (2 lượt) trên máy HB. Giấy dưới \u003c=210gsm phải soft touch ở CD"
+    },
+    {
+        "category":  "Varnish soft touch",
+        "code":  "S3",
+        "process":  "S3 - ST - 1 mat - 3 luot",
+        "description":  "Soft touch 1 mặt (3 lượt)",
+        "leadtime":  2,
+        "remark":  "Soft touch 1 mặt (3 lượt) trên máy HB. Giấy dưới \u003c=210gsm phải soft touch ở CD"
+    },
+    {
+        "category":  "Varnish soft touch",
+        "code":  "S4",
+        "process":  "S4 - ST - 2 mat - 4 luot",
+        "description":  "Soft touch 2 mặt (4 lượt)",
+        "leadtime":  2,
+        "remark":  "Soft touch 2 mặt (4 lượt) trên máy HB. Giấy dưới \u003c=210gsm phải soft touch ở CD"
+    },
+    {
+        "category":  "Varnish soft touch",
+        "code":  "S6",
+        "process":  "S6 - ST - 2 mat - 6 luot",
+        "description":  "Soft touch 2 mặt (6 lượt)",
+        "leadtime":  3,
+        "remark":  "Soft touch 2 mặt (6 lượt) trên máy HB. Giấy dưới \u003c=210gsm phải soft touch ở CD"
+    },
+    {
+        "category":  "Varnish soft touch",
+        "code":  "V2",
+        "process":  "V2 - STCD - 1 mat - 2 luot",
+        "description":  "Soft touch CD 1 mặt (2 lượt)",
+        "leadtime":  1,
+        "remark":  "Soft touch ở CD cho giấy sticker, vật tư \u003c=210gsm, áp dụng cho cả Digital \u0026 Offset (không tính thêm impr cho Offset)"
+    },
+    {
+        "category":  "Varnish soft touch",
+        "code":  "V4",
+        "process":  "V4 - STCD - 2 mat - 4 luot",
+        "description":  "Soft touch CD 2 mặt (4 lượt)",
+        "leadtime":  2,
+        "remark":  "Soft touch ở CD cho giấy sticker, vật tư \u003c=210gsm, áp dụng cho cả Digital \u0026 Offset (không tính thêm impr cho Offset)"
+    },
+    {
+        "category":  "Varnish soft touch",
+        "code":  "V5",
+        "process":  "V5 - STCD - 1 mat - 1 luot",
+        "description":  "Soft touch CD 1 mặt (1 lượt)",
+        "leadtime":  1,
+        "remark":  "Soft touch ở CD cho giấy sticker, vật tư \u003c=210gsm, áp dụng cho cả Digital \u0026 Offset (không tính thêm impr cho Offset)"
+    },
+    {
+        "category":  "Máy ABG",
+        "code":  "VD",
+        "process":  "Varnishing \u0026 ABG Die Cuting",
+        "description":  "Varnish \u0026 Bế ABG",
+        "leadtime":  1,
+        "remark":  ""
+    },
+    {
+        "category":  "Máy ABG",
+        "code":  "RW",
+        "process":  "Roll Winding",
+        "description":  "Quấn cuộn",
+        "leadtime":  3,
+        "remark":  "Cho item in dạng cuộn, KH yêu cầu giao hàng dạng quấn cuộn với số pcs (mét) cụ thể"
+    },
+    {
+        "category":  "Chờ khô",
+        "code":  "D1",
+        "process":  "Drying time 12h",
+        "description":  "Chờ khô 12h",
+        "leadtime":  0,
+        "remark":  ""
+    },
+    {
+        "category":  "Chờ khô",
+        "code":  "D2",
+        "process":  "Drying time 24h",
+        "description":  "Chờ khô 24h",
+        "leadtime":  1,
+        "remark":  ""
+    },
+    {
+        "category":  "Chờ khô",
+        "code":  "D4",
+        "process":  "Drying time 48h",
+        "description":  "Chờ khô 48h",
+        "leadtime":  2,
+        "remark":  ""
+    },
+    {
+        "category":  "Chờ khô",
+        "code":  "D7",
+        "process":  "Drying time 72h",
+        "description":  "Chờ khô 72h",
+        "leadtime":  3,
+        "remark":  ""
+    },
+    {
+        "category":  "Công đoạn phụ",
+        "code":  "SL",
+        "process":  "Splitting",
+        "description":  "Xả giấy",
+        "leadtime":  0,
+        "remark":  "Áp dụng cho basesheet sau in cần xả đôi chuyển RFID/ Các item in khổ lớn sau đó xả đôi trước khi thực hiện các công đoạn phụ (bế, ép nhũ, dập chìm nổi...)"
+    },
+    {
+        "category":  "Công đoạn phụ",
+        "code":  "U2",
+        "process":  "UV",
+        "description":  "UV silkscreen/Scodix",
+        "leadtime":  1,
+        "remark":  "Spot UV/ Full UV đều 1 ngày"
+    },
+    {
+        "category":  "Công đoạn phụ",
+        "code":  "U3",
+        "process":  "UV softouch",
+        "description":  "Soft touch UV",
+        "leadtime":  1,
+        "remark":  ""
+    },
+    {
+        "category":  "Công đoạn phụ",
+        "code":  "U4",
+        "process":  "UV OS",
+        "description":  "UV ở OS",
+        "leadtime":  0,
+        "remark":  ""
+    },
+    {
+        "category":  "Công đoạn phụ",
+        "code":  "M2",
+        "process":  "PP Matte front side",
+        "description":  "Cán màng mờ mặt trước",
+        "leadtime":  1,
+        "remark":  ""
+    },
+    {
+        "category":  "Công đoạn phụ",
+        "code":  "M3",
+        "process":  "PP Matte back side",
+        "description":  "Cán màng mờ mặt sau",
+        "leadtime":  1,
+        "remark":  ""
+    },
+    {
+        "category":  "Công đoạn phụ",
+        "code":  "M4",
+        "process":  "PP Matte both sides",
+        "description":  "Cán màng mờ 2 mặt",
+        "leadtime":  1,
+        "remark":  ""
+    },
+    {
+        "category":  "Công đoạn phụ",
+        "code":  "M5",
+        "process":  "PP Gloss front side",
+        "description":  "Cán màng bóng mặt trước",
+        "leadtime":  1,
+        "remark":  ""
+    },
+    {
+        "category":  "Công đoạn phụ",
+        "code":  "M6",
+        "process":  "PP Gloss back side",
+        "description":  "Cán màng bóng mặt sau",
+        "leadtime":  1,
+        "remark":  ""
+    },
+    {
+        "category":  "Công đoạn phụ",
+        "code":  "M7",
+        "process":  "PP Gloss both sides",
+        "description":  "Cán màng bóng 2 mặt",
+        "leadtime":  1,
+        "remark":  ""
+    },
+    {
+        "category":  "",
+        "code":  "M8",
+        "process":  "PP anti-scratch matte front side",
+        "description":  "Cán màng mờ chống trầy mặt trước",
+        "leadtime":  1,
+        "remark":  "Code màng 9PS100029 - Film,Plastic Sheets,Virgin,BOPP,30-1510A,Others,Nil Protective Film,Anti-scratch Matt,30um,590MMx3000MT,Roll(Replace 9PS001242)"
+    },
+    {
+        "category":  "",
+        "code":  "M9",
+        "process":  "PP anti-scratch matte back side",
+        "description":  "Cán màng mờ chống trầy mặt sau",
+        "leadtime":  1,
+        "remark":  "Code màng 9PS100029 - Film,Plastic Sheets,Virgin,BOPP,30-1510A,Others,Nil Protective Film,Anti-scratch Matt,30um,590MMx3000MT,Roll(Replace 9PS001242)"
+    },
+    {
+        "category":  "",
+        "code":  "Q8",
+        "process":  "PP anti-scratch matte both sides",
+        "description":  "Cán màng mờ chống trầy 2 mặt",
+        "leadtime":  1,
+        "remark":  "Code màng 9PS100029 - Film,Plastic Sheets,Virgin,BOPP,30-1510A,Others,Nil Protective Film,Anti-scratch Matt,30um,590MMx3000MT,Roll(Replace 9PS001242)"
+    },
+    {
+        "category":  "Công đoạn phụ",
+        "code":  "Q2",
+        "process":  "PP Uniqlo Matte front side",
+        "description":  "Cán màng mờ Uniqlo mặt trước",
+        "leadtime":  1,
+        "remark":  ""
+    },
+    {
+        "category":  "Công đoạn phụ",
+        "code":  "Q3",
+        "process":  "PP Uniqlo Matte back side",
+        "description":  "Cán màng mờ Uniqlo mặt sau",
+        "leadtime":  1,
+        "remark":  ""
+    },
+    {
+        "category":  "Công đoạn phụ",
+        "code":  "Q4",
+        "process":  "PP Uniqlo Matte both sides",
+        "description":  "Cán màng mờ Uniqlo 2 mặt",
+        "leadtime":  1,
+        "remark":  ""
+    },
+    {
+        "category":  "Công đoạn phụ",
+        "code":  "Q5",
+        "process":  "PP Soft touch front side",
+        "description":  "Cán màng soft touch mặt trước",
+        "leadtime":  3,
+        "remark":  "Màng soft touch OS 100% nên tính routing \u0026 leadtime riêng. 02-Jun-26: PLG confirm chuyển IH nhưng vẫn giữ leadtime 3ds"
+    },
+    {
+        "category":  "Công đoạn phụ",
+        "code":  "Q6",
+        "process":  "PP Soft touch back side",
+        "description":  "Cán màng soft touch mặt sau",
+        "leadtime":  3,
+        "remark":  "Màng soft touch OS 100% nên tính routing \u0026 leadtime riêng. 02-Jun-26: PLG confirm chuyển IH nhưng vẫn giữ leadtime 3ds"
+    },
+    {
+        "category":  "Công đoạn phụ",
+        "code":  "Q7",
+        "process":  "PP Soft touch both sides",
+        "description":  "Cán màng soft touch 2 mặt",
+        "leadtime":  3,
+        "remark":  "Màng soft touch OS 100% nên tính routing \u0026 leadtime riêng. 02-Jun-26: PLG confirm chuyển IH nhưng vẫn giữ leadtime 3ds"
+    },
+    {
+        "category":  "Công đoạn phụ",
+        "code":  "F2",
+        "process":  "Foil-single front side",
+        "description":  "Ép nhũ mặt trước",
+        "leadtime":  1,
+        "remark":  ""
+    },
+    {
+        "category":  "Công đoạn phụ",
+        "code":  "F3",
+        "process":  "Foil-single back side",
+        "description":  "Ép nhũ mặt sau",
+        "leadtime":  1,
+        "remark":  ""
+    },
+    {
+        "category":  "Công đoạn phụ",
+        "code":  "F4",
+        "process":  "Foil-double side",
+        "description":  "Ép nhũ 2 mặt",
+        "leadtime":  1,
+        "remark":  ""
+    },
+    {
+        "category":  "Công đoạn phụ",
+        "code":  "B5",
+        "process":  "Foil-single front side OS",
+        "description":  "Ép nhũ mặt trước ở OS",
+        "leadtime":  2,
+        "remark":  "Áp dụng cho item có công đoạn soft touch + ép nhũ. Set up cho item có soft touch OS + ép nhũ OS"
+    },
+    {
+        "category":  "Công đoạn phụ",
+        "code":  "B6",
+        "process":  "Foil-single back side OS",
+        "description":  "Ép nhũ mặt sau ở OS",
+        "leadtime":  2,
+        "remark":  "Áp dụng cho item có công đoạn soft touch + ép nhũ. Set up cho item có soft touch OS + ép nhũ OS"
+    },
+    {
+        "category":  "Công đoạn phụ",
+        "code":  "B7",
+        "process":  "Foil-double side OS",
+        "description":  "Ép nhũ 2 mặt ở OS",
+        "leadtime":  2,
+        "remark":  "Áp dụng cho item có công đoạn soft touch + ép nhũ. Set up cho item có soft touch OS + ép nhũ OS"
+    },
+    {
+        "category":  "Công đoạn phụ",
+        "code":  "E2",
+        "process":  "Emboss front side",
+        "description":  "Dập nổi mặt trước",
+        "leadtime":  1,
+        "remark":  ""
+    },
+    {
+        "category":  "Công đoạn phụ",
+        "code":  "E3",
+        "process":  "Emboss back side",
+        "description":  "Dập nổi mặt sau",
+        "leadtime":  1,
+        "remark":  ""
+    },
+    {
+        "category":  "Công đoạn phụ",
+        "code":  "E4",
+        "process":  "Emboss both sides",
+        "description":  "Dập nổi 2 mặt",
+        "leadtime":  1,
+        "remark":  ""
+    },
+    {
+        "category":  "Công đoạn phụ",
+        "code":  "B2",
+        "process":  "Deboss front side",
+        "description":  "Dập chìm mặt trước",
+        "leadtime":  1,
+        "remark":  ""
+    },
+    {
+        "category":  "Công đoạn phụ",
+        "code":  "B3",
+        "process":  "Deboss back side",
+        "description":  "Dập chìm mặt sau",
+        "leadtime":  1,
+        "remark":  ""
+    },
+    {
+        "category":  "Công đoạn phụ",
+        "code":  "B4",
+        "process":  "Deboss both sides",
+        "description":  "Dập chìm 2 mặt",
+        "leadtime":  1,
+        "remark":  ""
+    },
+    {
+        "category":  "Công đoạn phụ",
+        "code":  "T2",
+        "process":  "DST front side Manual",
+        "description":  "Dán keo 2 mặt mặt trước bằng tay",
+        "leadtime":  3,
+        "remark":  "Nếu dán nhiều đường keo thì cũng chỉ set 1 routing"
+    },
+    {
+        "category":  "Công đoạn phụ",
+        "code":  "T3",
+        "process":  "DST back side Manual",
+        "description":  "Dán keo 2 mặt mặt sau bằng tay",
+        "leadtime":  3,
+        "remark":  "Nếu dán nhiều đường keo thì cũng chỉ set 1 routing"
+    },
+    {
+        "category":  "Công đoạn phụ",
+        "code":  "T4",
+        "process":  "DST both sides Manual",
+        "description":  "Dán keo 2 mặt ở cả 2 mặt bằng tay",
+        "leadtime":  3,
+        "remark":  "Nếu dán nhiều đường keo thì cũng chỉ set 1 routing"
+    },
+    {
+        "category":  "Công đoạn phụ",
+        "code":  "T5",
+        "process":  "DST front side Auto",
+        "description":  "Dán keo 2 mặt mặt trước bằng máy",
+        "leadtime":  1,
+        "remark":  "Yêu cầu: Băng keo 2 mặt (10-38mm). Tối đa 4 đường keo và dán 1 mặt. Nếu dán nhiều đường keo thì cũng chỉ set 1 routing"
+    },
+    {
+        "category":  "Công đoạn phụ",
+        "code":  "T6",
+        "process":  "DST back side Auto",
+        "description":  "Dán keo 2 mặt mặt sau bằng máy",
+        "leadtime":  1,
+        "remark":  "Yêu cầu: Băng keo 2 mặt (10-38mm). Tối đa 4 đường keo và dán 1 mặt. Nếu dán nhiều đường keo thì cũng chỉ set 1 routing"
+    },
+    {
+        "category":  "Công đoạn phụ",
+        "code":  "L2",
+        "process":  "Lamination 2 ply",
+        "description":  "Bồi giấy 2 lớp",
+        "leadtime":  3,
+        "remark":  ""
+    },
+    {
+        "category":  "Công đoạn phụ",
+        "code":  "L3",
+        "process":  "Lamination 3 ply",
+        "description":  "Bồi giấy 3 lớp",
+        "leadtime":  3,
+        "remark":  ""
+    },
+    {
+        "category":  "Công đoạn phụ",
+        "code":  "L4",
+        "process":  "Lamination 4 ply",
+        "description":  "Bồi giấy 4 lớp",
+        "leadtime":  3,
+        "remark":  ""
+    },
+    {
+        "category":  "Công đoạn phụ",
+        "code":  "L5",
+        "process":  "Lamination 5 ply",
+        "description":  "Bồi giấy 5 lớp",
+        "leadtime":  3,
+        "remark":  ""
+    },
+    {
+        "category":  "Công đoạn phụ",
+        "code":  "CB",
+        "process":  "Combine Hangtag Manual",
+        "description":  "Ghép nhãn bằng tay",
+        "leadtime":  3,
+        "remark":  ""
+    },
+    {
+        "category":  "Công đoạn phụ",
+        "code":  "CA",
+        "process":  "Combine hangtag Auto",
+        "description":  "Ghép nhãn bằng máy",
+        "leadtime":  3,
+        "remark":  ""
+    },
+    {
+        "category":  "Công đoạn phụ",
+        "code":  "EY",
+        "process":  "Eyeleting",
+        "description":  "Đóng mắt cáo",
+        "leadtime":  1,
+        "remark":  "OS only (máy đã chuyển hết sang NKV). SX tự chuyển hàng sang OS, không cần note thêm gì"
+    },
+    {
+        "category":  "Công đoạn phụ",
+        "code":  "ST",
+        "process":  "Stringing Manual",
+        "description":  "Xỏ dây bằng tay",
+        "leadtime":  3,
+        "remark":  "Dùng cho loại dây không xỏ máy được. Nhãn luôn xỏ dây với nhãn khác + 3 ngày (vnspec phải có note luôn xỏ dây với item ...)"
+    },
+    {
+        "category":  "Công đoạn phụ",
+        "code":  "SA",
+        "process":  "Stringing Auto",
+        "description":  "Xỏ dây bằng máy",
+        "leadtime":  1,
+        "remark":  "Chỉ áp dụng cho loại dây cắt nguội, cách xỏ: thắt nút 1 đầu, gấp đôi \u0026 thắt nút 1 đầu. Không xỏ dây máy với các item có gắn pin, đóng mắt cáo, xỏ dây combine nhiều nhãn, xỏ dây nhưng không gút lại"
+    },
+    {
+        "category":  "Công đoạn phụ",
+        "code":  "PI",
+        "process":  "Pin",
+        "description":  "Gắn pin/ kim tây",
+        "leadtime":  1,
+        "remark":  "Nếu ship kèm pin, không tính leadtime, không set up routing (phải có note ship kèm Pin)"
+    },
+    {
+        "category":  "Công đoạn phụ",
+        "code":  "PU",
+        "process":  "Punching/Clear hole",
+        "description":  "Chọt lỗ",
+        "leadtime":  3,
+        "remark":  "20-may-2026: Update từ 1 ngày =\u003e 3 ngày theo confirm PLG"
+    },
+    {
+        "category":  "Công đoạn phụ",
+        "code":  "DR",
+        "process":  "Drilling",
+        "description":  "Khoan lỗ",
+        "leadtime":  0,
+        "remark":  "Không tính leadtime"
+    },
+    {
+        "category":  "Công đoạn phụ",
+        "code":  "DM",
+        "process":  "Drilling Manual",
+        "description":  "Khoan lỗ bằng tay",
+        "leadtime":  1,
+        "remark":  "Chỉ áp dụng cho DCL gấp nhãn có khoan lỗ, kích thước lỗ khoan được 2mm /  2.5mm / 3mm / 4mm / 5mm / 6mm / 7mm"
+    },
+    {
+        "category":  "Công đoạn phụ",
+        "code":  "SS",
+        "process":  "Saddle stitching(dong kim)",
+        "description":  "Đóng kim lồng",
+        "leadtime":  1,
+        "remark":  "Michael Kors, Eagle Creek"
+    },
+    {
+        "category":  "Công đoạn phụ",
+        "code":  "FS",
+        "process":  "Fold \u0026 staple OS",
+        "description":  "Gấp, lồng tay sách, đóng ghim, khoan lỗ OS",
+        "leadtime":  7,
+        "remark":  "Apply cho item DCL gấp, đóng ghim \u0026 khoan lỗ ở OS"
+    },
+    {
+        "category":  "Công đoạn phụ",
+        "code":  "LI",
+        "process":  "Line Impressing/Can van",
+        "description":  "Cán gân",
+        "leadtime":  1,
+        "remark":  ""
+    },
+    {
+        "category":  "Công đoạn phụ",
+        "code":  "PE",
+        "process":  "Peel off \u0026 stick",
+        "description":  "Lột keo 2 mặt \u0026 dán",
+        "leadtime":  1,
+        "remark":  ""
+    },
+    {
+        "category":  "Công đoạn phụ",
+        "code":  "LS",
+        "process":  "Laser Cut",
+        "description":  "Chuyển OS cắt laser",
+        "leadtime":  2,
+        "remark":  "Chuyển supplier OS Vina 99cắt laser"
+    },
+    {
+        "category":  "Công đoạn phụ",
+        "code":  "PO",
+        "process":  "Peef off",
+        "description":  "Lột rìa",
+        "leadtime":  3,
+        "remark":  "Cho item sticker cần lột rìa, chỉ set cho item lột bằng tay (lột bằng máy bế cuộn không set routing)"
+    },
+    {
+        "category":  "Công đoạn phụ",
+        "code":  "CR",
+        "process":  "Check RFID sticker",
+        "description":  "Kiểm chip RFID",
+        "leadtime":  1,
+        "remark":  "Routing đi kèm với item có dán nhãn sticker RFID (sticker part 4) - thực hiện trên máy kiểm chip riêng. Nếu có xỏ dây: dán sticker =\u003e xỏ dây =\u003e kiểm chip"
+    },
+    {
+        "category":  "Công đoạn phụ",
+        "code":  "A2",
+        "process":  "Labeling Manual",
+        "description":  "Dán nhãn bằng tay",
+        "leadtime":  2,
+        "remark":  "Cap 1,000pcs/ngày (SX confirm)"
+    },
+    {
+        "category":  "Công đoạn phụ",
+        "code":  "A3",
+        "process":  "Labeling Auto",
+        "description":  "Dán nhãn bằng máy",
+        "leadtime":  1,
+        "remark":  "Cap 21,000pcs/ngày (SX confirm)"
+    },
+    {
+        "category":  "Công đoạn phụ",
+        "code":  "A5",
+        "process":  "Labeling Auto 2 Piggyback",
+        "description":  "Dán 2 nhãn bằng máy",
+        "leadtime":  1,
+        "remark":  "Áp dụng cho dán 2 nhãn piggyback"
+    },
+    {
+        "category":  "Công đoạn phụ",
+        "code":  "A4",
+        "process":  "Folding \u0026 glue in OS",
+        "description":  "Gấp \u0026 dán nhãn ở OS",
+        "leadtime":  6,
+        "remark":  "Apr-2023: OS NKV, dán nhãn tay"
+    },
+    {
+        "category":  "Công đoạn phụ",
+        "code":  "CK",
+        "process":  "Cold-dryer Ketchview",
+        "description":  "Sấy lạnh trên máy Ketchview",
+        "leadtime":  1,
+        "remark":  "Chỉ áp dụng cho Offset"
+    },
+    {
+        "category":  "Công đoạn phụ",
+        "code":  "G3",
+        "process":  "Manual Gluing OS",
+        "description":  "Dán keo nước bằng tay OS",
+        "leadtime":  5,
+        "remark":  "OS dán keo nước bằng tay ở NKV"
+    },
+    {
+        "category":  "Công đoạn phụ",
+        "code":  "G2",
+        "process":  "Auto Gluing OS",
+        "description":  "Dán keo nước trên Máy OS",
+        "leadtime":  5,
+        "remark":  "OS dán keo nước bằng máy ở Hoàng Hà"
+    },
+    {
+        "category":  "Công đoạn phụ",
+        "code":  "FM",
+        "process":  "Manual Folding",
+        "description":  "Gấp nhãn bằng tay",
+        "leadtime":  1,
+        "remark":  "Gấp tay nhãn theo yêu cầu khách hàng\nOS lead time 3 days"
+    },
+    {
+        "category":  "Công đoạn phụ",
+        "code":  "FA",
+        "process":  "Auto Folding",
+        "description":  "Gấp nhãn trên Máy",
+        "leadtime":  1,
+        "remark":  "Gấp tay nhãn theo yêu cầu khách hàng. Máy gấp tối đa được 8 vạch song song\nOS lead time 3 days. 04-Aug-2025: Revise cap từ 100K tờ/ngày =\u003e 10K tờ/ ngày"
+    },
+    {
+        "category":  "Công đoạn phụ",
+        "code":  "SG",
+        "process":  "Stripping Auto (Boc tach)",
+        "description":  "Bóc tách bằng máy",
+        "leadtime":  0,
+        "remark":  "Đặt sau công đoạn bế. Nếu item có chọt lỗ, khoan lỗ, dán keo 2 mặt, có khuôn bế bóc tách (code N) =\u003e Không set up làm bóc tách"
+    },
+    {
+        "category":  "Công đoạn phụ",
+        "code":  "SH",
+        "process":  "Stripping Auto 2 (Boc tach 2)",
+        "description":  "Bóc tách bằng máy 2",
+        "leadtime":  0,
+        "remark":  ""
+    },
+    {
+        "category":  "SX request",
+        "code":  "IP",
+        "process":  "Nhap kho san xuat",
+        "description":  "Nhập kho sản xuất cho basetag",
+        "leadtime":  0,
+        "remark":  ""
+    },
+    {
+        "category":  "SX request",
+        "code":  "FQ",
+        "process":  "Final QC",
+        "description":  "Final QC",
+        "leadtime":  0,
+        "remark":  "Thứ công đoạn: Đóng gói -\u003e Công đoạn phụ (Xem list các công đoạn cần FQC ở cột G = Yes) -\u003e FQC.\nNgoại lệ: Item String only không cần công đoạn FQC"
+    },
+    {
+        "category":  "SX request",
+        "code":  "PB",
+        "process":  "Dong goi combo chung thung",
+        "description":  "Đóng gói nhãn combo chung thùng",
+        "leadtime":  1,
+        "remark":  "Set up cho nhãn combo có yêu cầu đóng chung 1 thùng, phải set up cho tất cả nhãn trong combo. Vẫn có note DI CHUNG \u0026 set up GLID SUB bình thường"
+    },
+    {
+        "category":  "SX request",
+        "code":  "IS",
+        "process":  "Inspection 100%",
+        "description":  "Kiểm tra 100%",
+        "leadtime":  1,
+        "remark":  "Áp dụng cho Patagonia có QR code (set up trước khi bế / UQ Sanitary box (trước FQC)/ Basesheet RFID UQ (trước đóng gói) / Basesheet RFID G.U (trước đóng gói) / Basesheet RFID các RB có công đoạn phụ (trước đóng gói)"
+    },
+    {
+        "category":  "SX request",
+        "code":  "TM",
+        "process":  "Trimming",
+        "description":  "Tề giấy",
+        "leadtime":  0,
+        "remark":  "Apply cho dạng item sau in cần xả giấy / tề giấy trước khi chuyển qua gấp nhãn"
+    },
+    {
+        "category":  "SX request",
+        "code":  "DO",
+        "process":  "Pack \u0026 Sort OS",
+        "description":  "Đóng gói ở OS",
+        "leadtime":  2,
+        "remark":  "Áp dụng cho item có dán keo nước tay ở OS (kèm công đoạn G3)"
+    },
+    {
+        "category":  "SX request",
+        "code":  "OS",
+        "process":  "Move to OS",
+        "description":  "Chuyển hàng qua OS",
+        "leadtime":  3,
+        "remark":  "Set up support cho item Reebok combo, in xong chuyển hàng qua OS, không nhập kho"
+    }
+]

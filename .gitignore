@@ -1,0 +1,42 @@
+# =====================================================================
+# SENSITIVE BROWSER DATA & USER SESSION CACHE (CRITICAL - DO NOT COMMIT!)
+# =====================================================================
+puppeteer_profile/
+
+# =====================================================================
+# NODE.JS DEPENDENCIES
+# =====================================================================
+node_modules/
+*/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# =====================================================================
+# GENERATED RUNTIME REPORTS & DOWNLOADS
+# (Keep folder structure via .gitkeep, ignore runtime generated files)
+# =====================================================================
+downloads/*
+!downloads/.gitkeep
+reports/*
+!reports/.gitkeep
+
+# =====================================================================
+# OFFICE TEMPORARY LOCK FILES & OS ARTIFACTS
+# =====================================================================
+~$*.xlsx
+~$*.docx
+~$*.pptx
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =====================================================================
+# SYSTEM & IDE CONFIG
+# =====================================================================
+.idea/
+.vscode/
+*.swp
+*.bak

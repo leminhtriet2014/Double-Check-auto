@@ -1,0 +1,47 @@
+{
+  "pipeline": [
+    {
+      "id": "step_1_input",
+      "name": "Nhận Mã GLID / Quét Thư Mục",
+      "enabled": true,
+      "description": "Nhận mã GLID trực tiếp từ giao diện Web UI hoặc quét danh sách file trong thư mục được chọn."
+    },
+    {
+      "id": "step_2_item_master",
+      "name": "Tra Cứu Real-time Trên ItemMaster.php",
+      "enabled": true,
+      "description": "Tự động truy cập https://appdvn15.ap.averydennison.net/.../ItemMaster.php, điền mã GLID, chụp ảnh màn hình Form làm bằng chứng và trích xuất trực tiếp 11 trường dữ liệu chính xác 100% từ DOM."
+    },
+    {
+      "id": "step_3_search_drive",
+      "name": "Tìm Kiếm VN Spec Trên Google Drive",
+      "enabled": true,
+      "description": "Truy cập công cụ Artwork - Spec Search On Drive, tìm mã, chụp ảnh màn hình kết quả và chọn đúng file VN SPEC PDF (loại bỏ file AW)."
+    },
+    {
+      "id": "step_4_download_spec",
+      "name": "Tải File Spec PDF",
+      "enabled": true,
+      "description": "Tải file thông số kỹ thuật PDF vào thư mục downloads/ cục bộ."
+    },
+    {
+      "id": "step_5_parse_spec",
+      "name": "Bóc Tách Dữ Liệu Spec PDF",
+      "enabled": true,
+      "description": "Giải nén luồng ký tự Oracle Reports PDF và phân tích các trường kỹ thuật theo tọa độ."
+    },
+    {
+      "id": "step_6_compare",
+      "name": "Đối Soát 11 Trường Dữ Liệu",
+      "enabled": true,
+      "description": "So sánh giá trị thực giữa ItemMaster và Drive Spec. Báo động riêng đối với trường SỐ nếu có sai lệch."
+    },
+    {
+      "id": "step_7_reports",
+      "name": "Xuất Phiếu Đối Soát & Báo Cáo",
+      "enabled": true,
+      "description": "Sinh phiếu so sánh trực quan (PNG), lưu bằng chứng chụp màn hình 2 nguồn và cập nhật bảng báo cáo trên Web UI."
+    }
+  ],
+  "version": "2.0.0"
+}

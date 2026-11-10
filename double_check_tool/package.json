@@ -1,0 +1,17 @@
+{
+  "name": "agent-double-check-tool",
+  "version": "1.0.0",
+  "description": "Automated double check tool for Avery Dennison job items and specs",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "check": "node cli.js"
+  },
+  "dependencies": {
+    "puppeteer": "^23.0.0"
+  },
+  "keywords": ["double-check", "puppeteer", "qa", "avery-dennison"],
+  "author": "Antigravity Agent",
+  "license": "ISC"
+}
+
