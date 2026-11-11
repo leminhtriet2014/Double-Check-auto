@@ -37,9 +37,57 @@ class BrowserManager {
       });
       return this.browser;
     } catch (err) {
-      console.warn(`Browser not reachable on port ${this.port}.`);
-      throw new Error(`Chrome remote debugging port ${this.port} is not running. Please make sure Google Chrome is running with --remote-debugging-port=${this.port}`);
+      console.warn(`Browser not reachable on port ${this.port}. Attempting auto-start Chrome...`);
+      const started = await this.tryAutoStartChrome();
+      if (started) {
+        return this.browser;
+      }
+      throw new Error(`Chrome remote debugging port ${this.port} is not running.\n👉 Vui lòng nhấp đúp chạy file "1_Open_Chrome_Debug.bat" trên màn hình để mở Chrome trước khi chạy đối soát!`);
     }
+  }
+
+  async tryAutoStartChrome() {
+    const candidatePaths = [
+      'C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe',
+      'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe',
+      path.join(process.env.LOCALAPPDATA || '', 'Google\\Chrome\\Application\\chrome.exe')
+    ];
+    const chromeExe = candidatePaths.find(p => fs.existsSync(p));
+    if (!chromeExe) return false;
+
+    try {
+      const args = [
+        `--remote-debugging-port=${this.port}`,
+        `--user-data-dir=${USER_DATA_DIR}`,
+        '--remote-allow-origins=*',
+        '--no-first-run',
+        '--no-default-browser-check',
+        WEB_APP_URL
+      ];
+      const child = spawn(chromeExe, args, {
+        detached: true,
+        stdio: 'ignore'
+      });
+      child.unref();
+
+      // Poll for up to 6 seconds for Chrome to start and open debug port
+      for (let i = 0; i < 12; i++) {
+        await new Promise(r => setTimeout(r, 500));
+        try {
+          this.browser = await puppeteer.connect({
+            browserURL: `http://127.0.0.1:${this.port}`,
+            defaultViewport: null
+          });
+          if (this.browser) {
+            console.log(`Successfully auto-started Chrome and connected on port ${this.port}`);
+            return true;
+          }
+        } catch (e) {}
+      }
+    } catch (e) {
+      console.warn('Failed to auto-start Chrome:', e.message);
+    }
+    return false;
   }
 
   async getSearchFrame() {
