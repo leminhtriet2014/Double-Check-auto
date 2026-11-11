@@ -30,20 +30,23 @@ class BrowserManager {
   }
 
   async connect() {
-    try {
-      this.browser = await puppeteer.connect({
-        browserURL: `http://127.0.0.1:${this.port}`,
-        defaultViewport: null
-      });
-      return this.browser;
-    } catch (err) {
-      console.warn(`Browser not reachable on port ${this.port}. Attempting auto-start Chrome...`);
-      const started = await this.tryAutoStartChrome();
-      if (started) {
-        return this.browser;
-      }
-      throw new Error(`Chrome remote debugging port ${this.port} is not running.\n👉 Vui lòng nhấp đúp chạy file "1_Open_Chrome_Debug.bat" trên màn hình để mở Chrome trước khi chạy đối soát!`);
+    // Try connecting to localhost (IPv6/IPv4) first, then fallback to 127.0.0.1
+    for (const host of ['localhost', '127.0.0.1']) {
+      try {
+        this.browser = await puppeteer.connect({
+          browserURL: `http://${host}:${this.port}`,
+          defaultViewport: null
+        });
+        if (this.browser) return this.browser;
+      } catch (e) {}
     }
+
+    console.warn(`Browser not reachable on port ${this.port}. Attempting auto-start Chrome...`);
+    const started = await this.tryAutoStartChrome();
+    if (started) {
+      return this.browser;
+    }
+    throw new Error(`Chrome remote debugging port ${this.port} is not running.\n👉 Vui lòng nhấp đúp chạy file "1_Open_Chrome_Debug.bat" trên màn hình để mở Chrome trước khi chạy đối soát!`);
   }
 
   async tryAutoStartChrome() {
@@ -73,16 +76,18 @@ class BrowserManager {
       // Poll for up to 6 seconds for Chrome to start and open debug port
       for (let i = 0; i < 12; i++) {
         await new Promise(r => setTimeout(r, 500));
-        try {
-          this.browser = await puppeteer.connect({
-            browserURL: `http://127.0.0.1:${this.port}`,
-            defaultViewport: null
-          });
-          if (this.browser) {
-            console.log(`Successfully auto-started Chrome and connected on port ${this.port}`);
-            return true;
-          }
-        } catch (e) {}
+        for (const host of ['localhost', '127.0.0.1']) {
+          try {
+            this.browser = await puppeteer.connect({
+              browserURL: `http://${host}:${this.port}`,
+              defaultViewport: null
+            });
+            if (this.browser) {
+              console.log(`Successfully auto-started Chrome and connected on ${host}:${this.port}`);
+              return true;
+            }
+          } catch (e) {}
+        }
       }
     } catch (e) {
       console.warn('Failed to auto-start Chrome:', e.message);
