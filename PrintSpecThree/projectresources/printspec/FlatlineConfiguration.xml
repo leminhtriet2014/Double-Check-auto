@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FlatlineConfiguration>
+<!--  FlatlineConfigurationService -->
+	<ReferenceAuto>true</ReferenceAuto>
+	<ReferenceStrip>default</ReferenceStrip>	
+	<OffsetAuto>true</OffsetAuto>
+	<Offset>0</Offset>
+	<Converter>default</Converter>
+</FlatlineConfiguration>

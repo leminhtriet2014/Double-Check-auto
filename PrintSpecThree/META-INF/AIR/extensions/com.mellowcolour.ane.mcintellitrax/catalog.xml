@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding ="utf-8"?>
+<swc xmlns="http://www.adobe.com/flash/swccatalog/9">
+  <versions>
+    <swc version="1.2" />
+    <flex version="4.16.1" build="20171115" minimumSupportedVersion="3.0.0" />
+  </versions>
+  <features>
+    <feature-script-deps />
+    <feature-files />
+  </features>
+  <libraries>
+    <library path="library.swf">
+      <script name="_c0fabd087ed9dee737ce705c60d9f38f32b54448fead98c4d58d8819a62c708d_flash_display_Sprite" mod="1637077544574" signatureChecksum="2980150265" >
+        <def id="_c0fabd087ed9dee737ce705c60d9f38f32b54448fead98c4d58d8819a62c708d_flash_display_Sprite" /> 
+        <dep id="flash.system:Security" type="e" /> 
+        <dep id="flash.display:Sprite" type="i" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <script name="com/mellowcolour/ane/mcintellitrax/MCIntelliTraxANE" mod="1637077398300" signatureChecksum="672672527" >
+        <def id="com.mellowcolour.ane.mcintellitrax:MCIntelliTraxANE" /> 
+        <dep id="flash.events:StatusEvent" type="s" /> 
+        <dep id="flash.events:IEventDispatcher" type="s" /> 
+        <dep id="flash.external:ExtensionContext" type="s" /> 
+        <dep id="flash.events:StatusEvent" type="e" /> 
+        <dep id="flash.external:ExtensionContext" type="e" /> 
+        <dep id="flash.events:EventDispatcher" type="i" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <digests>
+        <digest type="SHA-256" signed="false" value="dd9f907e0843ccc28b0fbf35b684aa8abe2cf01ebec0ee61bcb0355a59060632"   />
+      </digests>
+    </library>
+  </libraries>
+  <files>
+  </files>
+</swc>

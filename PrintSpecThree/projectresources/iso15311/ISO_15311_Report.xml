@@ -1,0 +1,1125 @@
+<cxf:CxF xmlns:cxf="http://colorexchangeformat.com/CxF3-core" xmlns:mc="http://mellowcolour.com/CxF3-core">
+  <cxf:FileInformation>
+    <cxf:Creator>PrintSpec 4.4.43</cxf:Creator>
+    <cxf:CreationDate>2023-10-27T15:20:15-00:00</cxf:CreationDate>
+    <cxf:Description>Measure Page Data</cxf:Description>
+    <cxf:Comment>Job Wizard data</cxf:Comment>
+  </cxf:FileInformation>
+  <cxf:Resources>
+    <cxf:ObjectCollection>
+      <cxf:Object ObjectType="LabTarget" Name="Cyan" Id="Obj0">
+        <cxf:CreationDate>2023-10-27T15:20:15-00:00</cxf:CreationDate>
+        <cxf:ColorValues>
+          <cxf:ColorCIELab ColorSpecification="CS0">
+            <cxf:L>54.0000</cxf:L>
+            <cxf:A>-36.0000</cxf:A>
+            <cxf:B>-49.0000</cxf:B>
+          </cxf:ColorCIELab>
+        </cxf:ColorValues>
+        <cxf:DeviceColorValues>
+          <cxf:ColorCMYK ColorSpecification="CS0">
+            <cxf:Cyan>100</cxf:Cyan>
+            <cxf:Magenta>0</cxf:Magenta>
+            <cxf:Yellow>0</cxf:Yellow>
+            <cxf:Black>0</cxf:Black>
+          </cxf:ColorCMYK>
+        </cxf:DeviceColorValues>
+      </cxf:Object>
+      <cxf:Object ObjectType="LabTarget" Name="Magenta" Id="Obj1">
+        <cxf:CreationDate>2023-10-27T15:20:15-00:00</cxf:CreationDate>
+        <cxf:ColorValues>
+          <cxf:ColorCIELab ColorSpecification="CS0">
+            <cxf:L>46.0000</cxf:L>
+            <cxf:A>72.0000</cxf:A>
+            <cxf:B>-5.0000</cxf:B>
+          </cxf:ColorCIELab>
+        </cxf:ColorValues>
+        <cxf:DeviceColorValues>
+          <cxf:ColorCMYK ColorSpecification="CS0">
+            <cxf:Cyan>0</cxf:Cyan>
+            <cxf:Magenta>100</cxf:Magenta>
+            <cxf:Yellow>0</cxf:Yellow>
+            <cxf:Black>0</cxf:Black>
+          </cxf:ColorCMYK>
+        </cxf:DeviceColorValues>
+      </cxf:Object>
+      <cxf:Object ObjectType="LabTarget" Name="Yellow" Id="Obj2">
+        <cxf:CreationDate>2023-10-27T15:20:15-00:00</cxf:CreationDate>
+        <cxf:ColorValues>
+          <cxf:ColorCIELab ColorSpecification="CS0">
+            <cxf:L>87.0000</cxf:L>
+            <cxf:A>-6.0000</cxf:A>
+            <cxf:B>90.0000</cxf:B>
+          </cxf:ColorCIELab>
+        </cxf:ColorValues>
+        <cxf:DeviceColorValues>
+          <cxf:ColorCMYK ColorSpecification="CS0">
+            <cxf:Cyan>0</cxf:Cyan>
+            <cxf:Magenta>0</cxf:Magenta>
+            <cxf:Yellow>100</cxf:Yellow>
+            <cxf:Black>0</cxf:Black>
+          </cxf:ColorCMYK>
+        </cxf:DeviceColorValues>
+      </cxf:Object>
+      <cxf:Object ObjectType="LabTarget" Name="Black" Id="Obj3">
+        <cxf:CreationDate>2023-10-27T15:20:15-00:00</cxf:CreationDate>
+        <cxf:ColorValues>
+          <cxf:ColorCIELab ColorSpecification="CS0">
+            <cxf:L>16.0000</cxf:L>
+            <cxf:A>0.0000</cxf:A>
+            <cxf:B>0.0000</cxf:B>
+          </cxf:ColorCIELab>
+        </cxf:ColorValues>
+        <cxf:DeviceColorValues>
+          <cxf:ColorCMYK ColorSpecification="CS0">
+            <cxf:Cyan>0</cxf:Cyan>
+            <cxf:Magenta>0</cxf:Magenta>
+            <cxf:Yellow>0</cxf:Yellow>
+            <cxf:Black>100</cxf:Black>
+          </cxf:ColorCMYK>
+        </cxf:DeviceColorValues>
+      </cxf:Object>
+      <cxf:Object ObjectType="LabTarget" Name="Red" Id="Obj4">
+        <cxf:CreationDate>2023-10-27T15:20:15-00:00</cxf:CreationDate>
+        <cxf:ColorValues>
+          <cxf:ColorCIELab ColorSpecification="CS0">
+            <cxf:L>46.0000</cxf:L>
+            <cxf:A>67.0000</cxf:A>
+            <cxf:B>47.0000</cxf:B>
+          </cxf:ColorCIELab>
+        </cxf:ColorValues>
+        <cxf:DeviceColorValues>
+          <cxf:ColorCMYK ColorSpecification="CS0">
+            <cxf:Cyan>0</cxf:Cyan>
+            <cxf:Magenta>100</cxf:Magenta>
+            <cxf:Yellow>100</cxf:Yellow>
+            <cxf:Black>0</cxf:Black>
+          </cxf:ColorCMYK>
+        </cxf:DeviceColorValues>
+      </cxf:Object>
+      <cxf:Object ObjectType="LabTarget" Name="Green" Id="Obj5">
+        <cxf:CreationDate>2023-10-27T15:20:15-00:00</cxf:CreationDate>
+        <cxf:ColorValues>
+          <cxf:ColorCIELab ColorSpecification="CS0">
+            <cxf:L>49.0000</cxf:L>
+            <cxf:A>-66.0000</cxf:A>
+            <cxf:B>24.0000</cxf:B>
+          </cxf:ColorCIELab>
+        </cxf:ColorValues>
+        <cxf:DeviceColorValues>
+          <cxf:ColorCMYK ColorSpecification="CS0">
+            <cxf:Cyan>100</cxf:Cyan>
+            <cxf:Magenta>0</cxf:Magenta>
+            <cxf:Yellow>100</cxf:Yellow>
+            <cxf:Black>0</cxf:Black>
+          </cxf:ColorCMYK>
+        </cxf:DeviceColorValues>
+      </cxf:Object>
+      <cxf:Object ObjectType="LabTarget" Name="Blue" Id="Obj6">
+        <cxf:CreationDate>2023-10-27T15:20:15-00:00</cxf:CreationDate>
+        <cxf:ColorValues>
+          <cxf:ColorCIELab ColorSpecification="CS0">
+            <cxf:L>24.0000</cxf:L>
+            <cxf:A>16.0000</cxf:A>
+            <cxf:B>-45.0000</cxf:B>
+          </cxf:ColorCIELab>
+        </cxf:ColorValues>
+        <cxf:DeviceColorValues>
+          <cxf:ColorCMYK ColorSpecification="CS0">
+            <cxf:Cyan>100</cxf:Cyan>
+            <cxf:Magenta>100</cxf:Magenta>
+            <cxf:Yellow>0</cxf:Yellow>
+            <cxf:Black>0</cxf:Black>
+          </cxf:ColorCMYK>
+        </cxf:DeviceColorValues>
+      </cxf:Object>
+      <cxf:Object ObjectType="LabTarget" Name="CMY" Id="Obj7">
+        <cxf:CreationDate>2023-10-27T15:20:15-00:00</cxf:CreationDate>
+        <cxf:ColorValues>
+          <cxf:ColorCIELab ColorSpecification="CS0">
+            <cxf:L>22.0000</cxf:L>
+            <cxf:A>0.0000</cxf:A>
+            <cxf:B>0.0000</cxf:B>
+          </cxf:ColorCIELab>
+        </cxf:ColorValues>
+        <cxf:DeviceColorValues>
+          <cxf:ColorCMYK ColorSpecification="CS0">
+            <cxf:Cyan>100</cxf:Cyan>
+            <cxf:Magenta>100</cxf:Magenta>
+            <cxf:Yellow>100</cxf:Yellow>
+            <cxf:Black>0</cxf:Black>
+          </cxf:ColorCMYK>
+        </cxf:DeviceColorValues>
+      </cxf:Object>
+      <cxf:Object ObjectType="LabTarget" Name="White" Id="Obj8">
+        <cxf:CreationDate>2023-10-27T15:20:15-00:00</cxf:CreationDate>
+        <cxf:ColorValues>
+          <cxf:ColorCIELab ColorSpecification="CS0">
+            <cxf:L>92.0000</cxf:L>
+            <cxf:A>0.0000</cxf:A>
+            <cxf:B>-3.0000</cxf:B>
+          </cxf:ColorCIELab>
+        </cxf:ColorValues>
+        <cxf:DeviceColorValues>
+          <cxf:ColorCMYK ColorSpecification="CS0">
+            <cxf:Cyan>0</cxf:Cyan>
+            <cxf:Magenta>0</cxf:Magenta>
+            <cxf:Yellow>0</cxf:Yellow>
+            <cxf:Black>0</cxf:Black>
+          </cxf:ColorCMYK>
+        </cxf:DeviceColorValues>
+      </cxf:Object>
+      <cxf:Object ObjectType="LabTarget" Name="HousePaper" Id="Obj9">
+        <cxf:CreationDate>2023-10-27T15:20:15-00:00</cxf:CreationDate>
+        <cxf:ColorValues>
+          <cxf:ColorCIELab ColorSpecification="CS0">
+            <cxf:L>92.0000</cxf:L>
+            <cxf:A>0.0000</cxf:A>
+            <cxf:B>-3.0000</cxf:B>
+          </cxf:ColorCIELab>
+        </cxf:ColorValues>
+        <cxf:DeviceColorValues>
+          <cxf:ColorCMYK ColorSpecification="CS0">
+            <cxf:Cyan>0</cxf:Cyan>
+            <cxf:Magenta>0</cxf:Magenta>
+            <cxf:Yellow>0</cxf:Yellow>
+            <cxf:Black>0</cxf:Black>
+          </cxf:ColorCMYK>
+        </cxf:DeviceColorValues>
+      </cxf:Object>
+      <cxf:Object ObjectType="CMYKTarget" Name="Violet" Id="Obj10">
+        <cxf:CreationDate>2023-10-27T15:20:15-00:00</cxf:CreationDate>
+        <cxf:DeviceColorValues>
+          <cxf:ColorCMYK ColorSpecification="CS0">
+            <cxf:Cyan>100</cxf:Cyan>
+            <cxf:Magenta>100</cxf:Magenta>
+            <cxf:Yellow>0</cxf:Yellow>
+            <cxf:Black>0</cxf:Black>
+          </cxf:ColorCMYK>
+        </cxf:DeviceColorValues>
+      </cxf:Object>
+      <cxf:Object ObjectType="CMYKTarget" Name="Cyan 25" Id="Obj11">
+        <cxf:CreationDate>2023-10-27T15:20:15-00:00</cxf:CreationDate>
+        <cxf:DeviceColorValues>
+          <cxf:ColorCMYK ColorSpecification="CS0">
+            <cxf:Cyan>25</cxf:Cyan>
+            <cxf:Magenta>0</cxf:Magenta>
+            <cxf:Yellow>0</cxf:Yellow>
+            <cxf:Black>0</cxf:Black>
+          </cxf:ColorCMYK>
+        </cxf:DeviceColorValues>
+      </cxf:Object>
+      <cxf:Object ObjectType="CMYKTarget" Name="Magenta 75" Id="Obj12">
+        <cxf:CreationDate>2023-10-27T15:20:15-00:00</cxf:CreationDate>
+        <cxf:DeviceColorValues>
+          <cxf:ColorCMYK ColorSpecification="CS0">
+            <cxf:Cyan>0</cxf:Cyan>
+            <cxf:Magenta>75</cxf:Magenta>
+            <cxf:Yellow>0</cxf:Yellow>
+            <cxf:Black>0</cxf:Black>
+          </cxf:ColorCMYK>
+        </cxf:DeviceColorValues>
+      </cxf:Object>
+      <cxf:Object ObjectType="CMYKTarget" Name="Cyan 50" Id="Obj13">
+        <cxf:CreationDate>2023-10-27T15:20:15-00:00</cxf:CreationDate>
+        <cxf:DeviceColorValues>
+          <cxf:ColorCMYK ColorSpecification="CS0">
+            <cxf:Cyan>50</cxf:Cyan>
+            <cxf:Magenta>0</cxf:Magenta>
+            <cxf:Yellow>0</cxf:Yellow>
+            <cxf:Black>0</cxf:Black>
+          </cxf:ColorCMYK>
+        </cxf:DeviceColorValues>
+      </cxf:Object>
+      <cxf:Object ObjectType="CMYKTarget" Name="Magenta 100" Id="Obj14">
+        <cxf:CreationDate>2023-10-27T15:20:15-00:00</cxf:CreationDate>
+        <cxf:DeviceColorValues>
+          <cxf:ColorCMYK ColorSpecification="CS0">
+            <cxf:Cyan>0</cxf:Cyan>
+            <cxf:Magenta>100</cxf:Magenta>
+            <cxf:Yellow>0</cxf:Yellow>
+            <cxf:Black>0</cxf:Black>
+          </cxf:ColorCMYK>
+        </cxf:DeviceColorValues>
+      </cxf:Object>
+      <cxf:Object ObjectType="CMYKTarget" Name="Cyan 100" Id="Obj15">
+        <cxf:CreationDate>2023-10-27T15:20:15-00:00</cxf:CreationDate>
+        <cxf:DeviceColorValues>
+          <cxf:ColorCMYK ColorSpecification="CS0">
+            <cxf:Cyan>100</cxf:Cyan>
+            <cxf:Magenta>0</cxf:Magenta>
+            <cxf:Yellow>0</cxf:Yellow>
+            <cxf:Black>0</cxf:Black>
+          </cxf:ColorCMYK>
+        </cxf:DeviceColorValues>
+      </cxf:Object>
+      <cxf:Object ObjectType="CMYKTarget" Name="Magenta 50" Id="Obj16">
+        <cxf:CreationDate>2023-10-27T15:20:15-00:00</cxf:CreationDate>
+        <cxf:DeviceColorValues>
+          <cxf:ColorCMYK ColorSpecification="CS0">
+            <cxf:Cyan>0</cxf:Cyan>
+            <cxf:Magenta>50</cxf:Magenta>
+            <cxf:Yellow>0</cxf:Yellow>
+            <cxf:Black>0</cxf:Black>
+          </cxf:ColorCMYK>
+        </cxf:DeviceColorValues>
+      </cxf:Object>
+      <cxf:Object ObjectType="CMYKTarget" Name="Cyan 75" Id="Obj17">
+        <cxf:CreationDate>2023-10-27T15:20:15-00:00</cxf:CreationDate>
+        <cxf:DeviceColorValues>
+          <cxf:ColorCMYK ColorSpecification="CS0">
+            <cxf:Cyan>75</cxf:Cyan>
+            <cxf:Magenta>0</cxf:Magenta>
+            <cxf:Yellow>0</cxf:Yellow>
+            <cxf:Black>0</cxf:Black>
+          </cxf:ColorCMYK>
+        </cxf:DeviceColorValues>
+      </cxf:Object>
+      <cxf:Object ObjectType="CMYKTarget" Name="Magenta 25" Id="Obj18">
+        <cxf:CreationDate>2023-10-27T15:20:15-00:00</cxf:CreationDate>
+        <cxf:DeviceColorValues>
+          <cxf:ColorCMYK ColorSpecification="CS0">
+            <cxf:Cyan>0</cxf:Cyan>
+            <cxf:Magenta>25</cxf:Magenta>
+            <cxf:Yellow>0</cxf:Yellow>
+            <cxf:Black>0</cxf:Black>
+          </cxf:ColorCMYK>
+        </cxf:DeviceColorValues>
+      </cxf:Object>
+      <cxf:Object ObjectType="CMYKTarget" Name="Dark grey" Id="Obj19">
+        <cxf:CreationDate>2023-10-27T15:20:15-00:00</cxf:CreationDate>
+        <cxf:DeviceColorValues>
+          <cxf:ColorCMYK ColorSpecification="CS0">
+            <cxf:Cyan>75</cxf:Cyan>
+            <cxf:Magenta>64</cxf:Magenta>
+            <cxf:Yellow>64</cxf:Yellow>
+            <cxf:Black>0</cxf:Black>
+          </cxf:ColorCMYK>
+        </cxf:DeviceColorValues>
+      </cxf:Object>
+      <cxf:Object ObjectType="CMYKTarget" Name="White" Id="Obj20">
+        <cxf:CreationDate>2023-10-27T15:20:15-00:00</cxf:CreationDate>
+        <cxf:DeviceColorValues>
+          <cxf:ColorCMYK ColorSpecification="CS0">
+            <cxf:Cyan>0</cxf:Cyan>
+            <cxf:Magenta>0</cxf:Magenta>
+            <cxf:Yellow>0</cxf:Yellow>
+            <cxf:Black>0</cxf:Black>
+          </cxf:ColorCMYK>
+        </cxf:DeviceColorValues>
+      </cxf:Object>
+      <cxf:Object ObjectType="CMYKTarget" Name="CMY Black" Id="Obj21">
+        <cxf:CreationDate>2023-10-27T15:20:15-00:00</cxf:CreationDate>
+        <cxf:DeviceColorValues>
+          <cxf:ColorCMYK ColorSpecification="CS0">
+            <cxf:Cyan>100</cxf:Cyan>
+            <cxf:Magenta>100</cxf:Magenta>
+            <cxf:Yellow>100</cxf:Yellow>
+            <cxf:Black>0</cxf:Black>
+          </cxf:ColorCMYK>
+        </cxf:DeviceColorValues>
+      </cxf:Object>
+      <cxf:Object ObjectType="CMYKTarget" Name="Light grey" Id="Obj22">
+        <cxf:CreationDate>2023-10-27T15:20:15-00:00</cxf:CreationDate>
+        <cxf:DeviceColorValues>
+          <cxf:ColorCMYK ColorSpecification="CS0">
+            <cxf:Cyan>25</cxf:Cyan>
+            <cxf:Magenta>19</cxf:Magenta>
+            <cxf:Yellow>19</cxf:Yellow>
+            <cxf:Black>0</cxf:Black>
+          </cxf:ColorCMYK>
+        </cxf:DeviceColorValues>
+      </cxf:Object>
+      <cxf:Object ObjectType="CMYKTarget" Name="Red" Id="Obj23">
+        <cxf:CreationDate>2023-10-27T15:20:15-00:00</cxf:CreationDate>
+        <cxf:DeviceColorValues>
+          <cxf:ColorCMYK ColorSpecification="CS0">
+            <cxf:Cyan>0</cxf:Cyan>
+            <cxf:Magenta>100</cxf:Magenta>
+            <cxf:Yellow>100</cxf:Yellow>
+            <cxf:Black>0</cxf:Black>
+          </cxf:ColorCMYK>
+        </cxf:DeviceColorValues>
+      </cxf:Object>
+      <cxf:Object ObjectType="CMYKTarget" Name="Mid grey" Id="Obj24">
+        <cxf:CreationDate>2023-10-27T15:20:15-00:00</cxf:CreationDate>
+        <cxf:DeviceColorValues>
+          <cxf:ColorCMYK ColorSpecification="CS0">
+            <cxf:Cyan>50</cxf:Cyan>
+            <cxf:Magenta>40</cxf:Magenta>
+            <cxf:Yellow>40</cxf:Yellow>
+            <cxf:Black>0</cxf:Black>
+          </cxf:ColorCMYK>
+        </cxf:DeviceColorValues>
+      </cxf:Object>
+      <cxf:Object ObjectType="CMYKTarget" Name="Yellow 25" Id="Obj25">
+        <cxf:CreationDate>2023-10-27T15:20:15-00:00</cxf:CreationDate>
+        <cxf:DeviceColorValues>
+          <cxf:ColorCMYK ColorSpecification="CS0">
+            <cxf:Cyan>0</cxf:Cyan>
+            <cxf:Magenta>0</cxf:Magenta>
+            <cxf:Yellow>25</cxf:Yellow>
+            <cxf:Black>0</cxf:Black>
+          </cxf:ColorCMYK>
+        </cxf:DeviceColorValues>
+      </cxf:Object>
+      <cxf:Object ObjectType="CMYKTarget" Name="Black 75" Id="Obj26">
+        <cxf:CreationDate>2023-10-27T15:20:15-00:00</cxf:CreationDate>
+        <cxf:DeviceColorValues>
+          <cxf:ColorCMYK ColorSpecification="CS0">
+            <cxf:Cyan>0</cxf:Cyan>
+            <cxf:Magenta>0</cxf:Magenta>
+            <cxf:Yellow>0</cxf:Yellow>
+            <cxf:Black>75</cxf:Black>
+          </cxf:ColorCMYK>
+        </cxf:DeviceColorValues>
+      </cxf:Object>
+      <cxf:Object ObjectType="CMYKTarget" Name="Yellow 50" Id="Obj27">
+        <cxf:CreationDate>2023-10-27T15:20:15-00:00</cxf:CreationDate>
+        <cxf:DeviceColorValues>
+          <cxf:ColorCMYK ColorSpecification="CS0">
+            <cxf:Cyan>0</cxf:Cyan>
+            <cxf:Magenta>0</cxf:Magenta>
+            <cxf:Yellow>50</cxf:Yellow>
+            <cxf:Black>0</cxf:Black>
+          </cxf:ColorCMYK>
+        </cxf:DeviceColorValues>
+      </cxf:Object>
+      <cxf:Object ObjectType="CMYKTarget" Name="Black 100" Id="Obj28">
+        <cxf:CreationDate>2023-10-27T15:20:15-00:00</cxf:CreationDate>
+        <cxf:DeviceColorValues>
+          <cxf:ColorCMYK ColorSpecification="CS0">
+            <cxf:Cyan>0</cxf:Cyan>
+            <cxf:Magenta>0</cxf:Magenta>
+            <cxf:Yellow>0</cxf:Yellow>
+            <cxf:Black>100</cxf:Black>
+          </cxf:ColorCMYK>
+        </cxf:DeviceColorValues>
+      </cxf:Object>
+      <cxf:Object ObjectType="CMYKTarget" Name="Yellow 100" Id="Obj29">
+        <cxf:CreationDate>2023-10-27T15:20:15-00:00</cxf:CreationDate>
+        <cxf:DeviceColorValues>
+          <cxf:ColorCMYK ColorSpecification="CS0">
+            <cxf:Cyan>0</cxf:Cyan>
+            <cxf:Magenta>0</cxf:Magenta>
+            <cxf:Yellow>100</cxf:Yellow>
+            <cxf:Black>0</cxf:Black>
+          </cxf:ColorCMYK>
+        </cxf:DeviceColorValues>
+      </cxf:Object>
+      <cxf:Object ObjectType="CMYKTarget" Name="Black 50" Id="Obj30">
+        <cxf:CreationDate>2023-10-27T15:20:15-00:00</cxf:CreationDate>
+        <cxf:DeviceColorValues>
+          <cxf:ColorCMYK ColorSpecification="CS0">
+            <cxf:Cyan>0</cxf:Cyan>
+            <cxf:Magenta>0</cxf:Magenta>
+            <cxf:Yellow>0</cxf:Yellow>
+            <cxf:Black>50</cxf:Black>
+          </cxf:ColorCMYK>
+        </cxf:DeviceColorValues>
+      </cxf:Object>
+      <cxf:Object ObjectType="CMYKTarget" Name="Yellow 75" Id="Obj31">
+        <cxf:CreationDate>2023-10-27T15:20:15-00:00</cxf:CreationDate>
+        <cxf:DeviceColorValues>
+          <cxf:ColorCMYK ColorSpecification="CS0">
+            <cxf:Cyan>0</cxf:Cyan>
+            <cxf:Magenta>0</cxf:Magenta>
+            <cxf:Yellow>75</cxf:Yellow>
+            <cxf:Black>0</cxf:Black>
+          </cxf:ColorCMYK>
+        </cxf:DeviceColorValues>
+      </cxf:Object>
+      <cxf:Object ObjectType="CMYKTarget" Name="Black 25" Id="Obj32">
+        <cxf:CreationDate>2023-10-27T15:20:15-00:00</cxf:CreationDate>
+        <cxf:DeviceColorValues>
+          <cxf:ColorCMYK ColorSpecification="CS0">
+            <cxf:Cyan>0</cxf:Cyan>
+            <cxf:Magenta>0</cxf:Magenta>
+            <cxf:Yellow>0</cxf:Yellow>
+            <cxf:Black>25</cxf:Black>
+          </cxf:ColorCMYK>
+        </cxf:DeviceColorValues>
+      </cxf:Object>
+      <cxf:Object ObjectType="CMYKTarget" Name="Green" Id="Obj33">
+        <cxf:CreationDate>2023-10-27T15:20:15-00:00</cxf:CreationDate>
+        <cxf:DeviceColorValues>
+          <cxf:ColorCMYK ColorSpecification="CS0">
+            <cxf:Cyan>100</cxf:Cyan>
+            <cxf:Magenta>0</cxf:Magenta>
+            <cxf:Yellow>100</cxf:Yellow>
+            <cxf:Black>0</cxf:Black>
+          </cxf:ColorCMYK>
+        </cxf:DeviceColorValues>
+      </cxf:Object>
+    </cxf:ObjectCollection>
+    <cxf:ColorSpecificationCollection>
+      <cxf:ColorSpecification Id="CS0">
+        <cxf:TristimulusSpec>
+          <cxf:Illuminant X="0.96422" Y="1" Z="0.82521">D50</cxf:Illuminant>
+          <cxf:Observer>2_Degree</cxf:Observer>
+          <cxf:Method>unknown</cxf:Method>
+        </cxf:TristimulusSpec>
+        <cxf:MeasurementSpec>
+          <cxf:MeasurementType>Spectrum_Reflectance</cxf:MeasurementType>
+          <cxf:GeometryChoice>
+            <cxf:SingleAngle>
+              <cxf:SingleAngleConfiguration>Uniplanar</cxf:SingleAngleConfiguration>
+              <cxf:IlluminationAngle>0</cxf:IlluminationAngle>
+              <cxf:MeasurementAngle>0</cxf:MeasurementAngle>
+            </cxf:SingleAngle>
+          </cxf:GeometryChoice>
+          <cxf:Backing>Black</cxf:Backing>
+          <cxf:Device>
+            <cxf:DeviceIllumination>M0_Incandescent</cxf:DeviceIllumination>
+            <cxf:DevicePolarization>false</cxf:DevicePolarization>
+          </cxf:Device>
+        </cxf:MeasurementSpec>
+      </cxf:ColorSpecification>
+    </cxf:ColorSpecificationCollection>
+    <cxf:ProfileCollection>
+      <cxf:Profile Id="Profile0" Direction="Profile_Input">
+        <cxf:ProfileChoice>
+          <cxf:ProfileFile ProfileName="ISOcoated_v2_eci"/>
+          <cxf:ProfileURI>ISOcoated_v2_eci.icc</cxf:ProfileURI>
+        </cxf:ProfileChoice>
+      </cxf:Profile>
+    </cxf:ProfileCollection>
+  </cxf:Resources>
+  <cxf:CustomResources>
+    <mc:CustomResource Class="GlobalMetaData" Id="0" Type="GlobalMetaData">
+      <mc:GlobalMetaData>
+        <mc:Label>Measure Page Data</mc:Label>
+        <mc:Description>Job Wizard data</mc:Description>
+        <mc:ContentType>JobWizardData</mc:ContentType>
+        <mc:DateCreated>Fri Oct 27 15:20:15 GMT+0100 2023</mc:DateCreated>
+        <mc:OperatingSystem>Windows 11</mc:OperatingSystem>
+        <mc:ApplicationName>PrintSpec</mc:ApplicationName>
+        <mc:ApplicationVersion>4.4.43</mc:ApplicationVersion>
+        <mc:SpectralDataCheckSum version="1.0">e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855</mc:SpectralDataCheckSum>
+        <mc:Language>en_gb</mc:Language>
+      </mc:GlobalMetaData>
+    </mc:CustomResource>
+    <mc:CustomResource Class="CustomScoreSet" Id="1" Type="InkSpecCustomScoreSet">
+      <mc:SpotColourCustomScoreSet Default="true" DefaultScoreId="0">
+        <mc:ID>Standard Score</mc:ID>
+        <mc:Pass>80</mc:Pass>
+        <mc:Fail>65</mc:Fail>
+        <mc:ScoringSystemList>
+          <mc:ScoringSystem Default="true">
+            <mc:DeltaETransform TransformType="MultiStep" DeltaEType="DeltaE" Weight="10">
+              <mc:MultiStepTransform>
+                <mc:XValues>0.00 5.00 12.00</mc:XValues>
+                <mc:YValues>100.00 0.00 0.00</mc:YValues>
+              </mc:MultiStepTransform>
+            </mc:DeltaETransform>
+            <mc:DeltaETransform TransformType="MultiStep" DeltaEType="RootMeanSquareTVI" Weight="10">
+              <mc:MultiStepTransform>
+                <mc:XValues>0.00 5.80 12.00</mc:XValues>
+                <mc:YValues>100.00 0.00 0.00</mc:YValues>
+              </mc:MultiStepTransform>
+            </mc:DeltaETransform>
+          </mc:ScoringSystem>
+        </mc:ScoringSystemList>
+      </mc:SpotColourCustomScoreSet>
+    </mc:CustomResource>
+    <mc:CustomResource Class="OverallScore" Id="2" Type="OverallScore">
+      <mc:OverallScore Default="true" DefaultScoreId="0">
+        <mc:ID>Standard Score</mc:ID>
+        <mc:Pass>80</mc:Pass>
+        <mc:Fail>65</mc:Fail>
+        <mc:PriPercentage>50</mc:PriPercentage>
+        <mc:InkPercentage>50</mc:InkPercentage>
+        <mc:FlaPercentage>0</mc:FlaPercentage>
+        <mc:IsoPercentage>0</mc:IsoPercentage>
+        <mc:FlePercentage>0</mc:FlePercentage>
+        <mc:ProPercentage>0</mc:ProPercentage>
+        <mc:AttPercentage>0</mc:AttPercentage>
+        <mc:UseProductionOnly>true</mc:UseProductionOnly>
+        <mc:JobScoreType>0</mc:JobScoreType>
+      </mc:OverallScore>
+    </mc:CustomResource>
+    <mc:CustomResource Class="MeasurePageModelMetaData" Id="3" Type="MeasurePageModelMetaData">
+      <mc:MeasurePageModelMetaData>
+        <mc:PreferredReportType>PrintSpec</mc:PreferredReportType>
+        <mc:MeasurementMode>MeasureModeFlatline</mc:MeasurementMode>
+        <mc:NextMode>Production</mc:NextMode>
+        <mc:NextSide>Front</mc:NextSide>
+        <mc:NextScanDirection>Front</mc:NextScanDirection>
+        <mc:PatchSize>5</mc:PatchSize>
+        <mc:PatchHeight>5</mc:PatchHeight>
+        <mc:NextPageSelection>SHOW_SUMMARY</mc:NextPageSelection>
+        <mc:GenerateSelection>SHOW_MANUAL_GENERATE</mc:GenerateSelection>
+        <mc:AutoUploadShortcut/>
+        <mc:AutoFixOn>false</mc:AutoFixOn>
+      </mc:MeasurePageModelMetaData>
+    </mc:CustomResource>
+    <mc:CustomResource Class="MeasurementUploadData" Id="4" Type="MeasurementUploadData">
+      <mc:MeasurementUploadData>
+        <mc:JobID/>
+      </mc:MeasurementUploadData>
+    </mc:CustomResource>
+    <mc:CustomResource Class="ProofSpecTolerances" Id="5" Type="ProofSpecTolerances">
+      <mc:ProofSpecTolerances ID="ISO-12647-7(2007)" Custom="false">
+        <mc:ProofSpecToleranceTarget Ref="Cyan" DeltaE="5" DeltaH="2.5"/>
+        <mc:ProofSpecToleranceTarget Ref="Magenta" DeltaE="5" DeltaH="2.5"/>
+        <mc:ProofSpecToleranceTarget Ref="Yellow" DeltaE="5" DeltaH="2.5"/>
+        <mc:ProofSpecToleranceTarget Ref="Black" DeltaE="5" DeltaH="2.5"/>
+        <mc:ProofSpecToleranceTarget Ref="Red"/>
+        <mc:ProofSpecToleranceTarget Ref="Green"/>
+        <mc:ProofSpecToleranceTarget Ref="Violet"/>
+        <mc:ProofSpecToleranceTarget Ref="Substrate" DeltaE="3"/>
+        <mc:ProofSpecToleranceTarget Ref="GreyBalanceAverage" DeltaH="1.5"/>
+        <mc:ProofSpecToleranceTarget Ref="GreyBalanceMaximum"/>
+        <mc:ProofSpecToleranceTarget Ref="Average" DeltaE="3"/>
+        <mc:ProofSpecToleranceTarget Ref="Maximum" DeltaE="6"/>
+        <mc:DeltaEType>CIE_76</mc:DeltaEType>
+      </mc:ProofSpecTolerances>
+    </mc:CustomResource>
+    <mc:CustomResource Class="ProfileReference" Id="6" Type="ProfileReference">
+      <mc:ProfileReference ProfileSpecificationRef="Profile0">
+        <mc:InternalID>ISOcoated_v2_eci</mc:InternalID>
+        <mc:InternalName>ISO Coated v2 (ECI)</mc:InternalName>
+        <mc:FileName>ISOcoated_v2_eci.icc</mc:FileName>
+        <mc:Checksum>128dc02f7246cc3807af0323695379f64151a8f27a587736acc59f8b6ce894b8</mc:Checksum>
+        <mc:Custom>false</mc:Custom>
+      </mc:ProfileReference>
+    </mc:CustomResource>
+    <mc:CustomResource Class="UniversalTargetModel" Id="7" Type="UniversalTargetModel">
+      <mc:UniversalTargetModel>
+        <mc:TargetType>Profile</mc:TargetType>
+        <mc:Profile ProfileReference="6"/>
+      </mc:UniversalTargetModel>
+    </mc:CustomResource>
+    <mc:CustomResource Class="UniversalTargetModel" Id="8" Type="UniversalTargetModel">
+      <mc:UniversalTargetModel>
+        <mc:TargetType>Profile</mc:TargetType>
+        <mc:Profile ProfileReference="6"/>
+      </mc:UniversalTargetModel>
+    </mc:CustomResource>
+    <mc:CustomResource Class="ISO15311PQMTolerances" Id="9" Type="PrintQualityTolerances">
+      <mc:ISO15311PQMTolerances>
+        <mc:Label>Default tolerances</mc:Label>
+        <mc:Custom>false</mc:Custom>
+        <mc:PQMToleranceSet>
+          <mc:PQMTolerance>
+            <mc:DefectType MetricType="Subjective" ID="UPC" Label="UPC"/>
+            <mc:Target>0</mc:Target>
+            <mc:Severity>Moderate</mc:Severity>
+            <mc:PQMSeverityMap VeryLight="10" Light="8" Moderate="5" Severe="2" VerySevere="0"/>
+          </mc:PQMTolerance>
+          <mc:PQMTolerance>
+            <mc:DefectType MetricType="Subjective" ID="OverallVisualAppearance" Label="Overall visual appearance"/>
+            <mc:Target>0</mc:Target>
+            <mc:Severity>Moderate</mc:Severity>
+            <mc:PQMSeverityMap VeryLight="10" Light="8" Moderate="5" Severe="2" VerySevere="0"/>
+          </mc:PQMTolerance>
+          <mc:PQMTolerance>
+            <mc:DefectType MetricType="Subjective" ID="RegistrationHorizontal" Label="Registration horizontal"/>
+            <mc:Target>0</mc:Target>
+            <mc:Severity>Moderate</mc:Severity>
+            <mc:PQMSeverityMap VeryLight="10" Light="8" Moderate="5" Severe="2" VerySevere="0"/>
+          </mc:PQMTolerance>
+          <mc:PQMTolerance>
+            <mc:DefectType MetricType="Subjective" ID="RegistrationVertical" Label="Registration vertical"/>
+            <mc:Target>0</mc:Target>
+            <mc:Severity>Moderate</mc:Severity>
+            <mc:PQMSeverityMap VeryLight="10" Light="8" Moderate="5" Severe="2" VerySevere="0"/>
+          </mc:PQMTolerance>
+          <mc:PQMTolerance>
+            <mc:DefectType MetricType="Subjective" ID="AbrasionResistance" Label="Abrasion resistance"/>
+            <mc:Target>0</mc:Target>
+            <mc:Severity>Moderate</mc:Severity>
+            <mc:PQMSeverityMap VeryLight="10" Light="8" Moderate="5" Severe="2" VerySevere="0"/>
+          </mc:PQMTolerance>
+          <mc:PQMTolerance>
+            <mc:DefectType MetricType="Subjective" ID="Artefacts" Label="Artefacts"/>
+            <mc:Target>0</mc:Target>
+            <mc:Severity>Moderate</mc:Severity>
+            <mc:PQMSeverityMap VeryLight="10" Light="8" Moderate="5" Severe="2" VerySevere="0"/>
+          </mc:PQMTolerance>
+          <mc:PQMTolerance>
+            <mc:DefectType MetricType="Subjective" ID="Banding" Label="Banding"/>
+            <mc:Target>0</mc:Target>
+            <mc:Severity>Moderate</mc:Severity>
+            <mc:PQMSeverityMap VeryLight="10" Light="8" Moderate="5" Severe="2" VerySevere="0"/>
+          </mc:PQMTolerance>
+          <mc:PQMTolerance>
+            <mc:DefectType MetricType="Subjective" ID="Bounce" Label="Bounce"/>
+            <mc:Target>0</mc:Target>
+            <mc:Severity>Moderate</mc:Severity>
+            <mc:PQMSeverityMap VeryLight="10" Light="8" Moderate="5" Severe="2" VerySevere="0"/>
+          </mc:PQMTolerance>
+          <mc:PQMTolerance>
+            <mc:DefectType MetricType="Subjective" ID="ColourVariation" Label="Colour variation within printed matter"/>
+            <mc:Target>0</mc:Target>
+            <mc:Severity>Moderate</mc:Severity>
+            <mc:PQMSeverityMap VeryLight="10" Light="8" Moderate="5" Severe="2" VerySevere="0"/>
+          </mc:PQMTolerance>
+          <mc:PQMTolerance>
+            <mc:DefectType MetricType="Subjective" ID="Dirty" Label="Dirty"/>
+            <mc:Target>0</mc:Target>
+            <mc:Severity>Moderate</mc:Severity>
+            <mc:PQMSeverityMap VeryLight="10" Light="8" Moderate="5" Severe="2" VerySevere="0"/>
+          </mc:PQMTolerance>
+          <mc:PQMTolerance>
+            <mc:DefectType MetricType="Subjective" ID="DoubledImpression" Label="Doubled impression"/>
+            <mc:Target>0</mc:Target>
+            <mc:Severity>Moderate</mc:Severity>
+            <mc:PQMSeverityMap VeryLight="10" Light="8" Moderate="5" Severe="2" VerySevere="0"/>
+          </mc:PQMTolerance>
+          <mc:PQMTolerance>
+            <mc:DefectType MetricType="Subjective" ID="Ghosting" Label="Ghosting"/>
+            <mc:Target>0</mc:Target>
+            <mc:Severity>Moderate</mc:Severity>
+            <mc:PQMSeverityMap VeryLight="10" Light="8" Moderate="5" Severe="2" VerySevere="0"/>
+          </mc:PQMTolerance>
+          <mc:PQMTolerance>
+            <mc:DefectType MetricType="Subjective" ID="Gloss" Label="Gloss"/>
+            <mc:Target>0</mc:Target>
+            <mc:Severity>Moderate</mc:Severity>
+            <mc:PQMSeverityMap VeryLight="10" Light="8" Moderate="5" Severe="2" VerySevere="0"/>
+          </mc:PQMTolerance>
+          <mc:PQMTolerance>
+            <mc:DefectType MetricType="Subjective" ID="Graininess" Label="Graininess (monochrome)"/>
+            <mc:Target>0</mc:Target>
+            <mc:Severity>Moderate</mc:Severity>
+            <mc:PQMSeverityMap VeryLight="10" Light="8" Moderate="5" Severe="2" VerySevere="0"/>
+          </mc:PQMTolerance>
+          <mc:PQMTolerance>
+            <mc:DefectType MetricType="Subjective" ID="Hickeys" Label="Hickeys"/>
+            <mc:Target>0</mc:Target>
+            <mc:Severity>Moderate</mc:Severity>
+            <mc:PQMSeverityMap VeryLight="10" Light="8" Moderate="5" Severe="2" VerySevere="0"/>
+          </mc:PQMTolerance>
+          <mc:PQMTolerance>
+            <mc:DefectType MetricType="Subjective" ID="IllegibleCopy" Label="Illegible copy"/>
+            <mc:Target>0</mc:Target>
+            <mc:Severity>Moderate</mc:Severity>
+            <mc:PQMSeverityMap VeryLight="10" Light="8" Moderate="5" Severe="2" VerySevere="0"/>
+          </mc:PQMTolerance>
+          <mc:PQMTolerance>
+            <mc:DefectType MetricType="Subjective" ID="IncorrectColour" Label="Incorrect colour"/>
+            <mc:Target>0</mc:Target>
+            <mc:Severity>Moderate</mc:Severity>
+            <mc:PQMSeverityMap VeryLight="10" Light="8" Moderate="5" Severe="2" VerySevere="0"/>
+          </mc:PQMTolerance>
+          <mc:PQMTolerance>
+            <mc:DefectType MetricType="Subjective" ID="IndoorLightStability" Label="Indoor light stability"/>
+            <mc:Target>0</mc:Target>
+            <mc:Severity>Moderate</mc:Severity>
+            <mc:PQMSeverityMap VeryLight="10" Light="8" Moderate="5" Severe="2" VerySevere="0"/>
+          </mc:PQMTolerance>
+          <mc:PQMTolerance>
+            <mc:DefectType MetricType="Subjective" ID="InkSkip" Label="Ink skip"/>
+            <mc:Target>0</mc:Target>
+            <mc:Severity>Moderate</mc:Severity>
+            <mc:PQMSeverityMap VeryLight="10" Light="8" Moderate="5" Severe="2" VerySevere="0"/>
+          </mc:PQMTolerance>
+          <mc:PQMTolerance>
+            <mc:DefectType MetricType="Subjective" ID="InkTransfer" Label="Ink transfer"/>
+            <mc:Target>0</mc:Target>
+            <mc:Severity>Moderate</mc:Severity>
+            <mc:PQMSeverityMap VeryLight="10" Light="8" Moderate="5" Severe="2" VerySevere="0"/>
+          </mc:PQMTolerance>
+          <mc:PQMTolerance>
+            <mc:DefectType MetricType="Subjective" ID="LargeAreaUniformity" Label="Large area uniformity"/>
+            <mc:Target>0</mc:Target>
+            <mc:Severity>Moderate</mc:Severity>
+            <mc:PQMSeverityMap VeryLight="10" Light="8" Moderate="5" Severe="2" VerySevere="0"/>
+          </mc:PQMTolerance>
+          <mc:PQMTolerance>
+            <mc:DefectType MetricType="Distance" ID="LineBlurriness" Label="Line blurriness"/>
+            <mc:Target>0</mc:Target>
+            <mc:Tolerance>2</mc:Tolerance>
+            <mc:DeltaETransform TransformType="Interpolated" DeltaEType="DeltaE" Weight="10">
+              <mc:InterpolatedTransform>
+                <mc:XValues>0.00 2.50 5.00 5.50 7.50 12.00</mc:XValues>
+                <mc:YValues>100.00 90.00 80.00 50.00 10.00 0.00</mc:YValues>
+              </mc:InterpolatedTransform>
+            </mc:DeltaETransform>
+          </mc:PQMTolerance>
+          <mc:PQMTolerance>
+            <mc:DefectType MetricType="Subjective" ID="LineDarkness" Label="Line darkness"/>
+            <mc:Target>0</mc:Target>
+            <mc:Severity>Moderate</mc:Severity>
+            <mc:PQMSeverityMap VeryLight="10" Light="8" Moderate="5" Severe="2" VerySevere="0"/>
+          </mc:PQMTolerance>
+          <mc:PQMTolerance>
+            <mc:DefectType MetricType="Distance" ID="LineRaggedness" Label="Line raggedness"/>
+            <mc:Target>0</mc:Target>
+            <mc:Tolerance>2</mc:Tolerance>
+            <mc:DeltaETransform TransformType="Interpolated" DeltaEType="DeltaE" Weight="10">
+              <mc:InterpolatedTransform>
+                <mc:XValues>0.00 2.50 5.00 5.50 7.50 12.00</mc:XValues>
+                <mc:YValues>100.00 90.00 80.00 50.00 10.00 0.00</mc:YValues>
+              </mc:InterpolatedTransform>
+            </mc:DeltaETransform>
+          </mc:PQMTolerance>
+          <mc:PQMTolerance>
+            <mc:DefectType MetricType="Subjective" ID="LineWidth" Label="Line width"/>
+            <mc:Target>0</mc:Target>
+            <mc:Severity>Moderate</mc:Severity>
+            <mc:PQMSeverityMap VeryLight="10" Light="8" Moderate="5" Severe="2" VerySevere="0"/>
+          </mc:PQMTolerance>
+          <mc:PQMTolerance>
+            <mc:DefectType MetricType="Subjective" ID="Moire" Label="Moire"/>
+            <mc:Target>0</mc:Target>
+            <mc:Severity>Moderate</mc:Severity>
+            <mc:PQMSeverityMap VeryLight="10" Light="8" Moderate="5" Severe="2" VerySevere="0"/>
+          </mc:PQMTolerance>
+          <mc:PQMTolerance>
+            <mc:DefectType MetricType="Subjective" ID="Mottle" Label="Mottle (monochrome)"/>
+            <mc:Target>0</mc:Target>
+            <mc:Severity>Moderate</mc:Severity>
+            <mc:PQMSeverityMap VeryLight="10" Light="8" Moderate="5" Severe="2" VerySevere="0"/>
+          </mc:PQMTolerance>
+          <mc:PQMTolerance>
+            <mc:DefectType MetricType="Subjective" ID="Permanence" Label="Permanence"/>
+            <mc:Target>0</mc:Target>
+            <mc:Severity>Moderate</mc:Severity>
+            <mc:PQMSeverityMap VeryLight="10" Light="8" Moderate="5" Severe="2" VerySevere="0"/>
+          </mc:PQMTolerance>
+          <mc:PQMTolerance>
+            <mc:DefectType MetricType="Subjective" ID="Resolution" Label="Resolution"/>
+            <mc:Target>0</mc:Target>
+            <mc:Severity>Moderate</mc:Severity>
+            <mc:PQMSeverityMap VeryLight="10" Light="8" Moderate="5" Severe="2" VerySevere="0"/>
+          </mc:PQMTolerance>
+          <mc:PQMTolerance>
+            <mc:DefectType MetricType="Subjective" ID="Scratches" Label="Scratches"/>
+            <mc:Target>0</mc:Target>
+            <mc:Severity>Moderate</mc:Severity>
+            <mc:PQMSeverityMap VeryLight="10" Light="8" Moderate="5" Severe="2" VerySevere="0"/>
+          </mc:PQMTolerance>
+          <mc:PQMTolerance>
+            <mc:DefectType MetricType="Subjective" ID="Scum" Label="Scum"/>
+            <mc:Target>0</mc:Target>
+            <mc:Severity>Moderate</mc:Severity>
+            <mc:PQMSeverityMap VeryLight="10" Light="8" Moderate="5" Severe="2" VerySevere="0"/>
+          </mc:PQMTolerance>
+          <mc:PQMTolerance>
+            <mc:DefectType MetricType="Subjective" ID="ShineThrough" Label="Shine through"/>
+            <mc:Target>0</mc:Target>
+            <mc:Severity>Moderate</mc:Severity>
+            <mc:PQMSeverityMap VeryLight="10" Light="8" Moderate="5" Severe="2" VerySevere="0"/>
+          </mc:PQMTolerance>
+          <mc:PQMTolerance>
+            <mc:DefectType MetricType="Subjective" ID="ShowThrough" Label="Show through"/>
+            <mc:Target>0</mc:Target>
+            <mc:Severity>Moderate</mc:Severity>
+            <mc:PQMSeverityMap VeryLight="10" Light="8" Moderate="5" Severe="2" VerySevere="0"/>
+          </mc:PQMTolerance>
+          <mc:PQMTolerance>
+            <mc:DefectType MetricType="Subjective" ID="Slur" Label="Slur"/>
+            <mc:Target>0</mc:Target>
+            <mc:Severity>Moderate</mc:Severity>
+            <mc:PQMSeverityMap VeryLight="10" Light="8" Moderate="5" Severe="2" VerySevere="0"/>
+          </mc:PQMTolerance>
+          <mc:PQMTolerance>
+            <mc:DefectType MetricType="Subjective" ID="Streaks" Label="Streaks"/>
+            <mc:Target>0</mc:Target>
+            <mc:Severity>Moderate</mc:Severity>
+            <mc:PQMSeverityMap VeryLight="10" Light="8" Moderate="5" Severe="2" VerySevere="0"/>
+          </mc:PQMTolerance>
+          <mc:PQMTolerance>
+            <mc:DefectType MetricType="Subjective" ID="ThermalStability" Label="Thermal stability"/>
+            <mc:Target>0</mc:Target>
+            <mc:Severity>Moderate</mc:Severity>
+            <mc:PQMSeverityMap VeryLight="10" Light="8" Moderate="5" Severe="2" VerySevere="0"/>
+          </mc:PQMTolerance>
+          <mc:PQMTolerance>
+            <mc:DefectType MetricType="Subjective" ID="Weathering" Label="Weathering"/>
+            <mc:Target>0</mc:Target>
+            <mc:Severity>Moderate</mc:Severity>
+            <mc:PQMSeverityMap VeryLight="10" Light="8" Moderate="5" Severe="2" VerySevere="0"/>
+          </mc:PQMTolerance>
+        </mc:PQMToleranceSet>
+      </mc:ISO15311PQMTolerances>
+    </mc:CustomResource>
+    <mc:CustomResource Class="ISO15311Tolerances" Id="10" Type="ISO15311Tolerances">
+      <mc:ISO15311Tolerances>
+        <mc:Label>Default tolerances</mc:Label>
+        <mc:Custom>false</mc:Custom>
+        <mc:Substrate>1.4</mc:Substrate>
+        <mc:Cyan>2.5</mc:Cyan>
+        <mc:Magenta>2.5</mc:Magenta>
+        <mc:Yellow>2.5</mc:Yellow>
+        <mc:Black>2.5</mc:Black>
+        <mc:CSMax>3.6</mc:CSMax>
+        <mc:CSAve>1.4</mc:CSAve>
+        <mc:CSAveNeutral>0.9</mc:CSAveNeutral>
+        <mc:CCAve>2.2</mc:CCAve>
+        <mc:CCAveSurface>2.3</mc:CCAveSurface>
+        <mc:CC95Percent>2.6</mc:CC95Percent>
+      </mc:ISO15311Tolerances>
+    </mc:CustomResource>
+    <mc:CustomResource Class="ColourReferenceCollection" Id="11" Type="PrintSpecAimValues">
+      <mc:ColourReferenceCollection>
+        <mc:ColourRef Id="Cyan" ObjectRef="Obj0"/>
+        <mc:ColourRef Id="Magenta" ObjectRef="Obj1"/>
+        <mc:ColourRef Id="Yellow" ObjectRef="Obj2"/>
+        <mc:ColourRef Id="Black" ObjectRef="Obj3"/>
+        <mc:ColourRef Id="Red" ObjectRef="Obj4"/>
+        <mc:ColourRef Id="Green" ObjectRef="Obj5"/>
+        <mc:ColourRef Id="Blue" ObjectRef="Obj6"/>
+        <mc:ColourRef Id="CMY" ObjectRef="Obj7"/>
+        <mc:ColourRef Id="White" ObjectRef="Obj8"/>
+        <mc:ColourRef Id="HousePaper" ObjectRef="Obj9"/>
+      </mc:ColourReferenceCollection>
+    </mc:CustomResource>
+    <mc:CustomResource Class="InterpolatedTVICurve" Id="12" Type="TVICurve">
+      <mc:CustomTVICurve type="interpolated" editable="true" interpolation="UltraSmooth">
+        <mc:Label>ISO Curve A 2007</mc:Label>
+        <mc:ID>ISO-12647-2-2007-CurveA</mc:ID>
+        <mc:X>0.00000 25.00000 50.00000 75.00000 100.00000</mc:X>
+        <mc:Y>0.00000 9.30000 14.30000 12.30000 0.00000</mc:Y>
+        <mc:Tol25>3</mc:Tol25>
+        <mc:Tol50>4</mc:Tol50>
+        <mc:Tol75>3</mc:Tol75>
+      </mc:CustomTVICurve>
+    </mc:CustomResource>
+    <mc:CustomResource Class="VariationTolerances" Id="13" Type="VariationTolerances">
+      <mc:VariationToleranceModel>
+        <mc:ID>ISO 12647-2 (2004)</mc:ID>
+        <mc:Label>ISO 12647-2 (2007)</mc:Label>
+        <mc:Custom>false</mc:Custom>
+        <mc:Cyan DeltaE="4" DeltaH="2.5" DotGain50="4"/>
+        <mc:Magenta DeltaE="4" DeltaH="2.5" DotGain50="4"/>
+        <mc:Yellow DeltaE="5" DeltaH="2.5" DotGain50="4"/>
+        <mc:Black DeltaE="4" DotGain50="4"/>
+        <mc:MidToneSpread Tolerance="5"/>
+        <mc:White DeltaH="2"/>
+        <mc:LightGrey DeltaH="2"/>
+        <mc:MidGrey DeltaH="2"/>
+        <mc:DarkGrey DeltaH="2"/>
+        <mc:DeltaEType>CIE_76</mc:DeltaEType>
+      </mc:VariationToleranceModel>
+    </mc:CustomResource>
+    <mc:CustomResource Class="G7Tolerances" Id="14" Type="G7Tolerances">
+      <mc:G7Tolerances>
+        <mc:ID>G7GreyscaleDefault</mc:ID>
+        <mc:Label>G7 Greyscale Default</mc:Label>
+        <mc:Custom>false</mc:Custom>
+        <mc:ComplianceIndex>0</mc:ComplianceIndex>
+        <mc:PeakWeightedDeltaL>3</mc:PeakWeightedDeltaL>
+        <mc:AverageWeightedDeltaL>1.5</mc:AverageWeightedDeltaL>
+        <mc:PeakWeightedDeltaCH>3</mc:PeakWeightedDeltaCH>
+        <mc:AverageWeightedDeltaCH>1.5</mc:AverageWeightedDeltaCH>
+        <mc:SubstrateDE>3</mc:SubstrateDE>
+        <mc:DEC>3.5</mc:DEC>
+        <mc:DEM>3.5</mc:DEM>
+        <mc:DEY>3.5</mc:DEY>
+        <mc:DEK>5</mc:DEK>
+        <mc:DER>4.2</mc:DER>
+        <mc:DEG>4.2</mc:DEG>
+        <mc:DEB>4.2</mc:DEB>
+        <mc:DECMY>0</mc:DECMY>
+        <mc:AllPatchesAverageDE>3.5</mc:AllPatchesAverageDE>
+        <mc:AllPatches95Percentile>5</mc:AllPatches95Percentile>
+        <mc:AllPatchesMaximumDE>0</mc:AllPatchesMaximumDE>
+        <mc:WeightingRatio>0.75</mc:WeightingRatio>
+      </mc:G7Tolerances>
+    </mc:CustomResource>
+    <mc:CustomResource Class="PrintSpecStandard" Id="15" Type="PrintSpecStandard">
+      <mc:PrintSpecStandard>
+        <mc:DefaultStandard>true</mc:DefaultStandard>
+        <mc:AimValues ResourceRef="11"/>
+        <mc:TviC ResourceRef="12"/>
+        <mc:TviM ResourceRef="12"/>
+        <mc:TviY ResourceRef="12"/>
+        <mc:TviK ResourceRef="12"/>
+        <mc:VariationTolerances ResourceRef="13"/>
+        <mc:G7Tolerances ResourceRef="14"/>
+        <mc:ToleranceLabel/>
+        <mc:MidToneSpread>5</mc:MidToneSpread>
+        <mc:StandardID>
+          <mc:PaperType>Paper 2 Matt</mc:PaperType>
+          <mc:PrintingProcess>ISO 12647-2:2007 Offset</mc:PrintingProcess>
+          <mc:Backing>Black</mc:Backing>
+          <mc:TVICurve>ISO Curve A</mc:TVICurve>
+        </mc:StandardID>
+        <mc:DensityC target0="0.07" target100="1.4" targetE0="0.07" targetE100="1.4" tolerance50="5" tolerance100="5"/>
+        <mc:DensityM target0="0.07" target100="1.45" targetE0="0.07" targetE100="1.45" tolerance50="5" tolerance100="5"/>
+        <mc:DensityY target0="0.06" target100="1.05" targetE0="0.06" targetE100="1.3" tolerance50="5" tolerance100="5"/>
+        <mc:DensityK target0="0.07" target100="1.7" targetE0="0.07" targetE100="1.7" tolerance50="5" tolerance100="5"/>
+        <mc:WhitePaperTolerance>2</mc:WhitePaperTolerance>
+        <mc:HousePaperTolerance l="3" a="2" b="2"/>
+        <mc:WhitePaperDETolerance>3</mc:WhitePaperDETolerance>
+        <mc:CyanTolerance>5</mc:CyanTolerance>
+        <mc:MagentaTolerance>5</mc:MagentaTolerance>
+        <mc:YellowTolerance>5</mc:YellowTolerance>
+        <mc:BlackTolerance>5</mc:BlackTolerance>
+        <mc:RedTolerance>0</mc:RedTolerance>
+        <mc:GreenTolerance>0</mc:GreenTolerance>
+        <mc:BlueTolerance>0</mc:BlueTolerance>
+        <mc:CMYTolerance>0</mc:CMYTolerance>
+        <mc:UseRGBTol>false</mc:UseRGBTol>
+        <mc:UseCMYTol>false</mc:UseCMYTol>
+        <mc:LightGrey targetKL="79.48" targetL="76.90676964280411" targetA="0" targetB="0" useTarget="false" useProfile="false" useTargetKL="false" useTargetL="false" tol="2" tolKL="2" tolL="2"/>
+        <mc:MidGrey targetKL="61.89" targetL="58.042700143791166" targetA="0" targetB="0" useTarget="false" useProfile="false" useTargetKL="false" useTargetL="false" tol="2" tolKL="2" tolL="2"/>
+        <mc:DarkGrey targetKL="41.22" targetL="39.4741136769265" targetA="0" targetB="0" useTarget="false" useProfile="false" useTargetKL="false" useTargetL="false" tol="2" tolKL="2" tolL="2"/>
+        <mc:DeltaEType>CIE_76</mc:DeltaEType>
+        <mc:CMYKProfile ProfileReference="6"/>
+      </mc:PrintSpecStandard>
+    </mc:CustomResource>
+    <mc:CustomResource Class="UniversalTargetModel" Id="16" Type="UniversalTargetModel">
+      <mc:UniversalTargetModel>
+        <mc:TargetType>Standard</mc:TargetType>
+        <mc:Standard ResourceID="15"/>
+      </mc:UniversalTargetModel>
+    </mc:CustomResource>
+    <mc:CustomResource Class="ReportSettings" Id="17" Type="ReportSettings">
+      <mc:ReportSettings>
+        <mc:Coating/>
+        <mc:Company/>
+        <mc:Customer/>
+        <mc:JobInfo/>
+        <mc:Ink/>
+        <mc:ItemNumber>0</mc:ItemNumber>
+        <mc:Mode>Production</mc:Mode>
+        <mc:Side>Front</mc:Side>
+        <mc:ScanDirection/>
+        <mc:Notes/>
+        <mc:Paper/>
+        <mc:PaperType/>
+        <mc:PaperWeight/>
+        <mc:PlatesUsed/>
+        <mc:Press/>
+        <mc:PrinterNumberOfColours>1</mc:PrinterNumberOfColours>
+        <mc:PrinterTechnology>Offset</mc:PrinterTechnology>
+        <mc:PrintSample/>
+        <mc:RoomTemp>0</mc:RoomTemp>
+        <mc:RoomTempUnits/>
+        <mc:RunLength>1</mc:RunLength>
+        <mc:Screen/>
+        <mc:ScreenType/>
+        <mc:ScreenUnits/>
+        <mc:DensityStatus>T</mc:DensityStatus>
+        <mc:Blankets/>
+        <mc:Ph>0</mc:Ph>
+        <mc:Conductivity>0</mc:Conductivity>
+        <mc:Alcohol>0</mc:Alcohol>
+        <mc:Repository>Local</mc:Repository>
+        <mc:SamplingFrequency/>
+        <mc:SpotRatedInTechSpecBy/>
+        <mc:FlexoSequenceModelList>
+          <mc:FlexoSequenceModel>
+            <mc:Sequence/>
+            <mc:Screen/>
+            <mc:Volume/>
+            <mc:Tape/>
+          </mc:FlexoSequenceModel>
+        </mc:FlexoSequenceModelList>
+        <mc:InkSpecCustomScoreSet ResourceID="1"/>
+        <mc:FlatlineScoreRatio>50</mc:FlatlineScoreRatio>
+        <mc:OverallScore ResourceID="2"/>
+      </mc:ReportSettings>
+    </mc:CustomResource>
+    <mc:CustomResource Class="EnabledReports" Id="18" Type="EnabledReports">
+      <mc:EnabledReports PrintSpec="true" InkSpec="true" FlexoSpec="true" ProofSpec="true" ISO15311="true" Flatline="true"/>
+    </mc:CustomResource>
+    <mc:CustomResource Class="PrintAttributes" Id="19" Type="PrintAttributes">
+      <mc:PrintDefectsReport>
+        <mc:DefaultSet>false</mc:DefaultSet>
+        <mc:Locked>false</mc:Locked>
+        <mc:AttributesID>null</mc:AttributesID>
+        <mc:BasisOfReference>proof</mc:BasisOfReference>
+        <mc:DefectList/>
+      </mc:PrintDefectsReport>
+    </mc:CustomResource>
+    <mc:CustomResource Class="NewReferenceStrip" Id="20" Type="ReferenceStrip">
+      <mc:ReferenceStrip>
+        <mc:MetaData>
+          <mc:Label>PrintSpec Scan strip</mc:Label>
+          <mc:Offset>0</mc:Offset>
+          <mc:MaxOffset>10</mc:MaxOffset>
+          <mc:SectionCount>1</mc:SectionCount>
+          <mc:Deletable>false</mc:Deletable>
+          <mc:Comment/>
+          <mc:DateCreated>Thu Nov 6 18:00:00 GMT+0000 2014</mc:DateCreated>
+          <mc:UseInJobWizard>true</mc:UseInJobWizard>
+          <mc:Measure>true</mc:Measure>
+          <mc:PatchWidth>5</mc:PatchWidth>
+          <mc:PatchHeight>5</mc:PatchHeight>
+          <mc:TopToBottom>true</mc:TopToBottom>
+          <mc:IncludeBorder>false</mc:IncludeBorder>
+          <mc:IncludePatchLabels>false</mc:IncludePatchLabels>
+          <mc:BorderGap>0</mc:BorderGap>
+          <mc:IncludeStripImage>false</mc:IncludeStripImage>
+        </mc:MetaData>
+        <mc:Targets>
+          <mc:Target ID="0" PatchType="CMYK" ObjectRef="Obj10"/>
+          <mc:Target ID="1" PatchType="CMYK" ObjectRef="Obj11"/>
+          <mc:Target ID="2" PatchType="CMYK" ObjectRef="Obj12"/>
+          <mc:Target ID="3" PatchType="CMYK" ObjectRef="Obj13"/>
+          <mc:Target ID="4" PatchType="CMYK" ObjectRef="Obj14"/>
+          <mc:Target ID="5" PatchType="CMYK" ObjectRef="Obj15"/>
+          <mc:Target ID="6" PatchType="CMYK" ObjectRef="Obj16"/>
+          <mc:Target ID="7" PatchType="CMYK" ObjectRef="Obj17"/>
+          <mc:Target ID="8" PatchType="CMYK" ObjectRef="Obj18"/>
+          <mc:Target ID="9" PatchType="CMYK" ObjectRef="Obj19"/>
+          <mc:Target ID="10" PatchType="CMYK" ObjectRef="Obj20"/>
+          <mc:Target ID="11" PatchType="CMYK" ObjectRef="Obj21"/>
+          <mc:Target ID="12" PatchType="CMYK" ObjectRef="Obj22"/>
+          <mc:Target ID="13" PatchType="CMYK" ObjectRef="Obj23"/>
+          <mc:Target ID="14" PatchType="CMYK" ObjectRef="Obj24"/>
+          <mc:Target ID="15" PatchType="CMYK" ObjectRef="Obj25"/>
+          <mc:Target ID="16" PatchType="CMYK" ObjectRef="Obj26"/>
+          <mc:Target ID="17" PatchType="CMYK" ObjectRef="Obj27"/>
+          <mc:Target ID="18" PatchType="CMYK" ObjectRef="Obj28"/>
+          <mc:Target ID="19" PatchType="CMYK" ObjectRef="Obj29"/>
+          <mc:Target ID="20" PatchType="CMYK" ObjectRef="Obj30"/>
+          <mc:Target ID="21" PatchType="CMYK" ObjectRef="Obj31"/>
+          <mc:Target ID="22" PatchType="CMYK" ObjectRef="Obj32"/>
+          <mc:Target ID="23" PatchType="CMYK" ObjectRef="Obj33"/>
+        </mc:Targets>
+        <mc:Patches B="NullPatch Enabled InkKey Displayed">
+          <mc:Patch B="FTFF" TargetID="0" Group="1"/>
+          <mc:Patch B="FTFF" TargetID="1" Group="1"/>
+          <mc:Patch B="FTFF" TargetID="2" Group="1"/>
+          <mc:Patch B="FTFF" TargetID="3" Group="1"/>
+          <mc:Patch B="FTTF" TargetID="4" Group="1"/>
+          <mc:Patch B="FTTF" TargetID="5" Group="1"/>
+          <mc:Patch B="FTFF" TargetID="6" Group="1"/>
+          <mc:Patch B="FTFF" TargetID="7" Group="1"/>
+          <mc:Patch B="FTFF" TargetID="8" Group="1"/>
+          <mc:Patch B="FTFF" TargetID="9" Group="1"/>
+          <mc:Patch B="FTFF" TargetID="10" Group="1"/>
+          <mc:Patch B="FTFF" TargetID="11" Group="1"/>
+          <mc:Patch B="FTFF" TargetID="12" Group="1"/>
+          <mc:Patch B="FTFF" TargetID="13" Group="1"/>
+          <mc:Patch B="FTFF" TargetID="14" Group="1"/>
+          <mc:Patch B="FTFF" TargetID="15" Group="1"/>
+          <mc:Patch B="FTFF" TargetID="16" Group="1"/>
+          <mc:Patch B="FTFF" TargetID="17" Group="1"/>
+          <mc:Patch B="FTTF" TargetID="18" Group="1"/>
+          <mc:Patch B="FTTF" TargetID="19" Group="1"/>
+          <mc:Patch B="FTFF" TargetID="20" Group="1"/>
+          <mc:Patch B="FTFF" TargetID="21" Group="1"/>
+          <mc:Patch B="FTFF" TargetID="22" Group="1"/>
+          <mc:Patch B="FTFF" TargetID="23" Group="1"/>
+        </mc:Patches>
+      </mc:ReferenceStrip>
+    </mc:CustomResource>
+    <mc:CustomResource Class="MeasurePageModel" Id="21" Type="MeasurePageModel">
+      <mc:MeasurePageModel>
+        <mc:ReferenceStrip ResourceID="20"/>
+        <mc:ReportSettings ResourceID="17"/>
+        <mc:Standard ResourceID="15"/>
+        <mc:ColorSpecification ColorSpecificationID="CS0"/>
+        <mc:ProofSpecTolerances ResourceID="5"/>
+        <mc:ProofSpecUniversalTargets ResourceID="7"/>
+        <mc:PrintSpecUniversalTargets ResourceID="16"/>
+        <mc:UniversalTargets ResourceID="8"/>
+        <mc:EnabledReports ResourceID="18"/>
+        <mc:PrintAttributes ResourceID="19"/>
+        <mc:ISO15311PQMTolerances ResourceID="9"/>
+        <mc:ISO15311Tolerances ResourceID="10"/>
+        <mc:MeasurementUploadData ResourceID="4"/>
+        <mc:MeasurePageModelMetaData ResourceID="3"/>
+        <mc:MeasurementSetSortFieldName>dateLabel</mc:MeasurementSetSortFieldName>
+        <mc:MeasurementSetSortFieldDescending>true</mc:MeasurementSetSortFieldDescending>
+      </mc:MeasurePageModel>
+    </mc:CustomResource>
+  </cxf:CustomResources>
+</cxf:CxF>

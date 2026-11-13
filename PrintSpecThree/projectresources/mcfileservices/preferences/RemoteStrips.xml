@@ -1,0 +1,666 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ControlStripList applicationVersion="4.0.20">
+  <ColourDataCollection type="control-strip">
+        <Label>PrintSpec Scan</Label>
+        <Flatline>true</Flatline>
+        <DateCreated>Thu Nov 6 18:00:00 GMT+0000 2014</DateCreated>
+        <Measure>true</Measure>
+        <FlipEnabled>false</FlipEnabled>
+        <Offset>0</Offset>
+        <MaxOffset>0</MaxOffset>
+        <Deletable>false</Deletable>
+        <Comment/>
+        <ColourData type="undefined">
+            <ID>Violet</ID>
+            <Comment/>
+            <Enabled>true</Enabled>
+            <IsCoated>true</IsCoated>
+            <IsPaper>false</IsPaper>
+            <Tint>100</Tint>
+            <RGB>800892</RGB>
+            <Index>0</Index>
+            <Group>1</Group>
+            <LastModified>Thu Jun 5 14:18:31 2014 UTC</LastModified>
+            <DateMeasured>Thu Jun 5 14:18:31 2014 UTC</DateMeasured>
+            <BrandPath/>
+            <CIELab>
+                <L>24</L>
+                <A>16</A>
+                <B>-45</B>
+                <DeltaE>2.5</DeltaE>
+                <Checksum>4260850258</Checksum>
+            </CIELab>
+            <CMYKPercentages>
+                <C>100</C>
+                <M>100</M>
+                <Y>0</Y>
+                <K>0</K>
+            </CMYKPercentages>
+        </ColourData>
+        <ColourData type="undefined">
+            <ID>Cyan 25</ID>
+            <Comment/>
+            <Enabled>true</Enabled>
+            <IsCoated>true</IsCoated>
+            <IsPaper>false</IsPaper>
+            <Tint>100</Tint>
+            <RGB>11587556</RGB>
+            <Index>0</Index>
+            <Group>1</Group>
+            <LastModified>Thu Jun 5 14:18:31 2014 UTC</LastModified>
+            <DateMeasured>Thu Jun 5 14:18:31 2014 UTC</DateMeasured>
+            <BrandPath/>
+            <CIELab>
+                <L>82.14</L>
+                <A>-5.64</A>
+                <B>-13.77</B>
+                <DeltaE>2.5</DeltaE>
+                <Checksum>205736051</Checksum>
+            </CIELab>
+            <CMYKPercentages>
+                <C>25</C>
+                <M>0</M>
+                <Y>0</Y>
+                <K>0</K>
+            </CMYKPercentages>
+        </ColourData>
+        <ColourData type="undefined">
+            <ID>Magenta 75</ID>
+            <Comment/>
+            <Enabled>true</Enabled>
+            <IsCoated>true</IsCoated>
+            <IsPaper>false</IsPaper>
+            <Tint>100</Tint>
+            <RGB>13720716</RGB>
+            <Index>0</Index>
+            <Group>1</Group>
+            <LastModified>Thu Jun 5 14:18:31 2014 UTC</LastModified>
+            <DateMeasured>Thu Jun 5 14:18:31 2014 UTC</DateMeasured>
+            <BrandPath/>
+            <CIELab>
+                <L>55.66</L>
+                <A>51.72</A>
+                <B>-4.16</B>
+                <DeltaE>2.5</DeltaE>
+                <Checksum>159023648</Checksum>
+            </CIELab>
+            <CMYKPercentages>
+                <C>0</C>
+                <M>75</M>
+                <Y>0</Y>
+                <K>0</K>
+            </CMYKPercentages>
+        </ColourData>
+        <ColourData type="undefined">
+            <ID>Cyan 50</ID>
+            <Comment/>
+            <Enabled>true</Enabled>
+            <IsCoated>true</IsCoated>
+            <IsPaper>false</IsPaper>
+            <Tint>100</Tint>
+            <RGB>6993885</RGB>
+            <Index>0</Index>
+            <Group>1</Group>
+            <LastModified>Thu Jun 5 14:18:31 2014 UTC</LastModified>
+            <DateMeasured>Thu Jun 5 14:18:31 2014 UTC</DateMeasured>
+            <BrandPath/>
+            <CIELab>
+                <L>71.51</L>
+                <A>-13.6</A>
+                <B>-26.27</B>
+                <DeltaE>2.5</DeltaE>
+                <Checksum>2907672378</Checksum>
+            </CIELab>
+            <CMYKPercentages>
+                <C>50</C>
+                <M>0</M>
+                <Y>0</Y>
+                <K>0</K>
+            </CMYKPercentages>
+        </ColourData>
+        <ColourData type="undefined">
+            <ID>Magenta 100</ID>
+            <Comment/>
+            <Enabled>true</Enabled>
+            <IsCoated>true</IsCoated>
+            <IsPaper>false</IsPaper>
+            <Tint>100</Tint>
+            <RGB>13572471</RGB>
+            <Index>0</Index>
+            <Group>1</Group>
+            <InkKey>true</InkKey>
+            <LastModified>Thu Jun 5 14:18:31 2014 UTC</LastModified>
+            <DateMeasured>Thu Jun 5 14:18:31 2014 UTC</DateMeasured>
+            <BrandPath/>
+            <CIELab>
+                <L>46</L>
+                <A>72</A>
+                <B>-5</B>
+                <DeltaE>2.5</DeltaE>
+                <Checksum>1385871434</Checksum>
+            </CIELab>
+            <CMYKPercentages>
+                <C>0</C>
+                <M>100</M>
+                <Y>0</Y>
+                <K>0</K>
+            </CMYKPercentages>
+        </ColourData>
+        <ColourData type="undefined">
+            <ID>Cyan 100</ID>
+            <Comment/>
+            <Enabled>true</Enabled>
+            <IsCoated>true</IsCoated>
+            <IsPaper>false</IsPaper>
+            <Tint>100</Tint>
+            <RGB>37843</RGB>
+            <Index>0</Index>
+            <Group>1</Group>
+            <InkKey>true</InkKey>
+            <LastModified>Thu Jun 5 14:18:31 2014 UTC</LastModified>
+            <DateMeasured>Thu Jun 5 14:18:31 2014 UTC</DateMeasured>
+            <BrandPath/>
+            <CIELab>
+                <L>54</L>
+                <A>-36</A>
+                <B>-49</B>
+                <DeltaE>2.5</DeltaE>
+                <Checksum>3818806218</Checksum>
+            </CIELab>
+            <CMYKPercentages>
+                <C>100</C>
+                <M>0</M>
+                <Y>0</Y>
+                <K>0</K>
+            </CMYKPercentages>
+        </ColourData>
+        <ColourData type="undefined">
+            <ID>Magenta 50</ID>
+            <Comment/>
+            <Enabled>true</Enabled>
+            <IsCoated>true</IsCoated>
+            <IsPaper>false</IsPaper>
+            <Tint>100</Tint>
+            <RGB>14127532</RGB>
+            <Index>0</Index>
+            <Group>1</Group>
+            <LastModified>Thu Jun 5 14:18:31 2014 UTC</LastModified>
+            <DateMeasured>Thu Jun 5 14:18:31 2014 UTC</DateMeasured>
+            <BrandPath/>
+            <CIELab>
+                <L>68.48</L>
+                <A>29.76</A>
+                <B>-3.51</B>
+                <DeltaE>2.5</DeltaE>
+                <Checksum>1435379955</Checksum>
+            </CIELab>
+            <CMYKPercentages>
+                <C>0</C>
+                <M>50</M>
+                <Y>0</Y>
+                <K>0</K>
+            </CMYKPercentages>
+        </ColourData>
+        <ColourData type="undefined">
+            <ID>Cyan 75</ID>
+            <Comment/>
+            <Enabled>true</Enabled>
+            <IsCoated>true</IsCoated>
+            <IsPaper>false</IsPaper>
+            <Tint>100</Tint>
+            <RGB>41431</RGB>
+            <Index>0</Index>
+            <Group>1</Group>
+            <LastModified>Thu Jun 5 14:18:31 2014 UTC</LastModified>
+            <DateMeasured>Thu Jun 5 14:18:31 2014 UTC</DateMeasured>
+            <BrandPath/>
+            <CIELab>
+                <L>61.16</L>
+                <A>-24.69</A>
+                <B>-39.38</B>
+                <DeltaE>2.5</DeltaE>
+                <Checksum>433994947</Checksum>
+            </CIELab>
+            <CMYKPercentages>
+                <C>75</C>
+                <M>0</M>
+                <Y>0</Y>
+                <K>0</K>
+            </CMYKPercentages>
+        </ColourData>
+        <ColourData type="undefined">
+            <ID>Magenta 25</ID>
+            <Comment/>
+            <Enabled>true</Enabled>
+            <IsCoated>true</IsCoated>
+            <IsPaper>false</IsPaper>
+            <Tint>100</Tint>
+            <RGB>14532557</RGB>
+            <Index>0</Index>
+            <Group>1</Group>
+            <LastModified>Thu Jun 5 14:18:31 2014 UTC</LastModified>
+            <DateMeasured>Thu Jun 5 14:18:31 2014 UTC</DateMeasured>
+            <BrandPath/>
+            <CIELab>
+                <L>80.88</L>
+                <A>12.69</A>
+                <B>-3.16</B>
+                <DeltaE>2.5</DeltaE>
+                <Checksum>3784007103</Checksum>
+            </CIELab>
+            <CMYKPercentages>
+                <C>0</C>
+                <M>25</M>
+                <Y>0</Y>
+                <K>0</K>
+            </CMYKPercentages>
+        </ColourData>
+        <ColourData type="undefined">
+            <ID>Dark grey</ID>
+            <Comment/>
+            <Enabled>true</Enabled>
+            <IsCoated>true</IsCoated>
+            <IsPaper>false</IsPaper>
+            <Tint>100</Tint>
+            <RGB>5987678</RGB>
+            <Index>0</Index>
+            <Group>1</Group>
+            <LastModified>Thu Jun 5 14:18:31 2014 UTC</LastModified>
+            <DateMeasured>Thu Jun 5 14:18:31 2014 UTC</DateMeasured>
+            <BrandPath/>
+            <CIELab>
+                <L>39.55</L>
+                <A>-0.9</A>
+                <B>-0.92</B>
+                <DeltaE>2.5</DeltaE>
+                <Checksum>2735062874</Checksum>
+            </CIELab>
+            <CMYKPercentages>
+                <C>75</C>
+                <M>64</M>
+                <Y>64</Y>
+                <K>0</K>
+            </CMYKPercentages>
+        </ColourData>
+        <ColourData type="undefined">
+            <ID>White</ID>
+            <Comment/>
+            <Enabled>true</Enabled>
+            <IsCoated>true</IsCoated>
+            <IsPaper>false</IsPaper>
+            <Tint>100</Tint>
+            <RGB>15001581</RGB>
+            <Index>0</Index>
+            <Group>1</Group>
+            <LastModified>Thu Jun 5 14:18:31 2014 UTC</LastModified>
+            <DateMeasured>Thu Jun 5 14:18:31 2014 UTC</DateMeasured>
+            <BrandPath/>
+            <CIELab>
+                <L>92</L>
+                <A>0</A>
+                <B>-3</B>
+                <DeltaE>2.5</DeltaE>
+                <Checksum>1594790826</Checksum>
+            </CIELab>
+            <CMYKPercentages>
+                <C>0</C>
+                <M>0</M>
+                <Y>0</Y>
+                <K>0</K>
+            </CMYKPercentages>
+        </ColourData>
+        <ColourData type="undefined">
+            <ID>CMY Black</ID>
+            <Comment/>
+            <Enabled>true</Enabled>
+            <IsCoated>true</IsCoated>
+            <IsPaper>false</IsPaper>
+            <Tint>100</Tint>
+            <RGB>3618615</RGB>
+            <Index>0</Index>
+            <Group>1</Group>
+            <LastModified>Thu Jun 5 14:18:31 2014 UTC</LastModified>
+            <DateMeasured>Thu Jun 5 14:18:31 2014 UTC</DateMeasured>
+            <BrandPath/>
+            <CIELab>
+                <L>22</L>
+                <A>0</A>
+                <B>0</B>
+                <DeltaE>2.5</DeltaE>
+                <Checksum>1232208494</Checksum>
+            </CIELab>
+            <CMYKPercentages>
+                <C>100</C>
+                <M>100</M>
+                <Y>100</Y>
+                <K>0</K>
+            </CMYKPercentages>
+        </ColourData>
+        <ColourData type="undefined">
+            <ID>Light grey</ID>
+            <Comment/>
+            <Enabled>true</Enabled>
+            <IsCoated>true</IsCoated>
+            <IsPaper>false</IsPaper>
+            <Tint>100</Tint>
+            <RGB>12369088</RGB>
+            <Index>0</Index>
+            <Group>1</Group>
+            <LastModified>Thu Jun 5 14:18:31 2014 UTC</LastModified>
+            <DateMeasured>Thu Jun 5 14:18:31 2014 UTC</DateMeasured>
+            <BrandPath/>
+            <CIELab>
+                <L>77.09</L>
+                <A>0.55</A>
+                <B>-2.06</B>
+                <DeltaE>2.5</DeltaE>
+                <Checksum>2024029632</Checksum>
+            </CIELab>
+            <CMYKPercentages>
+                <C>25</C>
+                <M>19</M>
+                <Y>19</Y>
+                <K>0</K>
+            </CMYKPercentages>
+        </ColourData>
+        <ColourData type="undefined">
+            <ID>Red</ID>
+            <Comment/>
+            <Enabled>true</Enabled>
+            <IsCoated>true</IsCoated>
+            <IsPaper>false</IsPaper>
+            <Tint>100</Tint>
+            <RGB>13902374</RGB>
+            <Index>0</Index>
+            <Group>1</Group>
+            <LastModified>Thu Jun 5 14:18:31 2014 UTC</LastModified>
+            <DateMeasured>Thu Jun 5 14:18:31 2014 UTC</DateMeasured>
+            <BrandPath/>
+            <CIELab>
+                <L>46</L>
+                <A>67</A>
+                <B>47</B>
+                <DeltaE>2.5</DeltaE>
+                <Checksum>2482276806</Checksum>
+            </CIELab>
+            <CMYKPercentages>
+                <C>0</C>
+                <M>100</M>
+                <Y>100</Y>
+                <K>0</K>
+            </CMYKPercentages>
+        </ColourData>
+        <ColourData type="undefined">
+            <ID>Mid grey</ID>
+            <Comment/>
+            <Enabled>true</Enabled>
+            <IsCoated>true</IsCoated>
+            <IsPaper>false</IsPaper>
+            <Tint>100</Tint>
+            <RGB>9079436</RGB>
+            <Index>0</Index>
+            <Group>1</Group>
+            <LastModified>Thu Jun 5 14:18:31 2014 UTC</LastModified>
+            <DateMeasured>Thu Jun 5 14:18:31 2014 UTC</DateMeasured>
+            <BrandPath/>
+            <CIELab>
+                <L>58.16</L>
+                <A>0.26</A>
+                <B>-1.24</B>
+                <DeltaE>2.5</DeltaE>
+                <Checksum>921413484</Checksum>
+            </CIELab>
+            <CMYKPercentages>
+                <C>50</C>
+                <M>40</M>
+                <Y>40</Y>
+                <K>0</K>
+            </CMYKPercentages>
+        </ColourData>
+        <ColourData type="undefined">
+            <ID>Yellow 25</ID>
+            <Comment/>
+            <Enabled>true</Enabled>
+            <IsCoated>true</IsCoated>
+            <IsPaper>false</IsPaper>
+            <Tint>100</Tint>
+            <RGB>15459011</RGB>
+            <Index>0</Index>
+            <Group>1</Group>
+            <LastModified>Thu Jun 5 14:18:31 2014 UTC</LastModified>
+            <DateMeasured>Thu Jun 5 14:18:31 2014 UTC</DateMeasured>
+            <BrandPath/>
+            <CIELab>
+                <L>90.34</L>
+                <A>-1.91</A>
+                <B>16.06</B>
+                <DeltaE>2.5</DeltaE>
+                <Checksum>1681746978</Checksum>
+            </CIELab>
+            <CMYKPercentages>
+                <C>0</C>
+                <M>0</M>
+                <Y>25</Y>
+                <K>0</K>
+            </CMYKPercentages>
+        </ColourData>
+        <ColourData type="undefined">
+            <ID>Black 75</ID>
+            <Comment/>
+            <Enabled>true</Enabled>
+            <IsCoated>true</IsCoated>
+            <IsPaper>false</IsPaper>
+            <Tint>100</Tint>
+            <RGB>6316387</RGB>
+            <Index>0</Index>
+            <Group>1</Group>
+            <LastModified>Thu Jun 5 14:18:31 2014 UTC</LastModified>
+            <DateMeasured>Thu Jun 5 14:18:31 2014 UTC</DateMeasured>
+            <BrandPath/>
+            <CIELab>
+                <L>41.35</L>
+                <A>0</A>
+                <B>-1.35</B>
+                <DeltaE>2.5</DeltaE>
+                <Checksum>3149721582</Checksum>
+            </CIELab>
+            <CMYKPercentages>
+                <C>0</C>
+                <M>0</M>
+                <Y>0</Y>
+                <K>75</K>
+            </CMYKPercentages>
+        </ColourData>
+        <ColourData type="undefined">
+            <ID>Yellow 50</ID>
+            <Comment/>
+            <Enabled>true</Enabled>
+            <IsCoated>true</IsCoated>
+            <IsPaper>false</IsPaper>
+            <Tint>100</Tint>
+            <RGB>15851154</RGB>
+            <Index>0</Index>
+            <Group>1</Group>
+            <LastModified>Thu Jun 5 14:18:31 2014 UTC</LastModified>
+            <DateMeasured>Thu Jun 5 14:18:31 2014 UTC</DateMeasured>
+            <BrandPath/>
+            <CIELab>
+                <L>88.84</L>
+                <A>-3.7</A>
+                <B>38.98</B>
+                <DeltaE>2.5</DeltaE>
+                <Checksum>3266554573</Checksum>
+            </CIELab>
+            <CMYKPercentages>
+                <C>0</C>
+                <M>0</M>
+                <Y>50</Y>
+                <K>0</K>
+            </CMYKPercentages>
+        </ColourData>
+        <ColourData type="undefined">
+            <ID>Black 100</ID>
+            <Comment/>
+            <Enabled>true</Enabled>
+            <IsCoated>true</IsCoated>
+            <IsPaper>false</IsPaper>
+            <Tint>100</Tint>
+            <RGB>2894892</RGB>
+            <Index>0</Index>
+            <Group>1</Group>
+            <InkKey>true</InkKey>
+            <LastModified>Thu Jun 5 14:18:31 2014 UTC</LastModified>
+            <DateMeasured>Thu Jun 5 14:18:31 2014 UTC</DateMeasured>
+            <BrandPath/>
+            <CIELab>
+                <L>16</L>
+                <A>0</A>
+                <B>0</B>
+                <DeltaE>2.5</DeltaE>
+                <Checksum>3159040438</Checksum>
+            </CIELab>
+            <CMYKPercentages>
+                <C>0</C>
+                <M>0</M>
+                <Y>0</Y>
+                <K>100</K>
+            </CMYKPercentages>
+        </ColourData>
+        <ColourData type="undefined">
+            <ID>Yellow 100</ID>
+            <Comment/>
+            <Enabled>true</Enabled>
+            <IsCoated>true</IsCoated>
+            <IsPaper>false</IsPaper>
+            <Tint>100</Tint>
+            <RGB>16308224</RGB>
+            <Index>0</Index>
+            <Group>1</Group>
+            <InkKey>true</InkKey>
+            <LastModified>Thu Jun 5 14:18:31 2014 UTC</LastModified>
+            <DateMeasured>Thu Jun 5 14:18:31 2014 UTC</DateMeasured>
+            <BrandPath/>
+            <CIELab>
+                <L>87</L>
+                <A>-6</A>
+                <B>90</B>
+                <DeltaE>2.5</DeltaE>
+                <Checksum>589751890</Checksum>
+            </CIELab>
+            <CMYKPercentages>
+                <C>0</C>
+                <M>0</M>
+                <Y>100</Y>
+                <K>0</K>
+            </CMYKPercentages>
+        </ColourData>
+        <ColourData type="undefined">
+            <ID>Black 50</ID>
+            <Comment/>
+            <Enabled>true</Enabled>
+            <IsCoated>true</IsCoated>
+            <IsPaper>false</IsPaper>
+            <Tint>100</Tint>
+            <RGB>9606295</RGB>
+            <Index>0</Index>
+            <Group>1</Group>
+            <LastModified>Thu Jun 5 14:18:31 2014 UTC</LastModified>
+            <DateMeasured>Thu Jun 5 14:18:31 2014 UTC</DateMeasured>
+            <BrandPath/>
+            <CIELab>
+                <L>61.79</L>
+                <A>0</A>
+                <B>-2.07</B>
+                <DeltaE>2.5</DeltaE>
+                <Checksum>3843263791</Checksum>
+            </CIELab>
+            <CMYKPercentages>
+                <C>0</C>
+                <M>0</M>
+                <Y>0</Y>
+                <K>50</K>
+            </CMYKPercentages>
+        </ColourData>
+        <ColourData type="undefined">
+            <ID>Yellow 75</ID>
+            <Comment/>
+            <Enabled>true</Enabled>
+            <IsCoated>true</IsCoated>
+            <IsPaper>false</IsPaper>
+            <Tint>100</Tint>
+            <RGB>16177753</RGB>
+            <Index>0</Index>
+            <Group>1</Group>
+            <LastModified>Thu Jun 5 14:18:31 2014 UTC</LastModified>
+            <DateMeasured>Thu Jun 5 14:18:31 2014 UTC</DateMeasured>
+            <BrandPath/>
+            <CIELab>
+                <L>87.66</L>
+                <A>-5.16</A>
+                <B>65.63</B>
+                <DeltaE>2.5</DeltaE>
+                <Checksum>3363709663</Checksum>
+            </CIELab>
+            <CMYKPercentages>
+                <C>0</C>
+                <M>0</M>
+                <Y>75</Y>
+                <K>0</K>
+            </CMYKPercentages>
+        </ColourData>
+        <ColourData type="undefined">
+            <ID>Black 25</ID>
+            <Comment/>
+            <Enabled>true</Enabled>
+            <IsCoated>true</IsCoated>
+            <IsPaper>false</IsPaper>
+            <Tint>100</Tint>
+            <RGB>12435653</RGB>
+            <Index>0</Index>
+            <Group>1</Group>
+            <LastModified>Thu Jun 5 14:18:31 2014 UTC</LastModified>
+            <DateMeasured>Thu Jun 5 14:18:31 2014 UTC</DateMeasured>
+            <BrandPath/>
+            <CIELab>
+                <L>78.31</L>
+                <A>0</A>
+                <B>-2.59</B>
+                <DeltaE>2.5</DeltaE>
+                <Checksum>874625938</Checksum>
+            </CIELab>
+            <CMYKPercentages>
+                <C>0</C>
+                <M>0</M>
+                <Y>0</Y>
+                <K>25</K>
+            </CMYKPercentages>
+        </ColourData>
+        <ColourData type="undefined">
+            <ID>Green</ID>
+            <Comment/>
+            <Enabled>true</Enabled>
+            <IsCoated>true</IsCoated>
+            <IsPaper>false</IsPaper>
+            <Tint>100</Tint>
+            <RGB>35402</RGB>
+            <Index>0</Index>
+            <Group>1</Group>
+            <LastModified>Thu Jun 5 14:18:31 2014 UTC</LastModified>
+            <DateMeasured>Thu Jun 5 14:18:31 2014 UTC</DateMeasured>
+            <BrandPath/>
+            <CIELab>
+                <L>49</L>
+                <A>-66</A>
+                <B>24</B>
+                <DeltaE>2.5</DeltaE>
+                <Checksum>4024709506</Checksum>
+            </CIELab>
+            <CMYKPercentages>
+                <C>100</C>
+                <M>0</M>
+                <Y>100</Y>
+                <K>0</K>
+            </CMYKPercentages>
+        </ColourData>
+    </ColourDataCollection>
+</ControlStripList>

@@ -1,0 +1,16 @@
+<FileSaveClipboardContents applicationVersion="4.4.42.10" os="Windows 10">
+  <ISO15311Separator/>
+  <ISO15311UseBlankSeparator>true</ISO15311UseBlankSeparator>
+  <RetroSpecSeparator/>
+  <RetroSpecUseBlankSeparator>true</RetroSpecUseBlankSeparator>
+  <JobWizardSeparator/>
+  <JobWizardUseBlankSeparator>true</JobWizardUseBlankSeparator>
+  <SideFront>Front</SideFront>
+  <SideBack>Back</SideBack>
+  <ISO15311FieldName>PrintSample</ISO15311FieldName>
+  <ISO15311FieldName>ModuleName</ISO15311FieldName>
+  <RetroSpecFieldName>JobName</RetroSpecFieldName>
+  <RetroSpecFieldName>ModuleName</RetroSpecFieldName>
+  <JobWizardFieldName>PrintSample</JobWizardFieldName>
+  <JobWizardFieldName>ModuleName</JobWizardFieldName>
+</FileSaveClipboardContents>

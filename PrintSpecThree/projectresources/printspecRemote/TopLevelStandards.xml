@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PrintSpecStandards>
+    <GlobalMetaData>
+        <Label>Standards</Label>
+        <Description>Standards</Description>
+        <ContentType>StandardsList</ContentType>
+        <DateCreated>Mon Dec 3 19:48:09 GMT+0000 2018</DateCreated>
+        <OperatingSystem>Windows 10</OperatingSystem>
+        <ApplicationName>PrintSpec</ApplicationName>
+        <ApplicationVersion>4.3</ApplicationVersion>
+        <Language>en</Language>
+    </GlobalMetaData>
+    <Version>1</Version>
+    <PrintSpecStandard>
+        <DefaultStandard>false</DefaultStandard>
+        <Comment/>
+        <ICCProfile>PSO_Uncoated_ISO12647_eci</ICCProfile>
+        <Enabled>false</Enabled>
+        <DeltaEType>CIE_76</DeltaEType>
+        <VariationTolerances>ISO 12647-2 (2004)</VariationTolerances>
+        <MidToneSpread>5</MidToneSpread>
+        <VariationToleranceModel>
+            <ID>ISO 12647-2 (2004)</ID>
+            <Label>ISO 12647-2 (2004)</Label>
+            <Custom>false</Custom>
+            <DeltaEType>CIE_76</DeltaEType>
+            <Cyan DeltaE="4" DeltaH="2.5" DotGain50="4"/>
+            <Magenta DeltaE="4" DeltaH="2.5" DotGain50="4"/>
+            <Yellow DeltaE="5" DeltaH="2.5" DotGain50="4"/>
+            <Black DeltaE="4" DotGain50="4"/>
+            <MidToneSpread Tolerance="5"/>
+        </VariationToleranceModel>
+        <StandardID>
+            <PrintingProcess>ISO 12647-2:2007 Offset Status T</PrintingProcess>
+            <PaperTypeName>Uncoated</PaperTypeName>
+            <TVICurveName>ISO Curve C</TVICurveName>
+            <Backing>Black</Backing>
+            <Density>Status T</Density>
+            <Illuminant>D50</Illuminant>
+            <Observer>TwoDegree</Observer>
+        </StandardID>
+        <PaperType>
+            <SolidColours>
+                <Cyan>
+                    <L>58</L>
+                    <A>-25</A>
+                    <B>-43</B>
+                    <Tolerance>5</Tolerance>
+                </Cyan>
+                <Magenta>
+                    <L>54</L>
+                    <A>58</A>
+                    <B>-2</B>
+                    <Tolerance>5</Tolerance>
+                </Magenta>
+                <Yellow>
+                    <L>86</L>
+                    <A>-4</A>
+                    <B>75</B>
+                    <Tolerance>5</Tolerance>
+                </Yellow>
+                <Black>
+                    <L>31</L>
+                    <A>1</A>
+                    <B>1</B>
+                    <Tolerance>5</Tolerance>
+                </Black>
+            </SolidColours>
+            <Overprints>
+                <Red>
+                    <L>52</L>
+                    <A>53</A>
+                    <B>25</B>
+                </Red>
+                <Green>
+                    <L>53</L>
+                    <A>-42</A>
+                    <B>13</B>
+                </Green>
+                <Violet>
+                    <L>37</L>
+                    <A>8</A>
+                    <B>-30</B>
+                </Violet>
+            </Overprints>
+            <ThreeColourGreyTolerance>
+                <WhitePaper>2</WhitePaper>
+                <LightGrey>2</LightGrey>
+                <MidGrey>2</MidGrey>
+                <DarkGrey>2</DarkGrey>
+            </ThreeColourGreyTolerance>
+            <ThreeColourGreyTargets>
+                <Enabled>false</Enabled>
+                <LightGrey>
+                    <A>0</A>
+                    <B>0</B>
+                </LightGrey>
+                <MidGrey>
+                    <A>0</A>
+                    <B>0</B>
+                </MidGrey>
+                <DarkGrey>
+                    <A>0</A>
+                    <B>0</B>
+                </DarkGrey>
+            </ThreeColourGreyTargets>
+            <ThreeColourBlack>
+                <L>32</L>
+                <A>0</A>
+                <B>0</B>
+            </ThreeColourBlack>
+            <WhitePaper>
+                <Target>
+                    <L>92</L>
+                    <A>0</A>
+                    <B>-3</B>
+                </Target>
+                <ISOTolerance>
+                    <L>3</L>
+                    <A>2</A>
+                    <B>2</B>
+                </ISOTolerance>
+                <HousePaper>
+                    <L>92</L>
+                    <A>0</A>
+                    <B>-3</B>
+                </HousePaper>
+            </WhitePaper>
+            <Density>
+                <Cyan>
+                    <Target0>0.1</Target0>
+                    <Target100>1</Target100>
+                    <Tolerance50>5</Tolerance50>
+                    <Tolerance100>5</Tolerance100>
+                </Cyan>
+                <Magenta>
+                    <Target0>0.1</Target0>
+                    <Target100>1</Target100>
+                    <Tolerance50>5</Tolerance50>
+                    <Tolerance100>5</Tolerance100>
+                </Magenta>
+                <Yellow>
+                    <Target0>0.08</Target0>
+                    <Target100>0.95</Target100>
+                    <Tolerance50>5</Tolerance50>
+                    <Tolerance100>5</Tolerance100>
+                </Yellow>
+                <Black>
+                    <Target0>0.1</Target0>
+                    <Target100>1.1</Target100>
+                    <Tolerance50>5</Tolerance50>
+                    <Tolerance100>5</Tolerance100>
+                </Black>
+            </Density>
+        </PaperType>
+        <TVICurveSet>
+            <Cyan>
+                <CurveID>ISO-12647-2-2007-CurveC</CurveID>
+                <Percent25>15</Percent25>
+                <Percent50>19.6</Percent50>
+                <Percent75>14.5</Percent75>
+                <Tolerance25>3</Tolerance25>
+                <Tolerance50>4</Tolerance50>
+                <Tolerance75>3</Tolerance75>
+            </Cyan>
+            <Magenta>
+                <CurveID>ISO-12647-2-2007-CurveC</CurveID>
+                <Percent25>15</Percent25>
+                <Percent50>19.6</Percent50>
+                <Percent75>14.5</Percent75>
+                <Tolerance25>3</Tolerance25>
+                <Tolerance50>4</Tolerance50>
+                <Tolerance75>3</Tolerance75>
+            </Magenta>
+            <Yellow>
+                <CurveID>ISO-12647-2-2007-CurveC</CurveID>
+                <Percent25>15</Percent25>
+                <Percent50>19.6</Percent50>
+                <Percent75>14.5</Percent75>
+                <Tolerance25>3</Tolerance25>
+                <Tolerance50>4</Tolerance50>
+                <Tolerance75>3</Tolerance75>
+            </Yellow>
+            <Black>
+                <CurveID>ISO-12647-2-2007-CurveC</CurveID>
+                <Percent25>15</Percent25>
+                <Percent50>19.6</Percent50>
+                <Percent75>14.5</Percent75>
+                <Tolerance25>3</Tolerance25>
+                <Tolerance50>4</Tolerance50>
+                <Tolerance75>3</Tolerance75>
+            </Black>
+            <CMYMidToneSpread>5</CMYMidToneSpread>
+        </TVICurveSet>
+        <CustomTVICurveSet>
+            <Cyan>
+                <CustomTVICurve type="interpolated" interpolation="UltraSmooth" editable="true" iso="true">
+                    <Label>ISO Curve C 2007</Label>
+                    <ID>ISO-12647-2-2007-CurveC</ID>
+                    <X>0.00000 25.00000 50.00000 75.00000 100.00000</X>
+                    <Y>0.00000 15.00000 19.60000 14.50000 0.00000</Y>
+                    <Tol25>3</Tol25>
+                    <Tol50>4</Tol50>
+                    <Tol75>3</Tol75>
+                </CustomTVICurve>
+            </Cyan>
+            <Magenta>
+                <CustomTVICurve type="interpolated" interpolation="UltraSmooth" editable="true" iso="true">
+                    <Label>ISO Curve C 2007</Label>
+                    <ID>ISO-12647-2-2007-CurveC</ID>
+                    <X>0.00000 25.00000 50.00000 75.00000 100.00000</X>
+                    <Y>0.00000 15.00000 19.60000 14.50000 0.00000</Y>
+                    <Tol25>3</Tol25>
+                    <Tol50>4</Tol50>
+                    <Tol75>3</Tol75>
+                </CustomTVICurve>
+            </Magenta>
+            <Yellow>
+                <CustomTVICurve type="interpolated" interpolation="UltraSmooth" editable="true" iso="true">
+                    <Label>ISO Curve C 2007</Label>
+                    <ID>ISO-12647-2-2007-CurveC</ID>
+                    <X>0.00000 25.00000 50.00000 75.00000 100.00000</X>
+                    <Y>0.00000 15.00000 19.60000 14.50000 0.00000</Y>
+                    <Tol25>3</Tol25>
+                    <Tol50>4</Tol50>
+                    <Tol75>3</Tol75>
+                </CustomTVICurve>
+            </Yellow>
+            <Black>
+                <CustomTVICurve type="interpolated" interpolation="UltraSmooth" editable="true" iso="true">
+                    <Label>ISO Curve C 2007</Label>
+                    <ID>ISO-12647-2-2007-CurveC</ID>
+                    <X>0.00000 25.00000 50.00000 75.00000 100.00000</X>
+                    <Y>0.00000 15.00000 19.60000 14.50000 0.00000</Y>
+                    <Tol25>3</Tol25>
+                    <Tol50>4</Tol50>
+                    <Tol75>3</Tol75>
+                </CustomTVICurve>
+            </Black>
+        </CustomTVICurveSet>
+    </PrintSpecStandard>
+    <PrintSpecStandard>
+        <DefaultStandard>false</DefaultStandard>
+        <Comment/>
+        <ICCProfile>ISOcoated_v2_eci</ICCProfile>
+        <Enabled>false</Enabled>
+        <DeltaEType>CIE_76</DeltaEType>
+        <VariationTolerances>ISO 12647-2 (2004)</VariationTolerances>
+        <MidToneSpread>5</MidToneSpread>
+        <VariationToleranceModel>
+            <ID>ISO 12647-2 (2004)</ID>
+            <Label>ISO 12647-2 (2004)</Label>
+            <Custom>false</Custom>
+            <DeltaEType>CIE_76</DeltaEType>
+            <Cyan DeltaE="4" DeltaH="2.5" DotGain50="4"/>
+            <Magenta DeltaE="4" DeltaH="2.5" DotGain50="4"/>
+            <Yellow DeltaE="5" DeltaH="2.5" DotGain50="4"/>
+            <Black DeltaE="4" DotGain50="4"/>
+            <MidToneSpread Tolerance="5"/>
+        </VariationToleranceModel>
+        <StandardID>
+            <PrintingProcess>ISO 12647-2:2007 Offset Status T</PrintingProcess>
+            <PaperTypeName>Coated</PaperTypeName>
+            <TVICurveName>ISO Curve A</TVICurveName>
+            <Backing>Black</Backing>
+            <Density>Status T</Density>
+            <Illuminant>D50</Illuminant>
+            <Observer>TwoDegree</Observer>
+        </StandardID>
+        <PaperType>
+            <SolidColours>
+                <Cyan>
+                    <L>54</L>
+                    <A>-36</A>
+                    <B>-49</B>
+                    <Tolerance>5</Tolerance>
+                </Cyan>
+                <Magenta>
+                    <L>46</L>
+                    <A>72</A>
+                    <B>-5</B>
+                    <Tolerance>5</Tolerance>
+                </Magenta>
+                <Yellow>
+                    <L>87</L>
+                    <A>-6</A>
+                    <B>90</B>
+                    <Tolerance>5</Tolerance>
+                </Yellow>
+                <Black>
+                    <L>16</L>
+                    <A>0</A>
+                    <B>0</B>
+                    <Tolerance>5</Tolerance>
+                </Black>
+            </SolidColours>
+            <Overprints>
+                <Red>
+                    <L>46</L>
+                    <A>67</A>
+                    <B>47</B>
+                </Red>
+                <Green>
+                    <L>49</L>
+                    <A>-66</A>
+                    <B>24</B>
+                </Green>
+                <Violet>
+                    <L>24</L>
+                    <A>16</A>
+                    <B>-45</B>
+                </Violet>
+            </Overprints>
+            <ThreeColourGreyTolerance>
+                <WhitePaper>2</WhitePaper>
+                <LightGrey>2</LightGrey>
+                <MidGrey>2</MidGrey>
+                <DarkGrey>2</DarkGrey>
+            </ThreeColourGreyTolerance>
+            <ThreeColourGreyTargets>
+                <Enabled>false</Enabled>
+                <LightGrey>
+                    <A>0</A>
+                    <B>0</B>
+                </LightGrey>
+                <MidGrey>
+                    <A>0</A>
+                    <B>0</B>
+                </MidGrey>
+                <DarkGrey>
+                    <A>0</A>
+                    <B>0</B>
+                </DarkGrey>
+            </ThreeColourGreyTargets>
+            <ThreeColourBlack>
+                <L>22</L>
+                <A>0</A>
+                <B>0</B>
+            </ThreeColourBlack>
+            <WhitePaper>
+                <Target>
+                    <L>92</L>
+                    <A>0</A>
+                    <B>-3</B>
+                </Target>
+                <ISOTolerance>
+                    <L>3</L>
+                    <A>2</A>
+                    <B>2</B>
+                </ISOTolerance>
+                <HousePaper>
+                    <L>92</L>
+                    <A>0</A>
+                    <B>-3</B>
+                </HousePaper>
+            </WhitePaper>
+            <Density>
+                <Cyan>
+                    <Target0>0.08</Target0>
+                    <Target100>1.4</Target100>
+                    <Tolerance50>5</Tolerance50>
+                    <Tolerance100>5</Tolerance100>
+                </Cyan>
+                <Magenta>
+                    <Target0>0.08</Target0>
+                    <Target100>1.45</Target100>
+                    <Tolerance50>5</Tolerance50>
+                    <Tolerance100>5</Tolerance100>
+                </Magenta>
+                <Yellow>
+                    <Target0>0.06</Target0>
+                    <Target100>1.05</Target100>
+                    <Tolerance50>5</Tolerance50>
+                    <Tolerance100>5</Tolerance100>
+                </Yellow>
+                <Black>
+                    <Target0>0.08</Target0>
+                    <Target100>1.7</Target100>
+                    <Tolerance50>5</Tolerance50>
+                    <Tolerance100>5</Tolerance100>
+                </Black>
+            </Density>
+        </PaperType>
+        <TVICurveSet>
+            <Cyan>
+                <CurveID>ISO-12647-2-2007-CurveA</CurveID>
+                <Percent25>9.3</Percent25>
+                <Percent50>14.3</Percent50>
+                <Percent75>12.3</Percent75>
+                <Tolerance25>3</Tolerance25>
+                <Tolerance50>4</Tolerance50>
+                <Tolerance75>3</Tolerance75>
+            </Cyan>
+            <Magenta>
+                <CurveID>ISO-12647-2-2007-CurveA</CurveID>
+                <Percent25>9.3</Percent25>
+                <Percent50>14.3</Percent50>
+                <Percent75>12.3</Percent75>
+                <Tolerance25>3</Tolerance25>
+                <Tolerance50>4</Tolerance50>
+                <Tolerance75>3</Tolerance75>
+            </Magenta>
+            <Yellow>
+                <CurveID>ISO-12647-2-2007-CurveA</CurveID>
+                <Percent25>9.3</Percent25>
+                <Percent50>14.3</Percent50>
+                <Percent75>12.3</Percent75>
+                <Tolerance25>3</Tolerance25>
+                <Tolerance50>4</Tolerance50>
+                <Tolerance75>3</Tolerance75>
+            </Yellow>
+            <Black>
+                <CurveID>ISO-12647-2-2007-CurveA</CurveID>
+                <Percent25>9.3</Percent25>
+                <Percent50>14.3</Percent50>
+                <Percent75>12.3</Percent75>
+                <Tolerance25>3</Tolerance25>
+                <Tolerance50>4</Tolerance50>
+                <Tolerance75>3</Tolerance75>
+            </Black>
+            <CMYMidToneSpread>5</CMYMidToneSpread>
+        </TVICurveSet>
+        <CustomTVICurveSet>
+            <Cyan>
+                <CustomTVICurve type="interpolated" interpolation="UltraSmooth" editable="true" iso="true">
+                    <Label>ISO Curve A 2007</Label>
+                    <ID>ISO-12647-2-2007-CurveA</ID>
+                    <X>0.00000 25.00000 50.00000 75.00000 100.00000</X>
+                    <Y>0.00000 9.30000 14.30000 12.30000 0.00000</Y>
+                    <Tol25>3</Tol25>
+                    <Tol50>4</Tol50>
+                    <Tol75>3</Tol75>
+                </CustomTVICurve>
+            </Cyan>
+            <Magenta>
+                <CustomTVICurve type="interpolated" interpolation="UltraSmooth" editable="true" iso="true">
+                    <Label>ISO Curve A 2007</Label>
+                    <ID>ISO-12647-2-2007-CurveA</ID>
+                    <X>0.00000 25.00000 50.00000 75.00000 100.00000</X>
+                    <Y>0.00000 9.30000 14.30000 12.30000 0.00000</Y>
+                    <Tol25>3</Tol25>
+                    <Tol50>4</Tol50>
+                    <Tol75>3</Tol75>
+                </CustomTVICurve>
+            </Magenta>
+            <Yellow>
+                <CustomTVICurve type="interpolated" interpolation="UltraSmooth" editable="true" iso="true">
+                    <Label>ISO Curve A 2007</Label>
+                    <ID>ISO-12647-2-2007-CurveA</ID>
+                    <X>0.00000 25.00000 50.00000 75.00000 100.00000</X>
+                    <Y>0.00000 9.30000 14.30000 12.30000 0.00000</Y>
+                    <Tol25>3</Tol25>
+                    <Tol50>4</Tol50>
+                    <Tol75>3</Tol75>
+                </CustomTVICurve>
+            </Yellow>
+            <Black>
+                <CustomTVICurve type="interpolated" interpolation="UltraSmooth" editable="true" iso="true">
+                    <Label>ISO Curve A 2007</Label>
+                    <ID>ISO-12647-2-2007-CurveA</ID>
+                    <X>0.00000 25.00000 50.00000 75.00000 100.00000</X>
+                    <Y>0.00000 9.30000 14.30000 12.30000 0.00000</Y>
+                    <Tol25>3</Tol25>
+                    <Tol50>4</Tol50>
+                    <Tol75>3</Tol75>
+                </CustomTVICurve>
+            </Black>
+        </CustomTVICurveSet>
+    </PrintSpecStandard>
+</PrintSpecStandards>

@@ -1,0 +1,30 @@
+<application xmlns="http://ns.adobe.com/air/application/51.2">
+  <id>com.mellowcolour.PrintSpecThree</id>
+  <filename>PrintSpecThree</filename>
+  <name>PrintSpecThree</name>
+  <versionNumber>4.4.43</versionNumber>
+  <versionLabel>4.4.43.27</versionLabel>
+  <installFolder>MellowColourAir</installFolder>
+  <programMenuFolder>MellowColourAir</programMenuFolder>
+  <copyright>© 2007-2026 Mellow Colour Limited. All rights reserved.</copyright>
+  <initialWindow>
+    <content>PrintSpec.swf</content>
+    <title>PrintSpecThree by MellowColour</title>
+    <systemChrome>standard</systemChrome>
+    <autoOrients>false</autoOrients>
+    <fullScreen>false</fullScreen>
+    <visible>false</visible>
+  </initialWindow>
+  <icon>
+    <image16x16>PrintSpec16.png</image16x16>
+    <image32x32>PrintSpec32.png</image32x32>
+    <image48x48>PrintSpec48.png</image48x48>
+    <image128x128>PrintSpec128.png</image128x128>
+  </icon>
+  <extensions>
+    <extensionID>com.mellowcolour.ane.imageviewer</extensionID>
+    <extensionID>com.mellowcolour.ane.mcinstruments</extensionID>
+    <extensionID>com.mellowcolour.ane.mcfunctions</extensionID>
+    <extensionID>com.mellowcolour.ane.mcintellitrax</extensionID>
+  </extensions>
+</application>

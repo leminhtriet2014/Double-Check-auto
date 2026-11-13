@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<InstrumentPreferences>
+	<InstrumentPreference id="EyeOne"/>
+
+	<InstrumentPreference id="SpectroEye">
+		<ComPort>1</ComPort>
+		<BaudRate>9600</BaudRate>
+		<PollInterval>100</PollInterval>
+		<PollCount>20</PollCount>
+	</InstrumentPreference>
+
+	<InstrumentPreference id="XRiteSP62">
+		<ComPort>1</ComPort>
+		<BaudRate>9600</BaudRate>
+		<AutoCalibrate>false</AutoCalibrate>
+		<ExcludeGeometry>false</ExcludeGeometry>
+		<PollInterval>100</PollInterval>
+		<PollCount>20</PollCount>
+	</InstrumentPreference>
+	
+	<InstrumentPreference id="XRite530">
+		<ComPort>1</ComPort>
+		<BaudRate>9600</BaudRate>
+		<AutoCalibrate>false</AutoCalibrate>
+		<PollInterval>100</PollInterval>
+		<PollCount>20</PollCount>
+	</InstrumentPreference>
+	
+	<InstrumentPreference id="Rabbit"/>
+	
+	<InstrumentPreference id="SpectroDrive">
+		<PortNumber>20102</PortNumber>
+		<HostName>localhost</HostName>
+		<PatchSize>5</PatchSize>
+		<DeviceID>B204004</DeviceID>
+	</InstrumentPreference>
+	
+	<InstrumentPreference id="SpectroJet">
+		<PortNumber>20102</PortNumber>
+		<HostName>localhost</HostName>
+		<PatchSize>5</PatchSize>
+		<DeviceID>B110005</DeviceID>
+	</InstrumentPreference>
+
+    <InstrumentPreference id="SpectroDens">
+        <PortNumber>20102</PortNumber>
+        <HostName>localhost</HostName>
+        <PatchSize>5</PatchSize>
+        <DeviceID>B710013</DeviceID>
+        <ConnectionTimeout>8000</ConnectionTimeout>
+    </InstrumentPreference>
+
+    <InstrumentPreference id="Mellow1">
+        <ComPort>1</ComPort>
+        <BaudRate>115200</BaudRate>
+        <AutoCalibrate>false</AutoCalibrate>
+        <PollInterval>100</PollInterval>
+        <PollCount>20</PollCount>
+    </InstrumentPreference>
+
+    <InstrumentPreference id="IntelliTrax">
+        <HostName>localhost</HostName>
+        <PatchSize>5</PatchSize>
+    </InstrumentPreference>
+
+</InstrumentPreferences>

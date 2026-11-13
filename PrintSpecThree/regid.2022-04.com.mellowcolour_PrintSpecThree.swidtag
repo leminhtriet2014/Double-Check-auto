@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<swid:software_identification_tag xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:swid="http://standards.iso.org/iso/19770/-2/2008/schema.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://standards.iso.org/iso/19770/-2/2008/schema.xsd software_identification_tag.xsd">
+  <swid:entitlement_required_indicator>false</swid:entitlement_required_indicator>
+  <swid:product_title>PrintSpecThree</swid:product_title>
+  <swid:product_version>
+    <swid:name>4.4.43.27</swid:name>
+    <swid:numeric>
+      <swid:major>4</swid:major>
+      <swid:minor>4</swid:minor>
+      <swid:build>43</swid:build>
+      <swid:review>27</swid:review>
+    </swid:numeric>
+  </swid:product_version>
+  <swid:software_creator>
+    <swid:name>Mellow Colour Limited</swid:name>
+    <swid:regid>regid.2022-04.com.mellowcolour</swid:regid>
+  </swid:software_creator>
+  <swid:software_licensor>
+    <swid:name>Mellow Colour Limited</swid:name>
+    <swid:regid>regid.2022-04.com.mellowcolour</swid:regid>
+  </swid:software_licensor>
+  <swid:software_id>
+    <swid:unique_id>PrintSpecThree</swid:unique_id>
+    <swid:tag_creator_regid>regid.2022-04.com.mellowcolour</swid:tag_creator_regid>
+  </swid:software_id>
+  <swid:tag_creator>
+    <swid:name>Mellow Colour Limited</swid:name>
+    <swid:regid>regid.2022-04.com.mellowcolour</swid:regid>
+  </swid:tag_creator>
+</swid:software_identification_tag>

@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ChartConfiguration>
+
+    <!-- Summary Page -->
+
+    <ChartConfig>
+        <ID>SummaryPage.DotGain</ID>
+        <Image>GreyScaleGreyBorder.jpg</Image>
+        <ScaleX>0.82</ScaleX>
+        <OffsetX>-1</OffsetX>
+        <ScaleY>0.75</ScaleY>
+        <OffsetY>-18</OffsetY>
+    </ChartConfig>
+
+    <ChartConfig>
+        <ID>SummaryPage.InkColour</ID>
+        <Image>ColourScaleGreyBorder.jpg</Image>
+        <ScaleX>0.43</ScaleX>
+        <OffsetX>-30</OffsetX>
+        <ScaleY>0.43</ScaleY>
+        <OffsetY>-30</OffsetY>
+    </ChartConfig>
+
+    <ChartConfig>
+        <ID>SummaryPage.GreyBalance</ID>
+        <Image>ColourScaleGreyBorder.jpg</Image>
+        <ScaleX>0.43</ScaleX>
+        <OffsetX>-30</OffsetX>
+        <ScaleY>0.43</ScaleY>
+        <OffsetY>-30</OffsetY>
+    </ChartConfig>
+
+    <!-- Dot gain curve editor -->
+
+    <ChartConfig>
+        <ID>TVICurveEditor.Chart</ID>
+        <Image>GreyScaleGreyBorder.jpg</Image>
+        <ScaleX>0.81</ScaleX>
+        <OffsetX>2</OffsetX>
+        <ScaleY>0.75</ScaleY>
+        <OffsetY>-18</OffsetY>
+    </ChartConfig>
+
+    <!-- Ink Colour Page -->
+
+    <ChartConfig>
+        <ID>InkColourPage.MainChart</ID>
+        <Image>ColourScaleGreyBorder.jpg</Image>
+        <ScaleX>0.875</ScaleX>
+        <OffsetX>-40</OffsetX>
+        <ScaleY>0.908</ScaleY>
+        <OffsetY>-50</OffsetY>
+    </ChartConfig>
+
+    <ChartConfig>
+        <ID>InkColourPage.LValueChart</ID>
+        <Image>GreyScaleTall.jpg</Image>
+        <ScaleX>0.98</ScaleX>
+        <OffsetX>-8</OffsetX>
+        <ScaleY>1.1</ScaleY>
+        <OffsetY>-25</OffsetY>
+    </ChartConfig>
+
+    <ChartConfig>
+        <ID>GreyPage.LValueChart</ID>
+        <Image>GreyScaleTall.jpg</Image>
+        <ScaleX>0.32</ScaleX>
+        <OffsetX>18</OffsetX>
+        <ScaleY>0.565</ScaleY>
+        <OffsetY>-1</OffsetY>
+    </ChartConfig>
+
+    <!-- Gradation Page -->
+
+    <ChartConfig>
+        <ID>GradationPage.Cyan</ID>
+        <Image>GreyScaleGreyBorder.jpg</Image>
+        <ScaleX>1.09</ScaleX>
+        <OffsetX>-18</OffsetX>
+        <ScaleY>0.86</ScaleY>
+        <OffsetY>-23</OffsetY>
+    </ChartConfig>
+
+    <ChartConfig>
+        <ID>GradationPage.Magenta</ID>
+        <Image>GreyScaleGreyBorder.jpg</Image>
+        <ScaleX>1.09</ScaleX>
+        <OffsetX>-18</OffsetX>
+        <ScaleY>0.86</ScaleY>
+        <OffsetY>-23</OffsetY>
+    </ChartConfig>
+
+    <ChartConfig>
+        <ID>GradationPage.Yellow</ID>
+        <Image>GreyScaleGreyBorder.jpg</Image>
+        <ScaleX>1.09</ScaleX>
+        <OffsetX>-18</OffsetX>
+        <ScaleY>0.86</ScaleY>
+        <OffsetY>-23</OffsetY>
+    </ChartConfig>
+
+    <ChartConfig>
+        <ID>GradationPage.Black</ID>
+        <Image>GreyScaleGreyBorder.jpg</Image>
+        <ScaleX>1.09</ScaleX>
+        <OffsetX>-18</OffsetX>
+        <ScaleY>0.86</ScaleY>
+        <OffsetY>-23</OffsetY>
+    </ChartConfig>
+
+    <ChartConfig>
+        <ID>GradationPage.NPDBlack</ID>
+        <Image>GreyScaleGreyBorder.jpg</Image>
+        <ScaleX>1.09</ScaleX>
+        <OffsetX>-18</OffsetX>
+        <ScaleY>0.86</ScaleY>
+        <OffsetY>-23</OffsetY>
+    </ChartConfig>
+
+    <ChartConfig>
+        <ID>GradationPage.NPDCMY</ID>
+        <Image>GreyScaleGreyBorder.jpg</Image>
+        <ScaleX>1.09</ScaleX>
+        <OffsetX>-18</OffsetX>
+        <ScaleY>0.86</ScaleY>
+        <OffsetY>-23</OffsetY>
+    </ChartConfig>
+
+
+    <!-- Print Curves Page -->
+
+    <ChartConfig>
+        <ID>PrintCurvesPage.MainChart</ID>
+        <Image>WhiteSquareGreyBorder.jpg</Image>
+        <ScaleX>1.89</ScaleX>
+        <OffsetX>-48</OffsetX>
+        <ScaleY>1.72</ScaleY>
+        <OffsetY>-59</OffsetY>
+	</ChartConfig>
+
+	<!-- Dot Gain Page -->
+
+	<ChartConfig>
+		<ID>DotGainPage.AllCharts</ID>
+		<Image>GreyScaleGreyBorder.jpg</Image>
+		<ScaleX>1.1</ScaleX>
+		<OffsetX>-22</OffsetX>
+		<ScaleY>0.855</ScaleY>
+		<OffsetY>-21</OffsetY>
+    </ChartConfig>
+
+    <!-- ProofSpec -->
+
+    <ChartConfig>
+        <ID>ProofSpec.InkColour</ID>
+        <Image>ColourScaleGreyBorder.jpg</Image>
+        <ScaleX>0.43</ScaleX>
+        <OffsetX>-30</OffsetX>
+        <ScaleY>0.43</ScaleY>
+        <OffsetY>-30</OffsetY>
+    </ChartConfig>
+
+    <!-- SweetSpot -->
+
+    <ChartConfig>
+        <ID>SweetSpot.2DChart</ID>
+        <Image>WhiteSquareGreyBorder.jpg</Image>
+        <ScaleX>2.56</ScaleX>
+        <OffsetX>-80</OffsetX>
+        <ScaleY>1.55</ScaleY>
+        <OffsetY>-40</OffsetY>
+    </ChartConfig>
+
+    <!-- InkSpec -->
+
+    <ChartConfig>
+        <ID>InkSpec.LValueChart</ID>
+        <Image>GreyScaleTall.jpg</Image>
+        <ScaleX>0.30</ScaleX>
+        <OffsetX>15</OffsetX>
+        <ScaleY>0.52</ScaleY>
+        <OffsetY>-19</OffsetY>
+    </ChartConfig>
+
+    <!-- SummaryStrip thumbnail -->
+
+    <ChartConfig>
+        <ID>SummaryStrip.DotGain</ID>
+        <Image>NoBorderDotGain.jpg</Image>
+        <ScaleX>1</ScaleX>
+        <OffsetX>1</OffsetX>
+        <ScaleY>1</ScaleY>
+        <OffsetY>1</OffsetY>
+    </ChartConfig>
+
+    <!-- G7  -->
+
+    <ChartConfig>
+        <ID>G7.TVIChart</ID>
+        <Image>GreyScaleGreyBorder.jpg</Image>
+        <ScaleX>0.56</ScaleX>
+        <OffsetX>9</OffsetX>
+        <ScaleY>0.56</ScaleY>
+        <OffsetY>-12</OffsetY>
+    </ChartConfig>
+
+    <ChartConfig>
+        <ID>G7.FanChart_Shorter</ID>
+        <Image>GreyScaleGreyBorder.jpg</Image>
+        <ScaleX>1.1</ScaleX>
+        <OffsetX>-17</OffsetX>
+        <ScaleY>0.95</ScaleY>
+        <OffsetY>-32</OffsetY>
+    </ChartConfig>
+
+    <ChartConfig>
+        <ID>G7.FanChart_PopUp</ID>
+        <Image>GreyScaleGreyBorder.jpg</Image>
+        <ScaleX>1.32</ScaleX>
+        <OffsetX>-26</OffsetX>
+        <ScaleY>1.14</ScaleY>
+        <OffsetY>-38.4</OffsetY>
+    </ChartConfig>
+
+    <ChartConfig>
+        <ID>G7SummaryPage.FanChart</ID>
+        <Image>GreyScaleGreyBorder.jpg</Image>
+        <ScaleX>0.84</ScaleX>
+        <OffsetX>-8</OffsetX>
+        <ScaleY>1.16</ScaleY>
+        <OffsetY>-37</OffsetY>
+    </ChartConfig>
+
+    <ChartConfig>
+        <ID>G7.GreyBalance</ID>
+        <Image>ColourScaleGreyBorder.jpg</Image>
+        <ScaleX>0.43</ScaleX>
+        <OffsetX>-30</OffsetX>
+        <ScaleY>0.43</ScaleY>
+        <OffsetY>-30</OffsetY>
+    </ChartConfig>
+
+</ChartConfiguration>

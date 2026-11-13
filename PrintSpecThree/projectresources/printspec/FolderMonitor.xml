@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Root>
+	<FolderMonitorConfiguration>		
+		<PollingInterval>5000</PollingInterval>
+		<SleepTime>500</SleepTime>
+		<LocalFolder>c:/users/mellowcolour/Desktop/LocalFolder</LocalFolder>
+		<ParserID>EasyTrax</ParserID>
+		<Enabled>false</Enabled>
+	</FolderMonitorConfiguration>
+	
+	<FolderMonitorTarget>
+		<Label>Hot folder</Label>
+		<RemoteFolder>c:/users/mellowcolour/Desktop/RemoteFolder</RemoteFolder>
+		<LocalFolder>c:/users/mellowcolour/Desktop/LocalFolder</LocalFolder>
+	</FolderMonitorTarget>
+	
+</Root>

@@ -1,0 +1,19 @@
+<application xmlns="http://ns.adobe.com/air/application/51.2">
+  <id>com.mellowcolour.PrintSpecThree</id>
+  <filename>BackupRestoreUtilityThree</filename>
+  <name>BackupRestoreUtilityThree</name>
+  <versionNumber>4.4.43</versionNumber>
+  <versionLabel>4.4.43.27</versionLabel>
+  <description>Application to backup and restore the preferences folder for PrintSpecThree</description>
+  <copyright>© 2021-2026 Mellow Colour Limited. All rights reserved.</copyright>
+  <initialWindow>
+    <content>BackupRestoreUtility.swf</content>
+    <visible>true</visible>
+  </initialWindow>
+  <icon>
+    <image16x16>PrintSpec16.png</image16x16>
+    <image32x32>PrintSpec32.png</image32x32>
+    <image48x48>PrintSpec48.png</image48x48>
+    <image128x128>PrintSpec128.png</image128x128>
+  </icon>
+</application>

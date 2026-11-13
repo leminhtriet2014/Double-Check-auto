@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PlateCurves>
+  <PlateModel>
+    <ID>1</ID>
+    <ParentID>0</ParentID>
+    <Comment>Calibration Curves for Indigo</Comment>
+    <DateCreated>Mon Jan 27 14:54:00 GMT+0000 2014</DateCreated>
+    <Label>Indigo HP05</Label>
+    <HandEdited>false</HandEdited>
+    <Default>true</Default>
+    <Cyan>
+      <Values>0 8.2 15.9 23.2 30.1 36.6 42.7 48.5 54 59.1 64 68.6 73 77.1 80.9 84.6 88 91.3 94.4 97.3 100</Values>
+    </Cyan>
+    <Magenta>
+      <Values>0 8.2 15.9 23.2 30.1 36.6 42.7 48.5 54 59.1 64 68.6 73 77.1 80.9 84.6 88 91.3 94.4 97.3 100</Values>
+    </Magenta>
+    <Yellow>
+      <Values>0 8.2 15.9 23.2 30.1 36.6 42.7 48.5 54 59.1 64 68.6 73 77.1 80.9 84.6 88 91.3 94.4 97.3 100</Values>
+    </Yellow>
+    <Black>
+      <Values>0 8.2 15.9 23.2 30.1 36.6 42.7 48.5 54 59.1 64 68.6 73 77.1 80.9 84.6 88 91.3 94.4 97.3 100</Values>
+    </Black>
+  </PlateModel>
+</PlateCurves>

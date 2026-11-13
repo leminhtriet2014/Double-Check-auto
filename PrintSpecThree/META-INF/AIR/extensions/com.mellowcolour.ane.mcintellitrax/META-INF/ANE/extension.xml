@@ -1,0 +1,15 @@
+<extension xmlns="http://ns.adobe.com/air/extension/33.1">
+	<id>com.mellowcolour.ane.mcintellitrax</id>
+	<versionNumber>4.4.36</versionNumber>
+	
+	<platforms>
+		<platform name="Windows-x86">
+			<applicationDeployment>		
+				<nativeLibrary>MCIntelliTrax.dll</nativeLibrary>
+				<initializer>ExtInitializer</initializer>		
+				<finalizer>ExtFinalizer</finalizer>						
+			</applicationDeployment>		
+		</platform>
+	</platforms>
+
+</extension>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Root>
+    <ScoresTable>
+        <ID>ISO 15339</ID>
+
+        <ScoreItem id="C_100" good="1.5" fair="2.4" soso="4" />
+        <ScoreItem id="M_100" good="1.5" fair="2.4" soso="4" />
+        <ScoreItem id="Y_100" good="1.5" fair="2.4" soso="4" />
+        <ScoreItem id="K_100" good="2.4" fair="5.5" soso="6" />
+
+        <ScoreItem id="L_Grey" good="3" fair="4"  />
+        <ScoreItem id="M_Grey" good="3" fair="3.5"  />
+        <ScoreItem id="D_Grey" good="3" fair="4"  />
+
+        <ScoreItem id="Red" good="3"  />
+        <ScoreItem id="Green" good="3"  />
+        <ScoreItem id="Violet" good="3"  />
+
+    </ScoresTable>
+
+</Root>

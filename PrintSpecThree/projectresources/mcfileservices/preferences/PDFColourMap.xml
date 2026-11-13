@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ColourMapItemList>
+	<ColourMapItem>
+		<InkName>Cook Fish Blue</InkName>
+		<PDFName>PDFBlue-01</PDFName>
+		<RGB>2067150</RGB>
+		<Opacity>0.5</Opacity>
+		<Enabled>true</Enabled>
+	</ColourMapItem>
+	<ColourMapItem>
+		<InkName>Cook Chicken Orange</InkName>
+		<PDFName>Orange</PDFName>
+		<RGB>15957516</RGB>
+		<Opacity>0.5</Opacity>
+		<Enabled>true</Enabled>
+	</ColourMapItem>
+	<ColourMapItem>
+		<InkName>Purple</InkName>
+		<PDFName>Purple</PDFName>
+		<RGB>2104644</RGB>
+		<Opacity>0.5</Opacity>
+		<Enabled>true</Enabled>
+	</ColourMapItem>
+</ColourMapItemList>

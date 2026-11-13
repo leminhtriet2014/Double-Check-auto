@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding ="utf-8"?>
+<swc xmlns="http://www.adobe.com/flash/swccatalog/9">
+  <versions>
+    <swc version="1.2" />
+    <flex version="4.16.1" build="20171115" minimumSupportedVersion="3.0.0" />
+  </versions>
+  <features>
+    <feature-script-deps />
+    <feature-files />
+  </features>
+  <libraries>
+    <library path="library.swf">
+      <script name="com/mellowcolour/ane/mcinstruments/interfaces/ISPInstrumentANE" mod="1736176422446" signatureChecksum="2985157424" >
+        <def id="com.mellowcolour.ane.mcinstruments.interfaces:ISPInstrumentANE" /> 
+        <dep id="flash.events:IEventDispatcher" type="i" /> 
+        <dep id="Object" type="i" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <script name="_92757ab56c7bdf496d628724f3350f589f0152e0f256ec1cadaf12af81912425_flash_display_Sprite" mod="1741360003334" signatureChecksum="3461183873" >
+        <def id="_92757ab56c7bdf496d628724f3350f589f0152e0f256ec1cadaf12af81912425_flash_display_Sprite" /> 
+        <dep id="flash.system:Security" type="e" /> 
+        <dep id="flash.display:Sprite" type="i" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <script name="com/mellowcolour/ane/mcinstruments/MCInstrumentsANE" mod="1736176422445" signatureChecksum="291542483" >
+        <def id="com.mellowcolour.ane.mcinstruments:MCInstrumentsANE" /> 
+        <dep id="flash.events:StatusEvent" type="s" /> 
+        <dep id="flash.events:IEventDispatcher" type="s" /> 
+        <dep id="flash.external:ExtensionContext" type="s" /> 
+        <dep id="flash.events:StatusEvent" type="e" /> 
+        <dep id="flash.external:ExtensionContext" type="e" /> 
+        <dep id="flash.events:EventDispatcher" type="i" /> 
+        <dep id="com.mellowcolour.ane.mcinstruments.interfaces:ISPInstrumentANE" type="i" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <digests>
+        <digest type="SHA-256" signed="false" value="fe42d4a58e5c8cf8d45bc5b038d0bf92c1f88daf0248541b57b65a0fdc1c16db"   />
+      </digests>
+    </library>
+  </libraries>
+  <files>
+  </files>
+</swc>

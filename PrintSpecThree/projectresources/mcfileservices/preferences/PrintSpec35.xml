@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Root>
+  <PaletteDefinition>
+	<Label>PrintSpec 35</Label>
+	<id>PrintSpec35</id>
+    <ColourData type="colour-definition">
+      <ID>Cyan 25</ID>
+      <Comment/>
+      <IsCoated>true</IsCoated>
+      <IsPaper>false</IsPaper>
+      <Tint>100</Tint>
+      <RGB>12582911</RGB>
+      <LastModified>Fri Apr 1 08:42:23 2011 UTC</LastModified>
+      <DateMeasured>Fri Apr 1 08:42:23 2011 UTC</DateMeasured>
+      <BrandPath/>
+      <CMYKPercentages>
+        <C>25</C>
+        <M>0</M>
+        <Y>0</Y>
+        <K>0</K>
+      </CMYKPercentages>
+    </ColourData>
+    <ColourData type="colour-definition">
+      <ID>Cyan 50</ID>
+      <Comment/>
+      <IsCoated>true</IsCoated>
+      <IsPaper>false</IsPaper>
+      <Tint>100</Tint>
+      <RGB>8388607</RGB>
+      <LastModified>Fri Apr 1 08:42:23 2011 UTC</LastModified>
+      <DateMeasured>Fri Apr 1 08:42:23 2011 UTC</DateMeasured>
+      <BrandPath/>
+      <CMYKPercentages>
+        <C>50</C>
+        <M>0</M>
+        <Y>0</Y>
+        <K>0</K>
+      </CMYKPercentages>
+    </ColourData>
+    <ColourData type="colour-definition">
+      <ID>Cyan 75</ID>
+      <Comment/>
+      <IsCoated>true</IsCoated>
+      <IsPaper>false</IsPaper>
+      <Tint>100</Tint>
+      <RGB>4194303</RGB>
+      <LastModified>Fri Apr 1 08:42:23 2011 UTC</LastModified>
+      <DateMeasured>Fri Apr 1 08:42:23 2011 UTC</DateMeasured>
+      <BrandPath/>
+      <CMYKPercentages>
+        <C>75</C>
+        <M>0</M>
+        <Y>0</Y>
+        <K>0</K>
+      </CMYKPercentages>
+    </ColourData>
+    <ColourData type="colour-definition">
+      <ID>Cyan 100</ID>
+      <Comment/>
+      <IsCoated>true</IsCoated>
+      <IsPaper>false</IsPaper>
+      <Tint>100</Tint>
+      <RGB>65535</RGB>
+      <LastModified>Fri Apr 1 08:42:23 2011 UTC</LastModified>
+      <DateMeasured>Fri Apr 1 08:42:23 2011 UTC</DateMeasured>
+      <BrandPath/>
+      <CMYKPercentages>
+        <C>100</C>
+        <M>0</M>
+        <Y>0</Y>
+        <K>0</K>
+      </CMYKPercentages>
+    </ColourData>
+    <ColourData type="colour-definition">
+      <ID>Magenta 25</ID>
+      <Comment/>
+      <IsCoated>true</IsCoated>
+      <IsPaper>false</IsPaper>
+      <Tint>100</Tint>
+      <RGB>16760831</RGB>
+      <LastModified>Fri Apr 1 08:42:23 2011 UTC</LastModified>
+      <DateMeasured>Fri Apr 1 08:42:23 2011 UTC</DateMeasured>
+      <BrandPath/>
+      <CMYKPercentages>
+        <C>0</C>
+        <M>25</M>
+        <Y>0</Y>
+        <K>0</K>
+      </CMYKPercentages>
+    </ColourData>
+    <ColourData type="colour-definition">
+      <ID>Magenta 50</ID>
+      <Comment/>
+      <IsCoated>true</IsCoated>
+      <IsPaper>false</IsPaper>
+      <Tint>100</Tint>
+      <RGB>16744447</RGB>
+      <LastModified>Fri Apr 1 08:42:23 2011 UTC</LastModified>
+      <DateMeasured>Fri Apr 1 08:42:23 2011 UTC</DateMeasured>
+      <BrandPath/>
+      <CMYKPercentages>
+        <C>0</C>
+        <M>50</M>
+        <Y>0</Y>
+        <K>0</K>
+      </CMYKPercentages>
+    </ColourData>
+    <ColourData type="colour-definition">
+      <ID>Magenta 75</ID>
+      <Comment/>
+      <IsCoated>true</IsCoated>
+      <IsPaper>false</IsPaper>
+      <Tint>100</Tint>
+      <RGB>16728063</RGB>
+      <LastModified>Fri Apr 1 08:42:23 2011 UTC</LastModified>
+      <DateMeasured>Fri Apr 1 08:42:23 2011 UTC</DateMeasured>
+      <BrandPath/>
+      <CMYKPercentages>
+        <C>0</C>
+        <M>75</M>
+        <Y>0</Y>
+        <K>0</K>
+      </CMYKPercentages>
+    </ColourData>
+    <ColourData type="colour-definition">
+      <ID>Magenta 100</ID>
+      <Comment/>
+      <IsCoated>true</IsCoated>
+      <IsPaper>false</IsPaper>
+      <Tint>100</Tint>
+      <RGB>16711935</RGB>
+      <LastModified>Fri Apr 1 08:42:23 2011 UTC</LastModified>
+      <DateMeasured>Fri Apr 1 08:42:23 2011 UTC</DateMeasured>
+      <BrandPath/>
+      <CMYKPercentages>
+        <C>0</C>
+        <M>100</M>
+        <Y>0</Y>
+        <K>0</K>
+      </CMYKPercentages>
+    </ColourData>
+    <ColourData type="colour-definition">
+      <ID>Yellow 25</ID>
+      <Comment/>
+      <IsCoated>true</IsCoated>
+      <IsPaper>false</IsPaper>
+      <Tint>100</Tint>
+      <RGB>16777151</RGB>
+      <LastModified>Fri Apr 1 08:42:23 2011 UTC</LastModified>
+      <DateMeasured>Fri Apr 1 08:42:23 2011 UTC</DateMeasured>
+      <BrandPath/>
+      <CMYKPercentages>
+        <C>0</C>
+        <M>0</M>
+        <Y>25</Y>
+        <K>0</K>
+      </CMYKPercentages>
+    </ColourData>
+    <ColourData type="colour-definition">
+      <ID>Yellow 50</ID>
+      <Comment/>
+      <IsCoated>true</IsCoated>
+      <IsPaper>false</IsPaper>
+      <Tint>100</Tint>
+      <RGB>16777087</RGB>
+      <LastModified>Fri Apr 1 08:42:23 2011 UTC</LastModified>
+      <DateMeasured>Fri Apr 1 08:42:23 2011 UTC</DateMeasured>
+      <BrandPath/>
+      <CMYKPercentages>
+        <C>0</C>
+        <M>0</M>
+        <Y>50</Y>
+        <K>0</K>
+      </CMYKPercentages>
+    </ColourData>
+    <ColourData type="colour-definition">
+      <ID>Yellow 75</ID>
+      <Comment/>
+      <IsCoated>true</IsCoated>
+      <IsPaper>false</IsPaper>
+      <Tint>100</Tint>
+      <RGB>16777023</RGB>
+      <LastModified>Fri Apr 1 08:42:23 2011 UTC</LastModified>
+      <DateMeasured>Fri Apr 1 08:42:23 2011 UTC</DateMeasured>
+      <BrandPath/>
+      <CMYKPercentages>
+        <C>0</C>
+        <M>0</M>
+        <Y>75</Y>
+        <K>0</K>
+      </CMYKPercentages>
+    </ColourData>
+    <ColourData type="colour-definition">
+      <ID>Yellow 100</ID>
+      <Comment/>
+      <IsCoated>true</IsCoated>
+      <IsPaper>false</IsPaper>
+      <Tint>100</Tint>
+      <RGB>16776960</RGB>
+      <LastModified>Fri Apr 1 08:42:23 2011 UTC</LastModified>
+      <DateMeasured>Fri Apr 1 08:42:23 2011 UTC</DateMeasured>
+      <BrandPath/>
+      <CMYKPercentages>
+        <C>0</C>
+        <M>0</M>
+        <Y>100</Y>
+        <K>0</K>
+      </CMYKPercentages>
+    </ColourData>
+    <ColourData type="colour-definition">
+      <ID>Black 25</ID>
+      <Comment/>
+      <IsCoated>true</IsCoated>
+      <IsPaper>false</IsPaper>
+      <Tint>100</Tint>
+      <RGB>12566463</RGB>
+      <LastModified>Fri Apr 1 08:42:23 2011 UTC</LastModified>
+      <DateMeasured>Fri Apr 1 08:42:23 2011 UTC</DateMeasured>
+      <BrandPath/>
+      <CMYKPercentages>
+        <C>0</C>
+        <M>0</M>
+        <Y>0</Y>
+        <K>25</K>
+      </CMYKPercentages>
+    </ColourData>
+    <ColourData type="colour-definition">
+      <ID>Black 50</ID>
+      <Comment/>
+      <IsCoated>true</IsCoated>
+      <IsPaper>false</IsPaper>
+      <Tint>100</Tint>
+      <RGB>8355711</RGB>
+      <LastModified>Fri Apr 1 08:42:23 2011 UTC</LastModified>
+      <DateMeasured>Fri Apr 1 08:42:23 2011 UTC</DateMeasured>
+      <BrandPath/>
+      <CMYKPercentages>
+        <C>0</C>
+        <M>0</M>
+        <Y>0</Y>
+        <K>50</K>
+      </CMYKPercentages>
+    </ColourData>
+    <ColourData type="colour-definition">
+      <ID>Black 75</ID>
+      <Comment/>
+      <IsCoated>true</IsCoated>
+      <IsPaper>false</IsPaper>
+      <Tint>100</Tint>
+      <RGB>4144959</RGB>
+      <LastModified>Fri Apr 1 08:42:23 2011 UTC</LastModified>
+      <DateMeasured>Fri Apr 1 08:42:23 2011 UTC</DateMeasured>
+      <BrandPath/>
+      <CMYKPercentages>
+        <C>0</C>
+        <M>0</M>
+        <Y>0</Y>
+        <K>75</K>
+      </CMYKPercentages>
+    </ColourData>
+    <ColourData type="colour-definition">
+      <ID>Black 100</ID>
+      <Comment/>
+      <IsCoated>true</IsCoated>
+      <IsPaper>false</IsPaper>
+      <Tint>100</Tint>
+      <RGB>0</RGB>
+      <LastModified>Fri Apr 1 08:42:23 2011 UTC</LastModified>
+      <DateMeasured>Fri Apr 1 08:42:23 2011 UTC</DateMeasured>
+      <BrandPath/>
+      <CMYKPercentages>
+        <C>0</C>
+        <M>0</M>
+        <Y>0</Y>
+        <K>100</K>
+      </CMYKPercentages>
+    </ColourData>
+    <ColourData type="colour-definition">
+      <ID>Red</ID>
+      <Comment/>
+      <IsCoated>true</IsCoated>
+      <IsPaper>false</IsPaper>
+      <Tint>100</Tint>
+      <RGB>16711680</RGB>
+      <LastModified>Fri Apr 1 08:42:23 2011 UTC</LastModified>
+      <DateMeasured>Fri Apr 1 08:42:23 2011 UTC</DateMeasured>
+      <BrandPath/>
+      <CMYKPercentages>
+        <C>0</C>
+        <M>100</M>
+        <Y>100</Y>
+        <K>0</K>
+      </CMYKPercentages>
+    </ColourData>
+    <ColourData type="colour-definition">
+      <ID>Green</ID>
+      <Comment/>
+      <IsCoated>true</IsCoated>
+      <IsPaper>false</IsPaper>
+      <Tint>100</Tint>
+      <RGB>65280</RGB>
+      <LastModified>Fri Apr 1 08:42:23 2011 UTC</LastModified>
+      <DateMeasured>Fri Apr 1 08:42:23 2011 UTC</DateMeasured>
+      <BrandPath/>
+      <CMYKPercentages>
+        <C>100</C>
+        <M>0</M>
+        <Y>100</Y>
+        <K>0</K>
+      </CMYKPercentages>
+    </ColourData>
+    <ColourData type="colour-definition">
+      <ID>Violet</ID>
+      <Comment/>
+      <IsCoated>true</IsCoated>
+      <IsPaper>false</IsPaper>
+      <Tint>100</Tint>
+      <RGB>255</RGB>
+      <LastModified>Fri Apr 1 08:42:23 2011 UTC</LastModified>
+      <DateMeasured>Fri Apr 1 08:42:23 2011 UTC</DateMeasured>
+      <BrandPath/>
+      <CMYKPercentages>
+        <C>100</C>
+        <M>100</M>
+        <Y>0</Y>
+        <K>0</K>
+      </CMYKPercentages>
+    </ColourData>
+    <ColourData type="colour-definition">
+      <ID>White</ID>
+      <Comment/>
+      <IsCoated>true</IsCoated>
+      <IsPaper>false</IsPaper>
+      <Tint>100</Tint>
+      <RGB>16777215</RGB>
+      <LastModified>Fri Apr 1 08:42:23 2011 UTC</LastModified>
+      <DateMeasured>Fri Apr 1 08:42:23 2011 UTC</DateMeasured>
+      <BrandPath/>
+      <CMYKPercentages>
+        <C>0</C>
+        <M>0</M>
+        <Y>0</Y>
+        <K>0</K>
+      </CMYKPercentages>
+    </ColourData>
+    <ColourData type="colour-definition">
+      <ID>Light grey</ID>
+      <Comment/>
+      <IsCoated>true</IsCoated>
+      <IsPaper>false</IsPaper>
+      <Tint>100</Tint>
+      <RGB>12570318</RGB>
+      <LastModified>Fri Apr 1 09:04:58 2011 UTC</LastModified>
+      <DateMeasured>Fri Apr 1 09:04:58 2011 UTC</DateMeasured>
+      <BrandPath/>
+      <CMYKPercentages>
+        <C>25</C>
+        <M>19</M>
+        <Y>19</Y>
+        <K>0</K>
+      </CMYKPercentages>
+    </ColourData>
+    <ColourData type="colour-definition">
+      <ID>Mid grey</ID>
+      <Comment/>
+      <IsCoated>true</IsCoated>
+      <IsPaper>false</IsPaper>
+      <Tint>100</Tint>
+      <RGB>8362393</RGB>
+      <LastModified>Fri Apr 1 09:05:36 2011 UTC</LastModified>
+      <DateMeasured>Fri Apr 1 09:05:36 2011 UTC</DateMeasured>
+      <BrandPath/>
+      <CMYKPercentages>
+        <C>50</C>
+        <M>40</M>
+        <Y>40</Y>
+        <K>0</K>
+      </CMYKPercentages>
+    </ColourData>
+    <ColourData type="colour-definition">
+      <ID>Dark grey</ID>
+      <Comment/>
+      <IsCoated>true</IsCoated>
+      <IsPaper>false</IsPaper>
+      <Tint>100</Tint>
+      <RGB>4152155</RGB>
+      <LastModified>Fri Apr 1 09:04:20 2011 UTC</LastModified>
+      <DateMeasured>Fri Apr 1 09:04:20 2011 UTC</DateMeasured>
+      <BrandPath/>
+      <CMYKPercentages>
+        <C>75</C>
+        <M>64</M>
+        <Y>64</Y>
+        <K>0</K>
+      </CMYKPercentages>
+    </ColourData>
+    
+    <ColourData type="colour-definition">
+      <ID>CMY Black</ID>
+      <Comment/>
+      <IsCoated>true</IsCoated>
+      <IsPaper>false</IsPaper>
+      <Tint>100</Tint>
+      <RGB>0</RGB>
+      <LastModified>Fri Apr 1 08:42:23 2011 UTC</LastModified>
+      <DateMeasured>Fri Apr 1 08:42:23 2011 UTC</DateMeasured>
+      <BrandPath/>
+      <CMYKPercentages>
+        <C>100</C>
+        <M>100</M>
+        <Y>100</Y>
+        <K>0</K>
+      </CMYKPercentages>
+    </ColourData>
+    
+    
+    
+    <ColourData type="colour-definition">
+      <ID>50 80 20 0</ID>
+      <Comment/>
+      <IsCoated>true</IsCoated>
+      <IsPaper>false</IsPaper>
+      <Tint>100</Tint>
+      <RGB>9064320</RGB>
+      <LastModified>Fri Apr 1 08:42:23 2011 UTC</LastModified>
+      <DateMeasured>Fri Apr 1 08:42:23 2011 UTC</DateMeasured>
+      <BrandPath/>
+      <CMYKPercentages>
+        <C>50</C>
+        <M>80</M>
+        <Y>20</Y>
+        <K>10</K>
+      </CMYKPercentages>
+    </ColourData>
+    
+    <ColourData type="colour-definition">
+      <ID>10 10 10 0</ID>
+      <Comment/>
+      <IsCoated>true</IsCoated>
+      <IsPaper>false</IsPaper>
+      <Tint>100</Tint>
+      <RGB>15328226</RGB>
+      <LastModified>Fri Apr 1 08:42:23 2011 UTC</LastModified>
+      <DateMeasured>Fri Apr 1 08:42:23 2011 UTC</DateMeasured>
+      <BrandPath/>
+      <CMYKPercentages>
+        <C>10</C>
+        <M>10</M>
+        <Y>10</Y>
+        <K>0</K>
+      </CMYKPercentages>
+    </ColourData>
+    
+    <ColourData type="colour-definition">
+      <ID>25 55 75 20</ID>
+      <Comment/>
+      <IsCoated>true</IsCoated>
+      <IsPaper>false</IsPaper>
+      <Tint>100</Tint>
+      <RGB>11432523</RGB>
+      <LastModified>Fri Apr 1 08:42:23 2011 UTC</LastModified>
+      <DateMeasured>Fri Apr 1 08:42:23 2011 UTC</DateMeasured>
+      <BrandPath/>
+      <CMYKPercentages>
+        <C>25</C>
+        <M>55</M>
+        <Y>75</Y>
+        <K>20</K>
+      </CMYKPercentages>
+    </ColourData>
+    
+    <ColourData type="colour-definition">
+      <ID>5 20 60 0</ID>
+      <Comment/>
+      <IsCoated>true</IsCoated>
+      <IsPaper>false</IsPaper>
+      <Tint>100</Tint>
+      <RGB>16502141</RGB>
+      <LastModified>Fri Apr 1 08:42:23 2011 UTC</LastModified>
+      <DateMeasured>Fri Apr 1 08:42:23 2011 UTC</DateMeasured>
+      <BrandPath/>
+      <CMYKPercentages>
+        <C>5</C>
+        <M>20</M>
+        <Y>60</Y>
+        <K>0</K>
+      </CMYKPercentages>
+    </ColourData>
+    
+    <ColourData type="colour-definition">
+      <ID>50 5 50 0</ID>
+      <Comment/>
+      <IsCoated>true</IsCoated>
+      <IsPaper>false</IsPaper>
+      <Tint>100</Tint>
+      <RGB>9617560</RGB>
+      <LastModified>Fri Apr 1 08:42:23 2011 UTC</LastModified>
+      <DateMeasured>Fri Apr 1 08:42:23 2011 UTC</DateMeasured>
+      <BrandPath/>
+      <CMYKPercentages>
+        <C>50</C>
+        <M>5</M>
+        <Y>50</Y>
+        <K>0</K>
+      </CMYKPercentages>
+    </ColourData>
+    
+    <ColourData type="colour-definition">
+      <ID>70 70 70 80</ID>
+      <Comment/>
+      <IsCoated>true</IsCoated>
+      <IsPaper>false</IsPaper>
+      <Tint>100</Tint>
+      <RGB>986895</RGB>
+      <LastModified>Fri Apr 1 08:42:23 2011 UTC</LastModified>
+      <DateMeasured>Fri Apr 1 08:42:23 2011 UTC</DateMeasured>
+      <BrandPath/>
+      <CMYKPercentages>
+        <C>70</C>
+        <M>70</M>
+        <Y>70</Y>
+        <K>80</K>
+      </CMYKPercentages>
+    </ColourData>
+    
+    <ColourData type="colour-definition">
+      <ID>15 40 55 5</ID>
+      <Comment/>
+      <IsCoated>true</IsCoated>
+      <IsPaper>false</IsPaper>
+      <Tint>100</Tint>
+      <RGB>14196600</RGB>
+      <LastModified>Fri Apr 1 08:42:23 2011 UTC</LastModified>
+      <DateMeasured>Fri Apr 1 08:42:23 2011 UTC</DateMeasured>
+      <BrandPath/>
+      <CMYKPercentages>
+        <C>15</C>
+        <M>40</M>
+        <Y>55</Y>
+        <K>5</K>
+      </CMYKPercentages>
+    </ColourData>
+    
+    <ColourData type="colour-definition">
+      <ID>80 20 80 20</ID>
+      <Comment/>
+      <IsCoated>true</IsCoated>
+      <IsPaper>false</IsPaper>
+      <Tint>100</Tint>
+      <RGB>3899220</RGB>
+      <LastModified>Fri Apr 1 08:42:23 2011 UTC</LastModified>
+      <DateMeasured>Fri Apr 1 08:42:23 2011 UTC</DateMeasured>
+      <BrandPath/>
+      <CMYKPercentages>
+        <C>80</C>
+        <M>20</M>
+        <Y>80</Y>
+        <K>20</K>
+      </CMYKPercentages>
+    </ColourData>
+    
+    <ColourData type="colour-definition">
+      <ID>5 50 50 0</ID>
+      <Comment/>
+      <IsCoated>true</IsCoated>
+      <IsPaper>false</IsPaper>
+      <Tint>100</Tint>
+      <RGB>15636349</RGB>
+      <LastModified>Fri Apr 1 08:42:23 2011 UTC</LastModified>
+      <DateMeasured>Fri Apr 1 08:42:23 2011 UTC</DateMeasured>
+      <BrandPath/>
+      <CMYKPercentages>
+        <C>5</C>
+        <M>50</M>
+        <Y>50</Y>
+        <K>0</K>
+      </CMYKPercentages>
+    </ColourData>
+    
+    <ColourData type="colour-definition">
+      <ID>50 50 5 0</ID>
+      <Comment/>
+      <IsCoated>true</IsCoated>
+      <IsPaper>false</IsPaper>
+      <Tint>100</Tint>
+      <RGB>9209783</RGB>
+      <LastModified>Fri Apr 1 08:42:23 2011 UTC</LastModified>
+      <DateMeasured>Fri Apr 1 08:42:23 2011 UTC</DateMeasured>
+      <BrandPath/>
+      <CMYKPercentages>
+        <C>50</C>
+        <M>50</M>
+        <Y>5</Y>
+        <K>0</K>
+      </CMYKPercentages>
+    </ColourData>
+    
+    <ColourData type="colour-definition">
+      <ID>5 25 35 0</ID>
+      <Comment/>
+      <IsCoated>true</IsCoated>
+      <IsPaper>false</IsPaper>
+      <Tint>100</Tint>
+      <RGB>16107946</RGB>
+      <LastModified>Fri Apr 1 08:42:23 2011 UTC</LastModified>
+      <DateMeasured>Fri Apr 1 08:42:23 2011 UTC</DateMeasured>
+      <BrandPath/>
+      <CMYKPercentages>
+        <C>5</C>
+        <M>25</M>
+        <Y>35</Y>
+        <K>0</K>
+      </CMYKPercentages>
+    </ColourData>
+    
+    
+  </PaletteDefinition>
+</Root>

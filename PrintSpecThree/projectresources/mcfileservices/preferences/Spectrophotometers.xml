@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SpectrophotometerList>
+	
+	<Spectrophotometer>
+		<ID>EyeOne</ID>
+		<Label>EyeOne</Label>
+		<MinWavelength>380</MinWavelength>
+		<MaxWavelength>730</MaxWavelength>
+		<Interval>10</Interval>
+		<CalibrationEnabled>true</CalibrationEnabled>
+		<AutoCalibrate>true</AutoCalibrate>
+		<ScanEnabled>true</ScanEnabled>
+		<Enabled>true</Enabled>
+		<ComPortRequired>false</ComPortRequired>
+		<ComPort>1</ComPort>
+		<BaudRate>9600</BaudRate>
+		<AutoScanEnabled>true</AutoScanEnabled>
+		<AutoScan>true</AutoScan>
+	</Spectrophotometer>
+	
+	<Spectrophotometer>
+		<ID>Rabbit</ID>
+		<Label>Rabbit</Label>
+		<MinWavelength>380</MinWavelength>
+		<MaxWavelength>730</MaxWavelength>
+		<Interval>10</Interval>
+		<CalibrationEnabled>false</CalibrationEnabled>
+		<AutoCalibrate>false</AutoCalibrate>
+		<ScanEnabled>false</ScanEnabled>
+		<Enabled>true</Enabled>
+		<ComPortRequired>false</ComPortRequired>
+		<ComPort>1</ComPort>
+		<BaudRate>9600</BaudRate>
+		<AutoScanEnabled>false</AutoScanEnabled>
+		<AutoScan>false</AutoScan>
+		<Virtual>true</Virtual>
+		<AutoGenerate>false</AutoGenerate>
+		<AutoGenerateEnabled>true</AutoGenerateEnabled>
+	</Spectrophotometer>
+	
+	<Spectrophotometer>
+		<ID>SpectroEye</ID>
+		<Label>SpectroEye</Label>
+		<MinWavelength>380</MinWavelength>
+		<MaxWavelength>730</MaxWavelength>
+		<Interval>10</Interval>
+		<CalibrationEnabled>false</CalibrationEnabled>
+		<AutoCalibrate>false</AutoCalibrate>
+		<ScanEnabled>false</ScanEnabled>
+		<Enabled>true</Enabled>
+		<ComPortRequired>true</ComPortRequired>
+		<ComPort>1</ComPort>
+		<BaudRate>9600</BaudRate>
+		<AutoScanEnabled>true</AutoScanEnabled>
+		<AutoScan>true</AutoScan>
+	</Spectrophotometer>
+	
+	<Spectrophotometer>
+		<ID>Xrite530</ID>
+		<Label>Xrite 530</Label>
+		<MinWavelength>400</MinWavelength>
+		<MaxWavelength>700</MaxWavelength>
+		<Interval>10</Interval>
+		<CalibrationEnabled>true</CalibrationEnabled>
+		<AutoCalibrate>false</AutoCalibrate>
+		<ScanEnabled>false</ScanEnabled>
+		<Enabled>true</Enabled>
+		<ComPortRequired>true</ComPortRequired>
+		<ComPort>1</ComPort>
+		<BaudRate>9600</BaudRate>
+		<AutoScanEnabled>false</AutoScanEnabled>
+		<AutoScan>false</AutoScan>
+	</Spectrophotometer>
+	
+	<!-- 
+	<Spectrophotometer>
+		<ID>XriteSP62</ID>
+		<Label>Xrite SP62</Label>
+		<MinWavelength>400</MinWavelength>
+		<MaxWavelength>700</MaxWavelength>
+		<Interval>10</Interval>
+		<CalibrationEnabled>true</CalibrationEnabled>
+		<AutoCalibrate>false</AutoCalibrate>
+		<ScanEnabled>false</ScanEnabled>
+		<Enabled>true</Enabled>
+		<ComPortRequired>true</ComPortRequired>
+		<ComPort>1</ComPort>
+		<BaudRate>9600</BaudRate>
+		<AutoScanEnabled>false</AutoScanEnabled>
+		<AutoScan>false</AutoScan>
+	</Spectrophotometer>
+	 -->
+	
+	<Spectrophotometer>
+		<ID>KeyWizard</ID>
+		<Label>KeyWizard</Label>
+		<MinWavelength>380</MinWavelength>
+		<MaxWavelength>700</MaxWavelength>
+		<Interval>10</Interval>
+		<CalibrationEnabled>false</CalibrationEnabled>
+		<AutoCalibrate>false</AutoCalibrate>
+		<ScanEnabled>false</ScanEnabled>
+		<Enabled>true</Enabled>
+		<ComPortRequired>false</ComPortRequired>
+		<ComPort>1</ComPort>
+		<BaudRate>9600</BaudRate>
+		<AutoScanEnabled>false</AutoScanEnabled>
+		<AutoScan>false</AutoScan>
+		<Virtual>true</Virtual>
+	</Spectrophotometer>
+	
+	<Spectrophotometer>
+		<ID>SpectroConnect</ID>
+		<Label>SpectroConnect</Label>
+		<MinWavelength>400</MinWavelength>
+		<MaxWavelength>700</MaxWavelength>
+		<Interval>10</Interval>
+		<CalibrationEnabled>false</CalibrationEnabled>
+		<AutoCalibrate>false</AutoCalibrate>
+		<ScanEnabled>false</ScanEnabled>
+		<Enabled>true</Enabled>
+		<ComPortRequired>false</ComPortRequired>
+		<ComPort>1</ComPort>
+		<BaudRate>9600</BaudRate>
+		<AutoScanEnabled>false</AutoScanEnabled>
+		<AutoScan>false</AutoScan>
+		<Virtual>true</Virtual>
+	</Spectrophotometer>
+	
+</SpectrophotometerList>

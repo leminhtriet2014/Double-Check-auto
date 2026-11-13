@@ -1,0 +1,91 @@
+; INF File for Dinkey Dongle USBKey
+; ---------------------------------
+;
+; (c) Copyright 2006 by Microcosm Ltd
+
+[Version]
+signature="$CHICAGO$"
+Class=SecurityToken
+ClassGuid={98702ED8-2400-4081-97B5-A401E0416ABE}
+Provider=%MfgName%
+CatalogFile=Dinkey.cat
+DriverVer=03/24/2006,3.4.5.0
+
+[Manufacturer]
+%MfgName% = Microcosm
+
+[SourceDisksNames]
+1=%SourceDesc%,,,
+
+[SourceDisksFiles]
+usbkey.sys=1,,
+
+[ClassInstall32]
+AddReg=SecurityKey_AddReg
+
+[SecurityKey_AddReg]
+HKR,,,,%DisplayClassName%
+HKR,,NoInstallClass,,1
+HKR,,Icon,,"-20"
+
+[DestinationDirs]
+DefaultDestDir = 10,system32\drivers
+CopyListMain = 10,system32\drivers
+CopyList98 = 11					;windows\system
+CopyListNT = 11					;windows\system
+
+[Microcosm]
+%DeviceDesc% = USBKey, USB\VID_096E&PID_0003
+
+[ControlFlags]
+ExcludeFromSelect = USB\VID_096E&PID_0003
+
+[USBKey]
+DriverVer=03/24/2006,3.4			; for Windows 98 (not recognised in version section) 
+CopyFiles = CopyListMain,CopyList98
+AddReg = USBKey.AddReg
+
+[USBKey.NTx86]
+CopyFiles = CopyListMain,CopyListNT
+AddReg=USBKey.AddReg.NTx86
+
+[USBKey.AddReg]
+HKR,,DevLoader,,*ntkern
+HKR,,NTMPDriver,,usbkey.sys
+HKLM,System\CurrentControlSet\Services\VxD\usbkey,"StaticVxd",,"usbkey.vxd"
+
+[USBKey.AddReg.NTx86]
+
+[CopyListMain]
+usbkey.sys
+
+[CopyList98]
+usbkey.vxd
+
+[CopyListNT]
+ukeyvdd.dll
+
+[USBKey.NTx86.Services]
+AddService = USBKey,0x02,USBKey.addservices
+
+[USBKey.addservices]
+DisplayName    = %svcdesc%
+ServiceType    = 1	;SERVICE_KERNEL_DRIVER
+StartType      = 3	;SERVICE_DEMAND_START
+ErrorControl   = 1	;SERVICE_ERROR_NORMAL
+ServiceBinary  = %12%\usbkey.sys
+LoadOrderGroup = Base
+
+[Strings]
+MfgName = "Microcosm Ltd"
+svcdesc = "USB Security Key"
+DeviceDesc = "USB Security Key"
+DisplayClassName = "Software Security Token"
+SourceDesc = "Dinkey Dongle Installation Disk"
+
+[Strings.040C]
+MfgName = "Microcosm Ltd"
+svcdesc = "Clé de protection USB"
+DeviceDesc = "Clé de protection USB"
+DisplayClassName = "protection logiciel"
+SourceDesc = "Disque d'installtion Dinkey Dongle"

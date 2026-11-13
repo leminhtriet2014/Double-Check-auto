@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="utf-8"?>
+<InstrumentOptions>
+    <InstrumentOption label="SpectroDens Simulating eXact" id="default3">
+        <MetaData>
+            <TargetInstrument>SpectroDens</TargetInstrument>
+            <DeviceToSDCS>SDCSIdentity</DeviceToSDCS>
+            <SDCSToDevice>SDCSIdentity</SDCSToDevice>
+            <Notes>SpectroDens - adjusted to: eXact</Notes>
+            <DateCreated>Thu Apr 24 19:46:17 GMT+0100 2014</DateCreated>
+            <ReferenceInstrument>eXact</ReferenceInstrument>
+        </MetaData>
+        <Content type="GainMap-v2">
+            <Target>
+                <SpectralData>
+                    <MinWavelength>400</MinWavelength>
+                    <Interval>10</Interval>
+                    <MCond>M0</MCond>
+                    <Instrument>SpectroDens</Instrument>
+                    <OutputType>Unknown</OutputType>
+                    <Values>0.112980 0.142840 0.176980 0.207140 0.225660 0.227240 0.213520 0.189960 0.163600 0.138100 0.112320 0.087540 0.068540 0.054860 0.042740 0.031860 0.024860 0.022260 0.024980 0.036440 0.053580 0.059960 0.058100 0.057440 0.060140 0.066880 0.074900 0.080220 0.079880 0.073920 0.065920</Values>
+                    <Checksum>0</Checksum>
+                </SpectralData>
+                <SpectralData>
+                    <MinWavelength>400</MinWavelength>
+                    <Interval>10</Interval>
+                    <MCond>M0</MCond>
+                    <Instrument>SpectroDens</Instrument>
+                    <OutputType>Unknown</OutputType>
+                    <Values>0.505940 0.626040 0.746260 0.815740 0.839140 0.839700 0.834880 0.835420 0.834020 0.822940 0.803460 0.778100 0.748360 0.715300 0.679240 0.642220 0.609100 0.583680 0.567580 0.561500 0.560300 0.558140 0.556660 0.558340 0.564160 0.573820 0.582160 0.585420 0.584280 0.580060 0.574520</Values>
+                    <Checksum>0</Checksum>
+                </SpectralData>
+                <SpectralData>
+                    <MinWavelength>400</MinWavelength>
+                    <Interval>10</Interval>
+                    <MCond>M0</MCond>
+                    <Instrument>SpectroDens</Instrument>
+                    <OutputType>Unknown</OutputType>
+                    <Values>0.233380 0.269560 0.305340 0.328680 0.335060 0.324680 0.303260 0.277140 0.250340 0.224880 0.200180 0.177140 0.160520 0.151100 0.144580 0.137620 0.129020 0.125620 0.151000 0.256300 0.467620 0.651300 0.744760 0.793120 0.818180 0.834800 0.844180 0.846620 0.847280 0.849360 0.852260</Values>
+                    <Checksum>0</Checksum>
+                </SpectralData>
+                <SpectralData>
+                    <MinWavelength>400</MinWavelength>
+                    <Interval>10</Interval>
+                    <MCond>M0</MCond>
+                    <Instrument>SpectroDens</Instrument>
+                    <OutputType>Unknown</OutputType>
+                    <Values>0.421920 0.534460 0.653280 0.734320 0.775640 0.792200 0.797200 0.799640 0.794760 0.776760 0.746020 0.704400 0.654420 0.597960 0.536000 0.473060 0.418860 0.378340 0.351600 0.337960 0.331600 0.326560 0.323260 0.323120 0.327700 0.337380 0.347200 0.352420 0.351420 0.344900 0.335720</Values>
+                    <Checksum>0</Checksum>
+                </SpectralData>
+                <SpectralData>
+                    <MinWavelength>400</MinWavelength>
+                    <Interval>10</Interval>
+                    <MCond>M0</MCond>
+                    <Instrument>SpectroDens</Instrument>
+                    <OutputType>Unknown</OutputType>
+                    <Values>0.154740 0.174860 0.196040 0.213860 0.221080 0.212360 0.190520 0.161740 0.133240 0.107940 0.084180 0.063220 0.050000 0.043380 0.038280 0.032980 0.030060 0.033020 0.053300 0.143320 0.392600 0.627420 0.717960 0.772560 0.810780 0.830860 0.839000 0.842060 0.843780 0.846160 0.848960</Values>
+                    <Checksum>0</Checksum>
+                </SpectralData>
+                <SpectralData>
+                    <MinWavelength>400</MinWavelength>
+                    <Interval>10</Interval>
+                    <MCond>M0</MCond>
+                    <Instrument>SpectroDens</Instrument>
+                    <OutputType>Unknown</OutputType>
+                    <Values>0.285340 0.382840 0.496580 0.593640 0.662360 0.703720 0.723500 0.728160 0.717420 0.689360 0.642080 0.576800 0.499400 0.413880 0.321860 0.232840 0.160100 0.109040 0.078860 0.064320 0.057240 0.052300 0.049300 0.048860 0.051920 0.059220 0.067920 0.073540 0.073240 0.067200 0.059260</Values>
+                    <Checksum>0</Checksum>
+                </SpectralData>
+                <SpectralData>
+                    <MinWavelength>400</MinWavelength>
+                    <Interval>10</Interval>
+                    <MCond>M0</MCond>
+                    <Instrument>SpectroDens</Instrument>
+                    <OutputType>Unknown</OutputType>
+                    <Values>0.360060 0.423980 0.484980 0.517780 0.523240 0.511220 0.491480 0.471080 0.449820 0.426820 0.402600 0.378880 0.360280 0.348380 0.339700 0.330880 0.318720 0.311280 0.337380 0.436560 0.592640 0.713620 0.778820 0.811040 0.827060 0.840200 0.848360 0.849780 0.849700 0.851300 0.853920</Values>
+                    <Checksum>0</Checksum>
+                </SpectralData>
+                <SpectralData>
+                    <MinWavelength>400</MinWavelength>
+                    <Interval>10</Interval>
+                    <MCond>M0</MCond>
+                    <Instrument>SpectroDens</Instrument>
+                    <OutputType>Unknown</OutputType>
+                    <Values>0.342740 0.446360 0.561860 0.651920 0.708980 0.739860 0.753520 0.757680 0.749680 0.725860 0.685560 0.630440 0.564500 0.490580 0.409980 0.329980 0.263780 0.216000 0.185500 0.169900 0.162400 0.156940 0.153420 0.152880 0.156680 0.165380 0.174880 0.180520 0.179900 0.173200 0.163900</Values>
+                    <Checksum>0</Checksum>
+                </SpectralData>
+                <SpectralData>
+                    <MinWavelength>400</MinWavelength>
+                    <Interval>10</Interval>
+                    <MCond>M0</MCond>
+                    <Instrument>SpectroDens</Instrument>
+                    <OutputType>Unknown</OutputType>
+                    <Values>0.479460 0.576660 0.669140 0.714380 0.719560 0.706000 0.688820 0.676840 0.665420 0.649580 0.630620 0.611060 0.594820 0.583560 0.575240 0.567320 0.556920 0.549640 0.567520 0.633100 0.722500 0.784800 0.817980 0.835540 0.846260 0.856400 0.862760 0.863540 0.863160 0.864420 0.866560</Values>
+                    <Checksum>0</Checksum>
+                </SpectralData>
+                <SpectralData>
+                    <MinWavelength>400</MinWavelength>
+                    <Interval>10</Interval>
+                    <MCond>M0</MCond>
+                    <Instrument>SpectroDens</Instrument>
+                    <OutputType>Unknown</OutputType>
+                    <Values>0.093760 0.104580 0.113980 0.118220 0.120700 0.124060 0.123180 0.116540 0.118840 0.140680 0.168500 0.179440 0.171600 0.151880 0.126560 0.101400 0.080580 0.067620 0.067340 0.087020 0.120420 0.140760 0.146780 0.149780 0.154500 0.163340 0.172940 0.178780 0.178280 0.171600 0.162300</Values>
+                    <Checksum>0</Checksum>
+                </SpectralData>
+                <SpectralData>
+                    <MinWavelength>400</MinWavelength>
+                    <Interval>10</Interval>
+                    <MCond>M0</MCond>
+                    <Instrument>SpectroDens</Instrument>
+                    <OutputType>Unknown</OutputType>
+                    <Values>0.582900 0.713100 0.837440 0.895720 0.901240 0.887380 0.874420 0.873280 0.874860 0.869960 0.860680 0.850380 0.840960 0.833500 0.827940 0.823860 0.820120 0.817060 0.818200 0.826260 0.835440 0.838780 0.840660 0.845700 0.853120 0.860880 0.865560 0.865980 0.865620 0.866640 0.868420</Values>
+                    <Checksum>0</Checksum>
+                </SpectralData>
+                <SpectralData>
+                    <MinWavelength>400</MinWavelength>
+                    <Interval>10</Interval>
+                    <MCond>M0</MCond>
+                    <Instrument>SpectroDens</Instrument>
+                    <OutputType>Unknown</OutputType>
+                    <Values>0.038160 0.039200 0.039480 0.038340 0.037900 0.039200 0.039100 0.036280 0.038340 0.051720 0.069300 0.073680 0.066720 0.055960 0.043880 0.032960 0.025880 0.023200 0.025640 0.036280 0.051760 0.057320 0.055460 0.054560 0.056920 0.063460 0.071420 0.076680 0.076240 0.070200 0.062180</Values>
+                    <Checksum>0</Checksum>
+                </SpectralData>
+                <SpectralData>
+                    <MinWavelength>400</MinWavelength>
+                    <Interval>10</Interval>
+                    <MCond>M0</MCond>
+                    <Instrument>SpectroDens</Instrument>
+                    <OutputType>Unknown</OutputType>
+                    <Values>0.363340 0.430660 0.494020 0.526120 0.534820 0.534940 0.530140 0.523880 0.526480 0.543460 0.562540 0.570120 0.562300 0.540840 0.512720 0.483620 0.455920 0.435260 0.433840 0.462460 0.504120 0.530500 0.542820 0.549800 0.556980 0.567660 0.576840 0.580440 0.579360 0.575100 0.569380</Values>
+                    <Checksum>0</Checksum>
+                </SpectralData>
+                <SpectralData>
+                    <MinWavelength>400</MinWavelength>
+                    <Interval>10</Interval>
+                    <MCond>M0</MCond>
+                    <Instrument>SpectroDens</Instrument>
+                    <OutputType>Unknown</OutputType>
+                    <Values>0.048560 0.043800 0.039320 0.035440 0.033680 0.034320 0.033760 0.030500 0.031380 0.041740 0.054880 0.056780 0.051800 0.046700 0.041280 0.035880 0.032740 0.035260 0.055180 0.144100 0.387500 0.617940 0.709820 0.764320 0.801580 0.821780 0.830240 0.832940 0.834120 0.836100 0.838560</Values>
+                    <Checksum>0</Checksum>
+                </SpectralData>
+                <SpectralData>
+                    <MinWavelength>400</MinWavelength>
+                    <Interval>10</Interval>
+                    <MCond>M0</MCond>
+                    <Instrument>SpectroDens</Instrument>
+                    <OutputType>Unknown</OutputType>
+                    <Values>0.198720 0.229840 0.258780 0.274320 0.281380 0.286080 0.284760 0.277080 0.280060 0.304960 0.335020 0.348160 0.340040 0.314980 0.281620 0.247180 0.216040 0.194000 0.191440 0.218540 0.261460 0.288860 0.300220 0.305860 0.312100 0.322740 0.333300 0.338800 0.337920 0.331420 0.322380</Values>
+                    <Checksum>0</Checksum>
+                </SpectralData>
+                <SpectralData>
+                    <MinWavelength>400</MinWavelength>
+                    <Interval>10</Interval>
+                    <MCond>M0</MCond>
+                    <Instrument>SpectroDens</Instrument>
+                    <OutputType>Unknown</OutputType>
+                    <Values>0.453160 0.526200 0.589800 0.611100 0.607340 0.601400 0.596560 0.595440 0.612700 0.658780 0.719900 0.775600 0.810120 0.818700 0.816860 0.817100 0.818060 0.818340 0.820780 0.827900 0.835680 0.839280 0.841720 0.846400 0.853400 0.861380 0.866180 0.866120 0.865480 0.866700 0.868960</Values>
+                    <Checksum>0</Checksum>
+                </SpectralData>
+                <SpectralData>
+                    <MinWavelength>400</MinWavelength>
+                    <Interval>10</Interval>
+                    <MCond>M0</MCond>
+                    <Instrument>SpectroDens</Instrument>
+                    <OutputType>Unknown</OutputType>
+                    <Values>0.128380 0.144280 0.157940 0.162920 0.162380 0.160760 0.159940 0.160600 0.161320 0.160920 0.159880 0.158920 0.157840 0.156560 0.155220 0.154000 0.152780 0.151640 0.151060 0.151420 0.152120 0.152480 0.152700 0.153160 0.154220 0.155860 0.157140 0.157540 0.157500 0.157360 0.157200</Values>
+                    <Checksum>0</Checksum>
+                </SpectralData>
+                <SpectralData>
+                    <MinWavelength>400</MinWavelength>
+                    <Interval>10</Interval>
+                    <MCond>M0</MCond>
+                    <Instrument>SpectroDens</Instrument>
+                    <OutputType>Unknown</OutputType>
+                    <Values>0.317880 0.348280 0.369920 0.368140 0.359800 0.359380 0.359780 0.358260 0.383020 0.460960 0.577160 0.691600 0.769820 0.797720 0.802060 0.807480 0.812720 0.815360 0.818760 0.826160 0.833840 0.837100 0.839420 0.844500 0.851880 0.859900 0.864600 0.864580 0.863880 0.864940 0.866960</Values>
+                    <Checksum>0</Checksum>
+                </SpectralData>
+                <SpectralData>
+                    <MinWavelength>400</MinWavelength>
+                    <Interval>10</Interval>
+                    <MCond>M0</MCond>
+                    <Instrument>SpectroDens</Instrument>
+                    <OutputType>Unknown</OutputType>
+                    <Values>0.017600 0.018640 0.019400 0.019560 0.019500 0.019640 0.019900 0.020180 0.020580 0.021300 0.021960 0.022140 0.021960 0.021520 0.020900 0.020220 0.019680 0.019460 0.019680 0.020420 0.021100 0.021120 0.020920 0.020900 0.021180 0.021700 0.022280 0.022700 0.022940 0.022960 0.022920</Values>
+                    <Checksum>0</Checksum>
+                </SpectralData>
+                <SpectralData>
+                    <MinWavelength>400</MinWavelength>
+                    <Interval>10</Interval>
+                    <MCond>M0</MCond>
+                    <Instrument>SpectroDens</Instrument>
+                    <OutputType>Unknown</OutputType>
+                    <Values>0.100680 0.086140 0.072280 0.059640 0.054140 0.057540 0.062100 0.063360 0.082620 0.164660 0.345960 0.545500 0.677900 0.739160 0.761140 0.778360 0.792180 0.800820 0.806940 0.813700 0.819940 0.823940 0.827220 0.831820 0.838860 0.847780 0.853140 0.852600 0.851420 0.852720 0.855460</Values>
+                    <Checksum>0</Checksum>
+                </SpectralData>
+                <SpectralData>
+                    <MinWavelength>400</MinWavelength>
+                    <Interval>10</Interval>
+                    <MCond>M0</MCond>
+                    <Instrument>SpectroDens</Instrument>
+                    <OutputType>Unknown</OutputType>
+                    <Values>0.283060 0.327720 0.367680 0.384160 0.383940 0.378880 0.375200 0.375980 0.377280 0.375520 0.372220 0.369160 0.366040 0.362640 0.359580 0.357200 0.355120 0.353300 0.352780 0.354320 0.356600 0.357780 0.358400 0.359420 0.361460 0.364640 0.366740 0.366640 0.365960 0.365820 0.365920</Values>
+                    <Checksum>0</Checksum>
+                </SpectralData>
+                <SpectralData>
+                    <MinWavelength>400</MinWavelength>
+                    <Interval>10</Interval>
+                    <MCond>M0</MCond>
+                    <Instrument>SpectroDens</Instrument>
+                    <OutputType>Unknown</OutputType>
+                    <Values>0.183160 0.182280 0.176980 0.164620 0.156860 0.160040 0.163700 0.163200 0.188100 0.278540 0.436800 0.601220 0.715760 0.763240 0.775920 0.787400 0.796800 0.801280 0.805180 0.812700 0.820380 0.823280 0.825620 0.831400 0.839460 0.847640 0.852260 0.852360 0.851840 0.852920 0.855000</Values>
+                    <Checksum>0</Checksum>
+                </SpectralData>
+                <SpectralData>
+                    <MinWavelength>400</MinWavelength>
+                    <Interval>10</Interval>
+                    <MCond>M0</MCond>
+                    <Instrument>SpectroDens</Instrument>
+                    <OutputType>Unknown</OutputType>
+                    <Values>0.435440 0.516400 0.590760 0.622500 0.623240 0.614640 0.607740 0.607940 0.609540 0.607020 0.601580 0.595280 0.589320 0.584360 0.580320 0.576860 0.573480 0.570560 0.570420 0.574860 0.580260 0.582220 0.583080 0.585620 0.589880 0.594940 0.598080 0.598100 0.597360 0.597400 0.597840</Values>
+                    <Checksum>0</Checksum>
+                </SpectralData>
+                <SpectralData>
+                    <MinWavelength>400</MinWavelength>
+                    <Interval>10</Interval>
+                    <MCond>M0</MCond>
+                    <Instrument>SpectroDens</Instrument>
+                    <OutputType>Unknown</OutputType>
+                    <Values>0.076760 0.076840 0.074080 0.067140 0.063880 0.068540 0.074360 0.076980 0.097320 0.172940 0.310580 0.417560 0.437740 0.389960 0.309480 0.228040 0.162220 0.115760 0.086180 0.069260 0.059740 0.054040 0.051040 0.050480 0.053440 0.060740 0.069460 0.075120 0.074700 0.068540 0.060400</Values>
+                    <Checksum>0</Checksum>
+                </SpectralData>
+            </Target>
+            <Reference>
+                <SpectralData>
+                    <MinWavelength>400</MinWavelength>
+                    <Interval>10</Interval>
+                    <MCond>M0</MCond>
+                    <Instrument>eXact</Instrument>
+                    <OutputType>Unknown</OutputType>
+                    <Values>0.111667 0.148633 0.176433 0.201967 0.226233 0.233100 0.215600 0.187933 0.159967 0.134100 0.110933 0.087533 0.067133 0.053100 0.042333 0.032200 0.024867 0.022967 0.027200 0.041933 0.055833 0.059933 0.059567 0.059633 0.061100 0.067233 0.077100 0.083100 0.081867 0.075833 0.065467</Values>
+                    <Checksum>0</Checksum>
+                </SpectralData>
+                <SpectralData>
+                    <MinWavelength>400</MinWavelength>
+                    <Interval>10</Interval>
+                    <MCond>M0</MCond>
+                    <Instrument>eXact</Instrument>
+                    <OutputType>Unknown</OutputType>
+                    <Values>0.511133 0.657167 0.761067 0.813367 0.836933 0.843133 0.843100 0.837900 0.828533 0.816700 0.802000 0.778833 0.748900 0.714867 0.680700 0.644700 0.608033 0.582067 0.569733 0.565200 0.558600 0.553767 0.553667 0.556833 0.561633 0.573067 0.582100 0.586433 0.584233 0.578767 0.570467</Values>
+                    <Checksum>0</Checksum>
+                </SpectralData>
+                <SpectralData>
+                    <MinWavelength>400</MinWavelength>
+                    <Interval>10</Interval>
+                    <MCond>M0</MCond>
+                    <Instrument>eXact</Instrument>
+                    <OutputType>Unknown</OutputType>
+                    <Values>0.237500 0.279300 0.310500 0.329967 0.337233 0.329233 0.305933 0.275500 0.246467 0.221000 0.199067 0.177233 0.159233 0.149333 0.144800 0.138400 0.129500 0.125600 0.150800 0.266300 0.465033 0.643733 0.748233 0.794667 0.816467 0.834467 0.841933 0.844833 0.844700 0.844067 0.843100</Values>
+                    <Checksum>0</Checksum>
+                </SpectralData>
+                <SpectralData>
+                    <MinWavelength>400</MinWavelength>
+                    <Interval>10</Interval>
+                    <MCond>M0</MCond>
+                    <Instrument>eXact</Instrument>
+                    <OutputType>Unknown</OutputType>
+                    <Values>0.420767 0.559367 0.658367 0.720033 0.768133 0.794167 0.800400 0.796600 0.784733 0.766567 0.741467 0.703067 0.652567 0.594567 0.534100 0.473267 0.415333 0.374100 0.351800 0.340900 0.330533 0.323267 0.321367 0.322900 0.326500 0.336867 0.348333 0.354233 0.351867 0.344667 0.333133</Values>
+                    <Checksum>0</Checksum>
+                </SpectralData>
+                <SpectralData>
+                    <MinWavelength>400</MinWavelength>
+                    <Interval>10</Interval>
+                    <MCond>M0</MCond>
+                    <Instrument>eXact</Instrument>
+                    <OutputType>Unknown</OutputType>
+                    <Values>0.157867 0.179467 0.198433 0.214433 0.223000 0.216400 0.191567 0.159700 0.129967 0.104467 0.083333 0.063667 0.048700 0.041300 0.038100 0.034133 0.029667 0.029300 0.049767 0.163567 0.385667 0.597567 0.724967 0.781667 0.807533 0.827033 0.835433 0.838767 0.838667 0.838167 0.837500</Values>
+                    <Checksum>0</Checksum>
+                </SpectralData>
+                <SpectralData>
+                    <MinWavelength>400</MinWavelength>
+                    <Interval>10</Interval>
+                    <MCond>M0</MCond>
+                    <Instrument>eXact</Instrument>
+                    <OutputType>Unknown</OutputType>
+                    <Values>0.274767 0.402633 0.496667 0.572200 0.655900 0.711667 0.728000 0.725967 0.709733 0.681500 0.640433 0.578967 0.499200 0.409667 0.317833 0.230633 0.154700 0.104567 0.078733 0.066200 0.056867 0.051033 0.049267 0.050033 0.052600 0.059667 0.069900 0.076000 0.074600 0.068733 0.058900</Values>
+                    <Checksum>0</Checksum>
+                </SpectralData>
+                <SpectralData>
+                    <MinWavelength>400</MinWavelength>
+                    <Interval>10</Interval>
+                    <MCond>M0</MCond>
+                    <Instrument>eXact</Instrument>
+                    <OutputType>Unknown</OutputType>
+                    <Values>0.364900 0.439600 0.492367 0.517900 0.523400 0.514000 0.494467 0.468933 0.443467 0.420500 0.399967 0.377833 0.357833 0.345700 0.340067 0.331600 0.318667 0.311733 0.339100 0.442633 0.591433 0.711400 0.777133 0.807100 0.822967 0.837900 0.843833 0.846033 0.845333 0.844500 0.843800</Values>
+                    <Checksum>0</Checksum>
+                </SpectralData>
+                <SpectralData>
+                    <MinWavelength>400</MinWavelength>
+                    <Interval>10</Interval>
+                    <MCond>M0</MCond>
+                    <Instrument>eXact</Instrument>
+                    <OutputType>Unknown</OutputType>
+                    <Values>0.334033 0.465467 0.561300 0.631133 0.699500 0.742733 0.755000 0.752167 0.737933 0.714333 0.680233 0.628533 0.561000 0.484367 0.404700 0.327300 0.257433 0.209467 0.183900 0.171133 0.160600 0.153633 0.151500 0.152500 0.155400 0.164033 0.175267 0.181600 0.179567 0.172667 0.161433</Values>
+                    <Checksum>0</Checksum>
+                </SpectralData>
+                <SpectralData>
+                    <MinWavelength>400</MinWavelength>
+                    <Interval>10</Interval>
+                    <MCond>M0</MCond>
+                    <Instrument>eXact</Instrument>
+                    <OutputType>Unknown</OutputType>
+                    <Values>0.486433 0.601333 0.681200 0.715133 0.717867 0.706867 0.693233 0.676000 0.658200 0.641700 0.627100 0.609567 0.592733 0.581400 0.576067 0.568300 0.556333 0.550200 0.570433 0.636600 0.718500 0.778800 0.811033 0.827233 0.837733 0.850567 0.855367 0.856767 0.855667 0.854900 0.854667</Values>
+                    <Checksum>0</Checksum>
+                </SpectralData>
+                <SpectralData>
+                    <MinWavelength>400</MinWavelength>
+                    <Interval>10</Interval>
+                    <MCond>M0</MCond>
+                    <Instrument>eXact</Instrument>
+                    <OutputType>Unknown</OutputType>
+                    <Values>0.093067 0.106967 0.112333 0.116200 0.119433 0.122833 0.124133 0.117633 0.113800 0.132967 0.170633 0.186000 0.171567 0.149433 0.126767 0.102267 0.079133 0.065333 0.067167 0.091467 0.121633 0.139767 0.147300 0.150800 0.154033 0.162600 0.174100 0.180733 0.179000 0.172000 0.160200</Values>
+                    <Checksum>0</Checksum>
+                </SpectralData>
+                <SpectralData>
+                    <MinWavelength>400</MinWavelength>
+                    <Interval>10</Interval>
+                    <MCond>M0</MCond>
+                    <Instrument>eXact</Instrument>
+                    <OutputType>Unknown</OutputType>
+                    <Values>0.596700 0.750300 0.857867 0.900400 0.900633 0.888167 0.882133 0.875900 0.869167 0.862867 0.858200 0.850300 0.841500 0.833800 0.830500 0.826500 0.820300 0.818867 0.823933 0.831100 0.832700 0.833867 0.837133 0.842600 0.849033 0.860167 0.863767 0.865167 0.863967 0.863100 0.862767</Values>
+                    <Checksum>0</Checksum>
+                </SpectralData>
+                <SpectralData>
+                    <MinWavelength>400</MinWavelength>
+                    <Interval>10</Interval>
+                    <MCond>M0</MCond>
+                    <Instrument>eXact</Instrument>
+                    <OutputType>Unknown</OutputType>
+                    <Values>0.039633 0.040867 0.039100 0.038433 0.038067 0.039167 0.040200 0.037533 0.036867 0.049467 0.072100 0.078233 0.067333 0.055300 0.044900 0.034433 0.026100 0.023000 0.026567 0.040933 0.054067 0.057567 0.056900 0.056700 0.057967 0.063767 0.073533 0.079500 0.078133 0.072100 0.061867</Values>
+                    <Checksum>0</Checksum>
+                </SpectralData>
+                <SpectralData>
+                    <MinWavelength>400</MinWavelength>
+                    <Interval>10</Interval>
+                    <MCond>M0</MCond>
+                    <Instrument>eXact</Instrument>
+                    <OutputType>Unknown</OutputType>
+                    <Values>0.368233 0.450167 0.502067 0.526133 0.534767 0.536433 0.536067 0.527133 0.519433 0.533100 0.564800 0.578067 0.564300 0.541033 0.516767 0.488500 0.456933 0.434967 0.436600 0.468533 0.505300 0.529133 0.541633 0.548933 0.555133 0.567067 0.576833 0.581533 0.579133 0.573467 0.565000</Values>
+                    <Checksum>0</Checksum>
+                </SpectralData>
+                <SpectralData>
+                    <MinWavelength>400</MinWavelength>
+                    <Interval>10</Interval>
+                    <MCond>M0</MCond>
+                    <Instrument>eXact</Instrument>
+                    <OutputType>Unknown</OutputType>
+                    <Values>0.049300 0.044133 0.039033 0.036133 0.033633 0.033267 0.033567 0.030967 0.030367 0.040400 0.057500 0.060467 0.051933 0.045567 0.042300 0.038033 0.032633 0.030900 0.050967 0.162933 0.381233 0.590833 0.717300 0.773567 0.799300 0.818467 0.827267 0.830800 0.830033 0.829133 0.828467</Values>
+                    <Checksum>0</Checksum>
+                </SpectralData>
+                <SpectralData>
+                    <MinWavelength>400</MinWavelength>
+                    <Interval>10</Interval>
+                    <MCond>M0</MCond>
+                    <Instrument>eXact</Instrument>
+                    <OutputType>Unknown</OutputType>
+                    <Values>0.198567 0.237000 0.258433 0.270533 0.278700 0.284000 0.285567 0.277067 0.271100 0.292033 0.335333 0.354733 0.338700 0.311133 0.281333 0.247667 0.213267 0.190033 0.190300 0.221833 0.261000 0.286400 0.298467 0.304467 0.309567 0.320333 0.332367 0.338900 0.336533 0.329167 0.317300</Values>
+                    <Checksum>0</Checksum>
+                </SpectralData>
+                <SpectralData>
+                    <MinWavelength>400</MinWavelength>
+                    <Interval>10</Interval>
+                    <MCond>M0</MCond>
+                    <Instrument>eXact</Instrument>
+                    <OutputType>Unknown</OutputType>
+                    <Values>0.461867 0.548800 0.601067 0.615100 0.606433 0.598300 0.601600 0.599833 0.602633 0.641633 0.719100 0.783600 0.809100 0.815333 0.819200 0.819200 0.815167 0.814267 0.819833 0.827500 0.829367 0.830433 0.833700 0.839233 0.845467 0.856233 0.860267 0.861033 0.859867 0.859167 0.859067</Values>
+                    <Checksum>0</Checksum>
+                </SpectralData>
+                <SpectralData>
+                    <MinWavelength>400</MinWavelength>
+                    <Interval>10</Interval>
+                    <MCond>M0</MCond>
+                    <Instrument>eXact</Instrument>
+                    <OutputType>Unknown</OutputType>
+                    <Values>0.130400 0.148667 0.158900 0.163000 0.162900 0.161867 0.161300 0.160933 0.160433 0.159800 0.159567 0.158667 0.158000 0.157233 0.156133 0.154933 0.153533 0.152267 0.151633 0.152000 0.151433 0.151033 0.151133 0.151933 0.153067 0.155100 0.156033 0.156667 0.156833 0.156433 0.155533</Values>
+                    <Checksum>0</Checksum>
+                </SpectralData>
+                <SpectralData>
+                    <MinWavelength>400</MinWavelength>
+                    <Interval>10</Interval>
+                    <MCond>M0</MCond>
+                    <Instrument>eXact</Instrument>
+                    <OutputType>Unknown</OutputType>
+                    <Values>0.322700 0.359433 0.374567 0.371967 0.359800 0.355333 0.363700 0.364733 0.373167 0.439433 0.578367 0.709100 0.770800 0.793667 0.806533 0.811300 0.809333 0.809400 0.816100 0.825033 0.827533 0.828600 0.831600 0.837067 0.843433 0.854567 0.858433 0.859333 0.857767 0.856767 0.856667</Values>
+                    <Checksum>0</Checksum>
+                </SpectralData>
+                <SpectralData>
+                    <MinWavelength>400</MinWavelength>
+                    <Interval>10</Interval>
+                    <MCond>M0</MCond>
+                    <Instrument>eXact</Instrument>
+                    <OutputType>Unknown</OutputType>
+                    <Values>0.020300 0.020400 0.020100 0.020700 0.020967 0.021367 0.021333 0.021633 0.021900 0.022300 0.023167 0.023267 0.023300 0.023000 0.022000 0.021467 0.021267 0.021000 0.020967 0.021967 0.022367 0.022367 0.022033 0.022200 0.022567 0.023067 0.023333 0.023733 0.024233 0.024300 0.023900</Values>
+                    <Checksum>0</Checksum>
+                </SpectralData>
+                <SpectralData>
+                    <MinWavelength>400</MinWavelength>
+                    <Interval>10</Interval>
+                    <MCond>M0</MCond>
+                    <Instrument>eXact</Instrument>
+                    <OutputType>Unknown</OutputType>
+                    <Values>0.101000 0.086167 0.070900 0.059833 0.051500 0.051867 0.060433 0.063467 0.074333 0.150867 0.343733 0.563300 0.687700 0.742600 0.774300 0.789700 0.793300 0.795667 0.804333 0.815233 0.818800 0.820400 0.824067 0.829933 0.836400 0.847667 0.851867 0.852833 0.850500 0.849400 0.849867</Values>
+                    <Checksum>0</Checksum>
+                </SpectralData>
+                <SpectralData>
+                    <MinWavelength>400</MinWavelength>
+                    <Interval>10</Interval>
+                    <MCond>M0</MCond>
+                    <Instrument>eXact</Instrument>
+                    <OutputType>Unknown</OutputType>
+                    <Values>0.288933 0.341367 0.374200 0.386533 0.385967 0.382033 0.380133 0.378133 0.375833 0.374233 0.373000 0.370367 0.367633 0.364833 0.362833 0.360433 0.357400 0.355367 0.355567 0.357033 0.356367 0.355700 0.356200 0.357867 0.359767 0.363933 0.365633 0.366067 0.365500 0.364633 0.363433</Values>
+                    <Checksum>0</Checksum>
+                </SpectralData>
+                <SpectralData>
+                    <MinWavelength>400</MinWavelength>
+                    <Interval>10</Interval>
+                    <MCond>M0</MCond>
+                    <Instrument>eXact</Instrument>
+                    <OutputType>Unknown</OutputType>
+                    <Values>0.185867 0.185633 0.177233 0.166267 0.155067 0.154033 0.164167 0.166967 0.178300 0.257500 0.437600 0.624500 0.722133 0.762167 0.785033 0.795067 0.795667 0.796633 0.804233 0.813867 0.817000 0.818200 0.821867 0.828067 0.834633 0.846067 0.850700 0.851533 0.849400 0.848333 0.848667</Values>
+                    <Checksum>0</Checksum>
+                </SpectralData>
+                <SpectralData>
+                    <MinWavelength>400</MinWavelength>
+                    <Interval>10</Interval>
+                    <MCond>M0</MCond>
+                    <Instrument>eXact</Instrument>
+                    <OutputType>Unknown</OutputType>
+                    <Values>0.445333 0.541100 0.604033 0.627733 0.627200 0.619700 0.616300 0.612567 0.608333 0.605167 0.602600 0.597800 0.592400 0.587500 0.584800 0.581633 0.576933 0.574700 0.576900 0.580700 0.580767 0.580467 0.581900 0.585000 0.588600 0.595900 0.598633 0.599167 0.597967 0.596767 0.595667</Values>
+                    <Checksum>0</Checksum>
+                </SpectralData>
+                <SpectralData>
+                    <MinWavelength>400</MinWavelength>
+                    <Interval>10</Interval>
+                    <MCond>M0</MCond>
+                    <Instrument>eXact</Instrument>
+                    <OutputType>Unknown</OutputType>
+                    <Values>0.075933 0.077867 0.071567 0.065800 0.061700 0.064633 0.074533 0.078033 0.088733 0.159533 0.313867 0.437433 0.445867 0.389267 0.310900 0.229767 0.156667 0.107533 0.081933 0.069233 0.059500 0.053233 0.051100 0.051533 0.053733 0.060833 0.071433 0.077733 0.076400 0.070233 0.059733</Values>
+                    <Checksum>0</Checksum>
+                </SpectralData>
+            </Reference>
+        </Content>
+    </InstrumentOption>
+</InstrumentOptions>

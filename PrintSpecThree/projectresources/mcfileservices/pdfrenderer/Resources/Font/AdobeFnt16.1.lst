@@ -1,0 +1,942 @@
+%!Adobe-FontList 1.16.1
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:AdobeArabic-Bold
+FamilyName:Adobe Arabic
+StyleName:Bold
+FullName:Adobe Arabic Bold
+MenuName:Adobe Arabic
+StyleBits:2
+FamilyNameNative:
+StyleNameNative:Bold
+FullNameNative:
+WritingScript:Arabic
+OutlineFileName:C:\Datalogics\APDFL18.0.5\Resources\Font\AdobeArabic-Bold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:275892
+FileModTime:1560504522
+WeightClass:700
+WidthClass:5
+AngleClass:0
+DesignSize:110
+NameArray:0,Mac,4,Adobe Arabic Bold
+NameArray:0,Win,1,Adobe Arabic
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:AdobeArabic-BoldItalic
+FamilyName:Adobe Arabic
+StyleName:Bold Italic
+FullName:Adobe Arabic Bold Italic
+MenuName:Adobe Arabic
+StyleBits:3
+FamilyNameNative:
+StyleNameNative:Bold Italic
+FullNameNative:
+WritingScript:Arabic
+OutlineFileName:C:\Datalogics\APDFL18.0.5\Resources\Font\AdobeArabic-BoldItalic.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:294024
+FileModTime:1560504522
+WeightClass:700
+WidthClass:5
+AngleClass:1
+DesignSize:110
+NameArray:0,Mac,4,Adobe Arabic Bold Italic
+NameArray:0,Win,1,Adobe Arabic
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:AdobeArabic-Italic
+FamilyName:Adobe Arabic
+StyleName:Italic
+FullName:Adobe Arabic Italic
+MenuName:Adobe Arabic
+StyleBits:1
+FamilyNameNative:
+StyleNameNative:Italic
+FullNameNative:
+WritingScript:Arabic
+OutlineFileName:C:\Datalogics\APDFL18.0.5\Resources\Font\AdobeArabic-Italic.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:292824
+FileModTime:1560504522
+WeightClass:400
+WidthClass:5
+AngleClass:1
+DesignSize:110
+NameArray:0,Mac,4,Adobe Arabic Italic
+NameArray:0,Win,1,Adobe Arabic
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:AdobeArabic-Regular
+FamilyName:Adobe Arabic
+StyleName:Regular
+FullName:Adobe Arabic
+MenuName:Adobe Arabic
+StyleBits:0
+FamilyNameNative:
+StyleNameNative:Regular
+FullNameNative:
+WritingScript:Arabic
+OutlineFileName:C:\Datalogics\APDFL18.0.5\Resources\Font\AdobeArabic-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:275252
+FileModTime:1560504522
+WeightClass:400
+WidthClass:5
+AngleClass:0
+DesignSize:110
+NameArray:0,Mac,4,Adobe Arabic
+NameArray:0,Win,1,Adobe Arabic
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CID
+FontName:AdobeFanHeitiStd-Bold
+FamilyName:Adobe Fan Heiti Std
+StyleName:B
+FullName:Adobe Fan Heiti Std B
+MenuName:Adobe Fan Heiti Std B
+StyleBits:2
+FamilyNameNative:Adobe 繁黑體 Std
+StyleNameNative:B
+FullNameNative:Adobe 繁黑體 Std B
+WritingScript:TraditionalChinese
+OutlineFileName:C:\Datalogics\APDFL18.0.5\Resources\Font\AdobeFanHeitiStd-Bold.otf
+DataFormat:sfntData
+isCFF:yes
+FileLength:5500356
+FileModTime:1560504522
+WeightClass:600
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Adobe Fan Heiti Std B
+NameArray:2,Mac,4,Adobe 繁黑體 Std B
+NameArray:2,Win,1,Adobe 繁黑體 Std B
+NameArray:2,Win,16,Adobe 繁黑體 Std
+NameArray:0,Win,1,Adobe Fan Heiti Std B
+NameArray:0,Win,16,Adobe Fan Heiti Std
+NameArray:2,Win,1,Adobe 繁黑體 Std B
+NameArray:2,Win,16,Adobe 繁黑體 Std
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CID
+FontName:AdobeGothicStd-Bold
+FamilyName:Adobe Gothic Std
+StyleName:B
+FullName:Adobe Gothic Std B
+MenuName:Adobe Gothic Std B
+StyleBits:2
+FamilyNameNative:Adobe 고딕 Std
+StyleNameNative:B
+FullNameNative:Adobe 고딕 Std B
+WritingScript:Korean
+OutlineFileName:C:\Datalogics\APDFL18.0.5\Resources\Font\AdobeGothicStd-Bold.otf
+DataFormat:sfntData
+isCFF:yes
+FileLength:2887568
+FileModTime:1560504522
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Adobe Gothic Std B
+NameArray:3,Mac,4,Adobe 고딕 Std B
+NameArray:0,Win,1,Adobe Gothic Std B
+NameArray:0,Win,16,Adobe Gothic Std
+NameArray:3,Win,1,Adobe 고딕 Std B
+NameArray:3,Win,16,Adobe 고딕 Std
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:AdobeHebrew-Bold
+FamilyName:Adobe Hebrew
+StyleName:Bold
+FullName:Adobe Hebrew Bold
+MenuName:Adobe Hebrew
+StyleBits:2
+FamilyNameNative:
+StyleNameNative:Bold
+FullNameNative:
+WritingScript:Hebrew
+OutlineFileName:C:\Datalogics\APDFL18.0.5\Resources\Font\AdobeHebrew-Bold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:68584
+FileModTime:1560504522
+WeightClass:600
+WidthClass:5
+AngleClass:0
+DesignSize:110
+NameArray:0,Mac,4,Adobe Hebrew Bold
+NameArray:0,Win,1,Adobe Hebrew
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:AdobeHebrew-BoldItalic
+FamilyName:Adobe Hebrew
+StyleName:Bold Italic
+FullName:Adobe Hebrew Bold Italic
+MenuName:Adobe Hebrew
+StyleBits:3
+FamilyNameNative:
+StyleNameNative:Bold Italic
+FullNameNative:
+WritingScript:Hebrew
+OutlineFileName:C:\Datalogics\APDFL18.0.5\Resources\Font\AdobeHebrew-BoldItalic.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:71124
+FileModTime:1560504522
+WeightClass:600
+WidthClass:5
+AngleClass:1
+DesignSize:110
+NameArray:0,Mac,4,Adobe Hebrew Bold Italic
+NameArray:0,Win,1,Adobe Hebrew
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:AdobeHebrew-Italic
+FamilyName:Adobe Hebrew
+StyleName:Italic
+FullName:Adobe Hebrew Italic
+MenuName:Adobe Hebrew
+StyleBits:1
+FamilyNameNative:
+StyleNameNative:Italic
+FullNameNative:
+WritingScript:Hebrew
+OutlineFileName:C:\Datalogics\APDFL18.0.5\Resources\Font\AdobeHebrew-Italic.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:70452
+FileModTime:1560504522
+WeightClass:400
+WidthClass:5
+AngleClass:1
+DesignSize:110
+NameArray:0,Mac,4,Adobe Hebrew Italic
+NameArray:0,Win,1,Adobe Hebrew
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:AdobeHebrew-Regular
+FamilyName:Adobe Hebrew
+StyleName:Regular
+FullName:Adobe Hebrew
+MenuName:Adobe Hebrew
+StyleBits:0
+FamilyNameNative:
+StyleNameNative:Regular
+FullNameNative:
+WritingScript:Hebrew
+OutlineFileName:C:\Datalogics\APDFL18.0.5\Resources\Font\AdobeHebrew-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:67976
+FileModTime:1560504522
+WeightClass:400
+WidthClass:5
+AngleClass:0
+DesignSize:110
+NameArray:0,Mac,4,Adobe Hebrew
+NameArray:0,Win,1,Adobe Hebrew
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CID
+FontName:AdobeHeitiStd-Regular
+FamilyName:Adobe Heiti Std
+StyleName:R
+FullName:Adobe Heiti Std R
+MenuName:Adobe Heiti Std R
+StyleBits:0
+FamilyNameNative:Adobe 黑体 Std
+StyleNameNative:R
+FullNameNative:Adobe 黑体 Std R
+WritingScript:SimplifiedChinese
+OutlineFileName:C:\Datalogics\APDFL18.0.5\Resources\Font\AdobeHeitiStd-Regular.otf
+DataFormat:sfntData
+isCFF:yes
+FileLength:12264148
+FileModTime:1560504522
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Adobe Heiti Std R
+NameArray:25,Mac,4,Adobe 黑体 Std R
+NameArray:0,Win,1,Adobe Heiti Std R
+NameArray:0,Win,16,Adobe Heiti Std
+NameArray:25,Win,1,Adobe 黑体 Std R
+NameArray:25,Win,16,Adobe 黑体 Std
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CID
+FontName:AdobeMingStd-Light
+FamilyName:Adobe Ming Std
+StyleName:L
+FullName:Adobe Ming Std L
+MenuName:Adobe Ming Std L
+StyleBits:0
+FamilyNameNative:Adobe 明體 Std
+StyleNameNative:L
+FullNameNative:Adobe 明體 Std L
+WritingScript:TraditionalChinese
+OutlineFileName:C:\Datalogics\APDFL18.0.5\Resources\Font\AdobeMingStd-Light.otf
+DataFormat:sfntData
+isCFF:yes
+FileLength:10174084
+FileModTime:1560504522
+WeightClass:300
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Adobe Ming Std L
+NameArray:2,Mac,4,Adobe 明體 Std L
+NameArray:2,Win,1,Adobe 明體 Std L
+NameArray:2,Win,16,Adobe 明體 Std
+NameArray:0,Win,1,Adobe Ming Std L
+NameArray:0,Win,16,Adobe Ming Std
+NameArray:2,Win,1,Adobe 明體 Std L
+NameArray:2,Win,16,Adobe 明體 Std
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CID
+FontName:AdobeMyungjoStd-Medium
+FamilyName:Adobe Myungjo Std
+StyleName:M
+FullName:Adobe Myungjo Std M
+MenuName:Adobe Myungjo Std M
+StyleBits:0
+FamilyNameNative:Adobe 명조 Std
+StyleNameNative:M
+FullNameNative:Adobe 명조 Std M
+WritingScript:Korean
+OutlineFileName:C:\Datalogics\APDFL18.0.5\Resources\Font\AdobeMyungjoStd-Medium.otf
+DataFormat:sfntData
+isCFF:yes
+FileLength:4103504
+FileModTime:1560504522
+WeightClass:500
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Adobe Myungjo Std M
+NameArray:3,Mac,4,Adobe 명조 Std M
+NameArray:0,Win,1,Adobe Myungjo Std M
+NameArray:0,Win,16,Adobe Myungjo Std
+NameArray:3,Win,1,Adobe 명조 Std M
+NameArray:3,Win,16,Adobe 명조 Std
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:AdobePiStd
+FamilyName:Adobe Pi Std
+StyleName:Regular
+FullName:Adobe Pi Std
+MenuName:Adobe Pi Std
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Datalogics\APDFL18.0.5\Resources\Font\AdobePiStd.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:92588
+FileModTime:1560504522
+WeightClass:400
+WidthClass:5
+AngleClass:0
+DesignSize:240
+NameArray:0,Mac,4,Adobe Pi Std
+NameArray:0,Win,1,Adobe Pi Std
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CID
+FontName:AdobeSongStd-Light
+FamilyName:Adobe Song Std
+StyleName:L
+FullName:Adobe Song Std L
+MenuName:Adobe Song Std L
+StyleBits:0
+FamilyNameNative:Adobe 宋体 Std
+StyleNameNative:L
+FullNameNative:Adobe 宋体 Std L
+WritingScript:SimplifiedChinese
+OutlineFileName:C:\Datalogics\APDFL18.0.5\Resources\Font\AdobeSongStd-Light.otf
+DataFormat:sfntData
+isCFF:yes
+FileLength:15589544
+FileModTime:1560504522
+WeightClass:300
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Adobe Song Std L
+NameArray:25,Mac,4,Adobe 宋体 Std L
+NameArray:0,Win,1,Adobe Song Std L
+NameArray:0,Win,16,Adobe Song Std
+NameArray:25,Win,1,Adobe 宋体 Std L
+NameArray:25,Win,16,Adobe 宋体 Std
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:AdobeThai-Bold
+FamilyName:Adobe Thai
+StyleName:Bold
+FullName:Adobe Thai Bold
+MenuName:Adobe Thai
+StyleBits:2
+FamilyNameNative:
+StyleNameNative:Bold
+FullNameNative:
+WritingScript:Thai
+OutlineFileName:C:\Datalogics\APDFL18.0.5\Resources\Font\AdobeThai-Bold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:60252
+FileModTime:1560504522
+WeightClass:600
+WidthClass:5
+AngleClass:0
+DesignSize:110
+NameArray:0,Mac,4,Adobe Thai Bold
+NameArray:0,Win,1,Adobe Thai
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:AdobeThai-BoldItalic
+FamilyName:Adobe Thai
+StyleName:Bold Italic
+FullName:Adobe Thai Bold Italic
+MenuName:Adobe Thai
+StyleBits:3
+FamilyNameNative:
+StyleNameNative:Bold Italic
+FullNameNative:
+WritingScript:Thai
+OutlineFileName:C:\Datalogics\APDFL18.0.5\Resources\Font\AdobeThai-BoldItalic.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:63156
+FileModTime:1560504522
+WeightClass:600
+WidthClass:5
+AngleClass:1
+DesignSize:110
+NameArray:0,Mac,4,Adobe Thai Bold Italic
+NameArray:0,Win,1,Adobe Thai
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:AdobeThai-Italic
+FamilyName:Adobe Thai
+StyleName:Italic
+FullName:Adobe Thai Italic
+MenuName:Adobe Thai
+StyleBits:1
+FamilyNameNative:
+StyleNameNative:Italic
+FullNameNative:
+WritingScript:Thai
+OutlineFileName:C:\Datalogics\APDFL18.0.5\Resources\Font\AdobeThai-Italic.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:63472
+FileModTime:1560504522
+WeightClass:400
+WidthClass:5
+AngleClass:1
+DesignSize:110
+NameArray:0,Mac,4,Adobe Thai Italic
+NameArray:0,Win,1,Adobe Thai
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:AdobeThai-Regular
+FamilyName:Adobe Thai
+StyleName:Regular
+FullName:Adobe Thai
+MenuName:Adobe Thai
+StyleBits:0
+FamilyNameNative:
+StyleNameNative:Regular
+FullNameNative:
+WritingScript:Thai
+OutlineFileName:C:\Datalogics\APDFL18.0.5\Resources\Font\AdobeThai-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:59736
+FileModTime:1560504522
+WeightClass:400
+WidthClass:5
+AngleClass:0
+DesignSize:110
+NameArray:0,Mac,4,Adobe Thai
+NameArray:0,Win,1,Adobe Thai
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:CourierStd-Bold
+FamilyName:Courier Std
+StyleName:Bold
+FullName:Courier Std Bold
+MenuName:Courier Std
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:C:\Datalogics\APDFL18.0.5\Resources\Font\CourierStd-Bold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:37524
+FileModTime:1560504522
+WeightClass:700
+WidthClass:5
+AngleClass:0
+DesignSize:120
+NameArray:0,Mac,4,Courier Std Bold
+NameArray:0,Win,1,Courier Std
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:CourierStd-BoldOblique
+FamilyName:Courier Std
+StyleName:Bold Oblique
+FullName:Courier Std Bold Oblique
+MenuName:Courier Std
+StyleBits:3
+WritingScript:Roman
+OutlineFileName:C:\Datalogics\APDFL18.0.5\Resources\Font\CourierStd-BoldOblique.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:38984
+FileModTime:1560504522
+WeightClass:700
+WidthClass:5
+AngleClass:1
+DesignSize:120
+NameArray:0,Mac,4,Courier Std Bold Oblique
+NameArray:0,Win,1,Courier Std
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:CourierStd-Oblique
+FamilyName:Courier Std
+StyleName:Medium Oblique
+FullName:Courier Std Medium Oblique
+MenuName:Courier Std
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Datalogics\APDFL18.0.5\Resources\Font\CourierStd-Oblique.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:39332
+FileModTime:1560504522
+WeightClass:500
+WidthClass:5
+AngleClass:1
+DesignSize:120
+NameArray:0,Mac,18,Courier Std Oblique
+NameArray:0,Mac,4,Courier Std Medium Oblique
+NameArray:0,Win,1,Courier Std
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:CourierStd
+FamilyName:Courier Std
+StyleName:Medium
+FullName:Courier Std Medium
+MenuName:Courier Std
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Datalogics\APDFL18.0.5\Resources\Font\CourierStd.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:37860
+FileModTime:1560504522
+WeightClass:500
+WidthClass:5
+AngleClass:0
+DesignSize:120
+NameArray:0,Mac,18,Courier Std
+NameArray:0,Mac,4,Courier Std Medium
+NameArray:0,Win,1,Courier Std
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CID
+FontName:KozGoPr6N-Medium
+FamilyName:Kozuka Gothic Pr6N
+StyleName:M
+FullName:KozGoPr6N-Medium
+MenuName:Kozuka Gothic Pr6N M
+StyleBits:0
+FamilyNameNative:小塚ゴシック Pr6N
+StyleNameNative:M
+FullNameNative:小塚ゴシック Pr6N M
+WritingScript:Japanese
+OutlineFileName:C:\Datalogics\APDFL18.0.5\Resources\Font\KozGoPr6N-Medium.otf
+DataFormat:sfntData
+isCFF:yes
+FileLength:5646012
+FileModTime:1560504522
+WeightClass:500
+WidthClass:5
+AngleClass:0
+NameArray:1,Mac,4,小塚ゴシック Pr6N M
+NameArray:0,Win,1,Kozuka Gothic Pr6N M
+NameArray:0,Win,16,Kozuka Gothic Pr6N
+NameArray:1,Win,1,小塚ゴシック Pr6N M
+NameArray:1,Win,16,小塚ゴシック Pr6N
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:CID
+FontName:KozMinPr6N-Regular
+FamilyName:Kozuka Mincho Pr6N
+StyleName:R
+FullName:KozMinPr6N-Regular
+MenuName:Kozuka Mincho Pr6N R
+StyleBits:0
+FamilyNameNative:小塚明朝 Pr6N
+StyleNameNative:R
+FullNameNative:小塚明朝 Pr6N R
+WritingScript:Japanese
+OutlineFileName:C:\Datalogics\APDFL18.0.5\Resources\Font\KozMinPr6N-Regular.otf
+DataFormat:sfntData
+isCFF:yes
+FileLength:6657356
+FileModTime:1560504522
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:1,Mac,4,小塚明朝 Pr6N R
+NameArray:0,Win,1,Kozuka Mincho Pr6N R
+NameArray:0,Win,16,Kozuka Mincho Pr6N
+NameArray:1,Win,1,小塚明朝 Pr6N R
+NameArray:1,Win,16,小塚明朝 Pr6N
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MinionPro-Regular
+FamilyName:Minion Pro
+StyleName:Regular
+FullName:Minion Pro
+MenuName:Minion Pro
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Datalogics\APDFL18.0.5\Resources\Font\MinionPro-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:218392
+FileModTime:1560504522
+WeightClass:400
+WidthClass:5
+AngleClass:0
+DesignSize:110
+NameArray:0,Mac,4,Minion Pro
+NameArray:0,Win,1,Minion Pro
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MyriadPro-Bold
+FamilyName:Myriad Pro
+StyleName:Bold
+FullName:Myriad Pro Bold
+MenuName:Myriad Pro
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:C:\Datalogics\APDFL18.0.5\Resources\Font\MyriadPro-Bold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:90456
+FileModTime:1583417934
+WeightClass:700
+WidthClass:5
+AngleClass:0
+DesignSize:110
+NameArray:0,Mac,4,Myriad Pro Bold
+NameArray:0,Win,1,Myriad Pro
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MyriadPro-BoldIt
+FamilyName:Myriad Pro
+StyleName:Bold Italic
+FullName:Myriad Pro Bold Italic
+MenuName:Myriad Pro
+StyleBits:3
+WritingScript:Roman
+OutlineFileName:C:\Datalogics\APDFL18.0.5\Resources\Font\MyriadPro-BoldItalic.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:92636
+FileModTime:1583417934
+WeightClass:700
+WidthClass:5
+AngleClass:1
+DesignSize:110
+NameArray:0,Mac,18,Myriad Pro Bold It
+NameArray:0,Mac,4,Myriad Pro Bold Italic
+NameArray:0,Win,1,Myriad Pro
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MyriadPro-It
+FamilyName:Myriad Pro
+StyleName:Italic
+FullName:Myriad Pro Italic
+MenuName:Myriad Pro
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Datalogics\APDFL18.0.5\Resources\Font\MyriadPro-It.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:91132
+FileModTime:1583417934
+WeightClass:400
+WidthClass:5
+AngleClass:1
+DesignSize:110
+NameArray:0,Mac,18,Myriad Pro It
+NameArray:0,Mac,4,Myriad Pro Italic
+NameArray:0,Win,1,Myriad Pro
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MyriadPro-Regular
+FamilyName:Myriad Pro
+StyleName:Regular
+FullName:Myriad Pro
+MenuName:Myriad Pro
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Datalogics\APDFL18.0.5\Resources\Font\MyriadPro-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:95752
+FileModTime:1560504522
+WeightClass:400
+WidthClass:5
+AngleClass:0
+DesignSize:110
+NameArray:0,Mac,4,Myriad Pro
+NameArray:0,Win,1,Myriad Pro
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:AFM
+FontName:Symbol
+NumMMAxes:0
+OutlineFileName:C:\Datalogics\APDFL18.0.5\Resources\Font\sy______.afm
+FileLength:9720
+FileModTime:1560504522
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:C:\Datalogics\APDFL18.0.5\Resources\Font\sy______.inf
+FileModTime:1560504522
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:Symbol
+FamilyName:Symbol
+StyleName:Regular
+FullName:Symbol
+MenuName:Symbol
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Datalogics\APDFL18.0.5\Resources\Font\sy______.pfb
+DataFormat:Plain
+UsesStandardEncoding:no
+isCFF:no
+FileLength:34705
+FileModTime:1560504522
+WeightClass:400
+WidthClass:5
+AngleClass:0
+DesignSize:-1
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:PFM
+FontName:Symbol
+NumMMAxes:0
+OutlineFileName:C:\Datalogics\APDFL18.0.5\Resources\Font\sy______.pfm
+FileLength:672
+FileModTime:1560504522
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:PFM
+FontName:AdobeSansMM
+NumMMAxes:2
+OutlineFileName:C:\Datalogics\APDFL18.0.5\Resources\Font\zx______.mmm
+FileLength:7248
+FileModTime:1560504522
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:AdobeSansMM
+FamilyName:Adobe Sans MM
+StyleName:Regular
+FullName:Adobe Sans MM
+MenuName:AdobeSanMM
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Datalogics\APDFL18.0.5\Resources\Font\zx______.pfb
+DataFormat:Plain
+MMAxisName:Weight
+MMAxisName:Width
+UsesStandardEncoding:yes
+isCFF:no
+FileLength:75573
+FileModTime:1560504522
+WeightClass:400
+WidthClass:5
+AngleClass:0
+DesignSize:-1
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:PFM
+FontName:AdobeSansMM
+NumMMAxes:0
+OutlineFileName:C:\Datalogics\APDFL18.0.5\Resources\Font\zx______.pfm
+FileLength:683
+FileModTime:1560504522
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:PFM
+FontName:AdobeSerifMM
+NumMMAxes:2
+OutlineFileName:C:\Datalogics\APDFL18.0.5\Resources\Font\zy______.mmm
+FileLength:7248
+FileModTime:1560504522
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:AdobeSerifMM
+FamilyName:Adobe Serif MM
+StyleName:Regular
+FullName:Adobe Serif MM
+MenuName:AdobeSerMM
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Datalogics\APDFL18.0.5\Resources\Font\zy______.pfb
+DataFormat:Plain
+MMAxisName:Weight
+MMAxisName:Width
+UsesStandardEncoding:yes
+isCFF:no
+FileLength:96418
+FileModTime:1560504522
+WeightClass:400
+WidthClass:5
+AngleClass:0
+DesignSize:-1
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:PFM
+FontName:AdobeSerifMM
+NumMMAxes:0
+OutlineFileName:C:\Datalogics\APDFL18.0.5\Resources\Font\zy______.pfm
+FileLength:684
+FileModTime:1560504522
+%EndFont
+

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding ="utf-8"?>
+<swc xmlns="http://www.adobe.com/flash/swccatalog/9">
+  <versions>
+    <swc version="1.2" />
+    <flex version="4.16.1" build="20171115" minimumSupportedVersion="3.0.0" />
+  </versions>
+  <features>
+    <feature-script-deps />
+    <feature-files />
+  </features>
+  <libraries>
+    <library path="library.swf">
+      <script name="_975ebe3d934b9484fc8a5320b99df63ed4feba9528d806a5f859a1a23289d709_flash_display_Sprite" mod="1758561072741" signatureChecksum="2604825219" >
+        <def id="_975ebe3d934b9484fc8a5320b99df63ed4feba9528d806a5f859a1a23289d709_flash_display_Sprite" /> 
+        <dep id="flash.system:Security" type="e" /> 
+        <dep id="flash.display:Sprite" type="i" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <script name="com/mellowcolour/ane/imageviewer/events/ImageViewerEvent" mod="1733247248190" signatureChecksum="3378672805" >
+        <def id="com.mellowcolour.ane.imageviewer.events:ImageViewerEvent" /> 
+        <dep id="com.mellowcolour.ane.imageviewer.datamodels:ImageViewerANEData" type="s" /> 
+        <dep id="flash.events:Event" type="i" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <script name="com/mellowcolour/ane/imageviewer/ImageViewerANE" mod="1758559427235" signatureChecksum="1637341295" >
+        <def id="com.mellowcolour.ane.imageviewer:ImageViewerANE" /> 
+        <dep id="com.mellowcolour.ane.imageviewer.datamodels:ImageViewerANEData" type="s" /> 
+        <dep id="flash.events:StatusEvent" type="s" /> 
+        <dep id="flash.events:IEventDispatcher" type="s" /> 
+        <dep id="flash.display:Bitmap" type="s" /> 
+        <dep id="flash.display:BitmapData" type="s" /> 
+        <dep id="Error" type="s" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="flash.external:ExtensionContext" type="s" /> 
+        <dep id="flash.system:Capabilities" type="e" /> 
+        <dep id="com.mellowcolour.ane.imageviewer.datamodels:ImageViewerANEData" type="e" /> 
+        <dep id="flash.events:StatusEvent" type="e" /> 
+        <dep id="flash.display:Bitmap" type="e" /> 
+        <dep id="flash.display:BitmapData" type="e" /> 
+        <dep id="Error" type="e" /> 
+        <dep id="flash.utils:ByteArray" type="e" /> 
+        <dep id="flash.external:ExtensionContext" type="e" /> 
+        <dep id="flash.events:EventDispatcher" type="i" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <script name="com/mellowcolour/ane/imageviewer/datamodels/ANEAnnotation" mod="1733247248190" signatureChecksum="751551481" >
+        <def id="com.mellowcolour.ane.imageviewer.datamodels:ANEAnnotation" /> 
+        <dep id="Object" type="i" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <script name="com/mellowcolour/ane/imageviewer/datamodels/ANEICCProfileItem" mod="1733247248190" signatureChecksum="898382183" >
+        <def id="com.mellowcolour.ane.imageviewer.datamodels:ANEICCProfileItem" /> 
+        <dep id="Object" type="i" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <script name="com/mellowcolour/ane/imageviewer/datamodels/ImageViewerANEData" mod="1758559427247" signatureChecksum="2406631858" >
+        <def id="com.mellowcolour.ane.imageviewer.datamodels:ImageViewerANEData" /> 
+        <dep id="flash.display:Bitmap" type="s" /> 
+        <dep id="flash.utils:ByteArray" type="s" /> 
+        <dep id="com.mellowcolour.ane.imageviewer.datamodels:ANEICCProfileItem" type="s" /> 
+        <dep id="com.mellowcolour.ane.imageviewer.datamodels:ANEColour" type="e" /> 
+        <dep id="flash.utils:ByteArray" type="e" /> 
+        <dep id="com.mellowcolour.ane.imageviewer.datamodels:ANEICCProfileItem" type="e" /> 
+        <dep id="Object" type="i" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <script name="com/mellowcolour/ane/imageviewer/datamodels/ANEColour" mod="1733247248190" signatureChecksum="2149951755" >
+        <def id="com.mellowcolour.ane.imageviewer.datamodels:ANEColour" /> 
+        <dep id="Object" type="i" /> 
+        <dep id="AS3" type="n" /> 
+      </script>
+      <digests>
+        <digest type="SHA-256" signed="false" value="5867d1ce02cb0801a9d5e9168a4e8cfe221f7ff807218a6d891fdb2e3642d295"   />
+      </digests>
+    </library>
+  </libraries>
+  <files>
+  </files>
+</swc>

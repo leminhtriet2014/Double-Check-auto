@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Root>
+	<StripDefinition>
+		<Name>25% intervals</Name>
+		<Custom>false</Custom>
+		<Tint>25</Tint>
+		<Tint>50</Tint>
+		<Tint>75</Tint>
+		<Tint>100</Tint>
+	</StripDefinition>
+	
+	<StripDefinition>
+		<Name>100% spot</Name>
+		<Custom>false</Custom>
+		<Tint>100</Tint>
+	</StripDefinition>
+	
+	<StripDefinition>
+		<Name>100% spot (no substrate)</Name>
+		<Custom>false</Custom>
+		<UsePaper>false</UsePaper>
+		<Tint>100</Tint>
+	</StripDefinition>
+	
+	<StripDefinition>
+		<Name>20% intervals</Name>
+		<Custom>false</Custom>
+		<Tint>20</Tint>
+		<Tint>40</Tint>
+		<Tint>60</Tint>
+		<Tint>80</Tint>
+		<Tint>100</Tint>
+	</StripDefinition>
+	
+	<StripDefinition>
+		<Name>10% intervals</Name>
+		<Custom>false</Custom>
+		<Tint>10</Tint>
+		<Tint>20</Tint>
+		<Tint>30</Tint>
+		<Tint>40</Tint>
+		<Tint>50</Tint>
+		<Tint>60</Tint>
+		<Tint>70</Tint>
+		<Tint>80</Tint>
+		<Tint>90</Tint>
+		<Tint>100</Tint>
+	</StripDefinition>
+	
+	<StripDefinition>
+		<Name>50% 100%</Name>
+		<Custom>false</Custom>
+		<Tint>50</Tint>
+		<Tint>100</Tint>
+	</StripDefinition>
+</Root>

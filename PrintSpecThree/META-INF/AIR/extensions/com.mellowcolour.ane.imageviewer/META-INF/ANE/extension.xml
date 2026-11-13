@@ -1,0 +1,25 @@
+<extension xmlns="http://ns.adobe.com/air/extension/33.1">
+	<id>com.mellowcolour.ane.imageviewer</id>
+	<versionNumber>4.4.42</versionNumber>
+
+	<platforms>
+
+		<platform name="Windows-x86">
+			<applicationDeployment>
+				<nativeLibrary>ImageViewerLib.dll</nativeLibrary>
+				<initializer>ExtInitializer</initializer>
+				<finalizer>ExtFinalizer</finalizer>
+			</applicationDeployment>
+		</platform>
+
+		<platform name="MacOS-x86-64">
+			<applicationDeployment>
+				<nativeLibrary>macANE.framework</nativeLibrary>
+				<initializer>ExtInitializer</initializer>
+				<finalizer>ExtFinalizer</finalizer>
+			</applicationDeployment>
+		</platform>
+
+	</platforms>
+
+</extension>
