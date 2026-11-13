@@ -7,6 +7,7 @@ const { parseSpecPdf } = require('./pdf_parser');
 const { Comparator } = require('./comparator');
 const { Reporter } = require('./reporter');
 const { FolderScanner } = require('./folder_scanner');
+const { TnfSheetChecker } = require('./tnf_sheet_checker');
 
 class Pipeline {
   constructor(options = {}) {
@@ -15,6 +16,7 @@ class Pipeline {
     this.itemMasterFetcher = new ItemMasterFetcher(this.browserManager);
     this.comparator = new Comparator(options.rulesPath);
     this.reporter = new Reporter(this.browserManager);
+    this.tnfChecker = new TnfSheetChecker();
     this.downloadDir = path.resolve(__dirname, '../../downloads');
     this.reportsBaseDir = path.resolve(__dirname, '../../reports');
     this.formCachePath = path.resolve(__dirname, '../config/form_cache.json');
@@ -57,6 +59,50 @@ class Pipeline {
         process: '',
         standardLeadTime: '7'
       };
+    }
+
+    // Special Rule for THE NORTH FACE items:
+    // Query Google Sheet: https://docs.google.com/spreadsheets/d/1HrjV58aQxDOWcQCovPNW2Rmy9uNXC3pSRE0NrRaFKA8/edit?gid=0#gid=0
+    // Check GLID, Cover (X= in Sub Contract Details), and GLID Sub are on the same row.
+    // Skip other field checks for TNF items.
+    if (this.tnfChecker.isTnfItem(formData)) {
+      log(`>>> [Item: ${glid}] Nhận diện item THE NORTH FACE -> Áp dụng đối soát Combo trên Google Sheet (TNF VN Combo Setup List)...`);
+      try {
+        const sheetRows = await this.tnfChecker.fetchRows(this.browserManager);
+        const tnfResult = this.tnfChecker.checkCombo(formData, sheetRows);
+        log(`>>> [Item: ${glid}] Kết quả đối soát TNF Combo: Trạng thái = ${tnfResult.status} (Hàng ${tnfResult.sheetRow || 'N/A'})`);
+
+        const safeGlid = glid.replace(/[^a-zA-Z0-9_-]/g, '_');
+        const cardHtmlPath = path.join(reportDir, `report_${safeGlid}.html`);
+        const cardImagePath = path.join(reportDir, `report_${safeGlid}.png`);
+
+        const itemResult = {
+          glid,
+          itemCode: formData.itemCode || glid,
+          status: tnfResult.status,
+          specName: `Google Sheet (TNF VN Combo Setup List - Hàng ${tnfResult.sheetRow || 'Không tìm thấy'})`,
+          itemMasterScreen: formData.screenshotPath || '',
+          searchScreen: '',
+          reportHtml: cardHtmlPath,
+          reportImage: cardImagePath,
+          fields: tnfResult.fields,
+          formData
+        };
+
+        const html = this.reporter.generateHtmlCard(itemResult);
+        fs.writeFileSync(cardHtmlPath, html, 'utf8');
+
+        try {
+          await this.reporter.renderCardImage(itemResult, cardImagePath);
+          log(`>>> [Item: ${glid}] Đã tạo phiếu đối soát trực quan: ${path.basename(cardImagePath)}`);
+        } catch (e) {
+          log(`>>> [Item: ${glid}] Thông báo render thẻ: ${e.message}`);
+        }
+
+        return itemResult;
+      } catch (sheetErr) {
+        log(`>>> [Item: ${glid}] Cảnh báo lỗi đối soát Google Sheet TNF: ${sheetErr.message}`);
+      }
     }
 
     // Step 2: Search Google Drive & capture screenshot

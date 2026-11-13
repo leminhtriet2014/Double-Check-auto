@@ -12,6 +12,9 @@ class ItemMasterFetcher {
   async getPage() {
     if (this.page && !this.page.isClosed()) return this.page;
 
+    if (!this.browserManager.browser) {
+      await this.browserManager.connect();
+    }
     const browser = this.browserManager.browser;
     const pages = await browser.pages();
     this.page = pages.find(p => p.url().includes('ItemMaster.php'));
@@ -127,7 +130,9 @@ class ItemMasterFetcher {
         Standard_LeadTime: getVal('Standard_LeadTime'),
         Offset_Extra_Time: getVal('Offset_Extra_Time'),
         Offset_Waiting_Drying: getVal('Offset_Waiting_Drying'),
-        Process: getVal('Process')
+        Process: getVal('Process'),
+        SubContract_Detail: getVal('SubContract_Detail'),
+        GLID_Sub: getVal('GLID_Sub')
       };
     });
 
@@ -160,6 +165,8 @@ class ItemMasterFetcher {
       standardLeadTime: rawData.Standard_LeadTime || '7',
       offsetExtraTime: rawData.Offset_Extra_Time || '0',
       offsetWaitingDrying: rawData.Offset_Waiting_Drying || '0',
+      subContractDetail: rawData.SubContract_Detail || '',
+      glidSub: rawData.GLID_Sub || '',
       screenshotPath,
       rawData
     };
